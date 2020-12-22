@@ -35,6 +35,7 @@ The results will be stored in the `treeparallelizer/results` directory, in detai
 	
 ### 2.2 GUI
 Start the virtual machine, login and give command `startx` to start the graphical environment. Then, move to the directory `/home/anonymous/workspace/FSE19-submission-material/treeparallelizer`. Run the script `runGUI.sh` with no arguments to start STILE with graphical user interface. The drop-down menu at the top of the window lets you choose the application under test, the buttons at the bottom of the window allow you respectively to:
+
 	- 1. generate the warranted schedules for all tests with zero in-degree in the test dependency graph for the selected application
 	- 2. generate the prefix tree for the selected application
 	- 3. run the test suite in parallel
@@ -44,6 +45,7 @@ For more details, watch the demo video at https://sepl.dibris.unige.it/STILE.php
 
 ### 2.3 Add a new test suite
 To run a new test suite with STILE, you need to:
+
 		- 1. Compute the test dependency graph of the test suite with TEDD. Please refer to TEDD's code, documentation and paper to know how to use TEDD to compute the graph ( https://github.com/matteobiagiola/FSE19-submission-material-TEDD )
 		- 2. Create a Docker image of the system under test
 		- 3. Convert the test suite from JUnit to TestNG
