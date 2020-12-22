@@ -1,0 +1,1 @@
+{"dockerHome":"/home/ppma","graphPath":"src/main/resources/graphs/ppma.txt","dockerImage":"dockercontainervm/ppma:0.6.0","dockerEntryPoint":"./run-services-docker.sh"}

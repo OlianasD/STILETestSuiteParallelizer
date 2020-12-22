@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="port"  value="3000"/>
+  <test thread-count="5" name="Test">
+    <classes>
+<class name="tests.PasswordManagerAddEntryTest"/>
+<class name="tests.PasswordManagerSearchEntryByNameTest"/>
+<class name="tests.PasswordManagerSearchEntryByUsernameTest"/>
+<class name="tests.PasswordManagerSearchEntryByUrlTest"/>
+<class name="tests.PasswordManagerSearchEntryByTagsTest"/>
+<class name="tests.PasswordManagerSearchEntryByCommentTest"/>
+<class name="tests.PasswordManagerSearchEntryByTagListTest"/>
+<class name="tests.PasswordManagerEditEntryTest"/>
+<class name="tests.PasswordManagerSearchTagsTest"/>
+<class name="tests.PasswordManagerRemoveTagsTest"/>
+<class name="tests.PasswordManagerCheckEntryTagsRemovedTest"/>
+<class name="tests.PasswordManagerRemoveEntryTest"/>
+<class name="tests.PasswordManagerSearchEntryNegativeTest"/>
+<class name="tests.PasswordManagerSearchTagNegativeTest"/>
+<class name="tests.PasswordManagerAddTagTest"/>
+<class name="tests.PasswordManagerEditTagTest"/>
+<class name="tests.PasswordManagerRemoveTagTest"/>
+<class name="tests.PasswordManagerAssignTagToEntryTest"/>
+<class name="tests.PasswordManagerAddMultipleEntriesTest"/>
+<class name="tests.PasswordManagerSearchMultipleEntriesTest"/>
+<class name="tests.PasswordManagerCheckUsedTagsTest"/>
+<class name="tests.PasswordManagerSearchAndRemoveMultipleTagsTest"/>
+<class name="tests.PasswordManagerRemoveMultipleEntriesTest"/>
+</classes>
+</test>
+</suite>

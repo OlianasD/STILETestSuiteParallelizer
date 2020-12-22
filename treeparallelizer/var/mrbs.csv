@@ -1,0 +1,24 @@
+Test case,Test result,Exec time,Clone time,Stop time
+root,NONE,0.0,9.788,0.0,0.0
+AddBuildingTest,PASSED,8.761,6.373,0.032
+AddLongNameBuildingNegativeTest,PASSED,10.676,0.0,1.766
+SearchEntryNegativeTest,PASSED,9.787,0.0,1.091
+AddRoomTest,PASSED,12.45,7.904,0.003
+AddLongNameRoomNegativeTest,PASSED,13.812,0.0,0.853
+AddAndRemoveSerialEntryTest,PASSED,26.092,0.0,0.347
+RemoveBuildingTest,PASSED,13.642,0.0,0.347
+CheckBuildingRoomTest,PASSED,15.718,0.0,0.354
+AddEntryTest,PASSED,16.675,1.757,0.01
+AddMultipleEntriesSameRoomDifferentDaysTest,PASSED,27.834,0.0,0.382
+AddMultipleEntriesSameRoomSameDayTest,PASSED,24.743,0.0,0.0
+RemoveRoomTest,PASSED,15.784,0.0,0.0
+CheckEntryTest,PASSED,12.483,0.0,0.329
+RemoveEntryTest,PASSED,13.619,0.0,0.371
+SearchMultipleEntriesTest,PASSED,7.084,0.0,0.821
+AddMultipleRoomsTest,PASSED,14.949,3.315,0.006
+CheckMultipleBuildingRoomsTest,PASSED,7.002,0.0,0.322
+AddMultipleEntriesDifferentRoomsSameDayTest,PASSED,11.969,0.0,0.0
+RemoveMultipleRoomsTest,PASSED,9.01,0.0,0.325
+AddMultipleEntriesDifferentRoomsDifferentDaysTest,PASSED,5.992,1.235,0.01
+CheckMultipleEntriesTest,PASSED,6.988,0.0,0.312
+RemoveMultipleEntriesTest,PASSED,10.215,0.0,0.316

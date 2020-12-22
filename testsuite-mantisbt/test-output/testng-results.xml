@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="41" passed="41">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="82289" started-at="2020-11-20T09:38:22 PST" finished-at="2020-11-20T09:39:44 PST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="82289" started-at="2020-11-20T09:38:22 PST" finished-at="2020-11-20T09:39:44 PST">
+      <class name="tests.AddUserTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddUserTest@6c3f5566]" name="setUp" is-config="true" duration-ms="1173" started-at="2020-11-20T09:38:22 PST" finished-at="2020-11-20T09:38:23 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTAddUser()[pri:0, instance:tests.AddUserTest@6c3f5566]" name="testMantisBTAddUser" duration-ms="2121" started-at="2020-11-20T09:38:23 PST" finished-at="2020-11-20T09:38:25 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTAddUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddUserTest@6c3f5566]" name="tearDown" is-config="true" duration-ms="78" started-at="2020-11-20T09:38:25 PST" finished-at="2020-11-20T09:38:25 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddUserTest -->
+      <class name="tests.UpdateIssueStatusConfirmedTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateIssueStatusConfirmedTest@49070868]" name="setUp" is-config="true" duration-ms="287" started-at="2020-11-20T09:38:51 PST" finished-at="2020-11-20T09:38:51 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateIssueStatusConfirmed()[pri:0, instance:tests.UpdateIssueStatusConfirmedTest@49070868]" name="testMantisBTUpdateIssueStatusConfirmed" duration-ms="1220" started-at="2020-11-20T09:38:51 PST" finished-at="2020-11-20T09:38:52 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateIssueStatusConfirmed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateIssueStatusConfirmedTest@49070868]" name="tearDown" is-config="true" duration-ms="68" started-at="2020-11-20T09:38:52 PST" finished-at="2020-11-20T09:38:53 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateIssueStatusConfirmedTest -->
+      <class name="tests.UpdateIssueStatusAssignedTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateIssueStatusAssignedTest@6385cb26]" name="setUp" is-config="true" duration-ms="280" started-at="2020-11-20T09:38:53 PST" finished-at="2020-11-20T09:38:53 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateIssueStatusAssigned()[pri:0, instance:tests.UpdateIssueStatusAssignedTest@6385cb26]" name="testMantisBTUpdateIssueStatusAssigned" duration-ms="1204" started-at="2020-11-20T09:38:53 PST" finished-at="2020-11-20T09:38:54 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateIssueStatusAssigned -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateIssueStatusAssignedTest@6385cb26]" name="tearDown" is-config="true" duration-ms="66" started-at="2020-11-20T09:38:54 PST" finished-at="2020-11-20T09:38:54 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateIssueStatusAssignedTest -->
+      <class name="tests.AssignIssueTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AssignIssueTest@1c72da34]" name="setUp" is-config="true" duration-ms="259" started-at="2020-11-20T09:38:41 PST" finished-at="2020-11-20T09:38:41 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTAssignIssue()[pri:0, instance:tests.AssignIssueTest@1c72da34]" name="testMantisBTAssignIssue" duration-ms="1217" started-at="2020-11-20T09:38:41 PST" finished-at="2020-11-20T09:38:42 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTAssignIssue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AssignIssueTest@1c72da34]" name="tearDown" is-config="true" duration-ms="72" started-at="2020-11-20T09:38:42 PST" finished-at="2020-11-20T09:38:42 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AssignIssueTest -->
+      <class name="tests.UnlinkMultipleSubprojectsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UnlinkMultipleSubprojectsTest@551bdc27]" name="setUp" is-config="true" duration-ms="363" started-at="2020-11-20T09:39:26 PST" finished-at="2020-11-20T09:39:26 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUnlinkMultipleSubprojects()[pri:0, instance:tests.UnlinkMultipleSubprojectsTest@551bdc27]" name="testMantisBTUnlinkMultipleSubprojects" duration-ms="7661" started-at="2020-11-20T09:39:26 PST" finished-at="2020-11-20T09:39:34 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUnlinkMultipleSubprojects -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UnlinkMultipleSubprojectsTest@551bdc27]" name="tearDown" is-config="true" duration-ms="66" started-at="2020-11-20T09:39:34 PST" finished-at="2020-11-20T09:39:34 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UnlinkMultipleSubprojectsTest -->
+      <class name="tests.AddCategoryTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddCategoryTest@453da22c]" name="setUp" is-config="true" duration-ms="252" started-at="2020-11-20T09:38:33 PST" finished-at="2020-11-20T09:38:33 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTAddCategory()[pri:0, instance:tests.AddCategoryTest@453da22c]" name="testMantisBTAddCategory" duration-ms="1087" started-at="2020-11-20T09:38:33 PST" finished-at="2020-11-20T09:38:35 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTAddCategory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddCategoryTest@453da22c]" name="tearDown" is-config="true" duration-ms="82" started-at="2020-11-20T09:38:35 PST" finished-at="2020-11-20T09:38:35 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddCategoryTest -->
+      <class name="tests.AddCategoryWrongTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddCategoryWrongTest@71248c21]" name="setUp" is-config="true" duration-ms="314" started-at="2020-11-20T09:38:35 PST" finished-at="2020-11-20T09:38:35 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTAddCategoryWrong()[pri:0, instance:tests.AddCategoryWrongTest@71248c21]" name="testMantisBTAddCategoryWrong" duration-ms="1116" started-at="2020-11-20T09:38:35 PST" finished-at="2020-11-20T09:38:36 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTAddCategoryWrong -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddCategoryWrongTest@71248c21]" name="tearDown" is-config="true" duration-ms="68" started-at="2020-11-20T09:38:36 PST" finished-at="2020-11-20T09:38:36 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddCategoryWrongTest -->
+      <class name="tests.UpdateIssueStatusAcknowledgedTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateIssueStatusAcknowledgedTest@27c6e487]" name="setUp" is-config="true" duration-ms="286" started-at="2020-11-20T09:38:49 PST" finished-at="2020-11-20T09:38:50 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateIssueStatusAcknowledged()[pri:0, instance:tests.UpdateIssueStatusAcknowledgedTest@27c6e487]" name="testMantisBTUpdateIssueStatusAcknowledged" duration-ms="1237" started-at="2020-11-20T09:38:50 PST" finished-at="2020-11-20T09:38:51 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateIssueStatusAcknowledged -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateIssueStatusAcknowledgedTest@27c6e487]" name="tearDown" is-config="true" duration-ms="73" started-at="2020-11-20T09:38:51 PST" finished-at="2020-11-20T09:38:51 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateIssueStatusAcknowledgedTest -->
+      <class name="tests.UpdateIssuePriorityTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateIssuePriorityTest@3d3fcdb0]" name="setUp" is-config="true" duration-ms="286" started-at="2020-11-20T09:38:43 PST" finished-at="2020-11-20T09:38:44 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateIssuePriority()[pri:0, instance:tests.UpdateIssuePriorityTest@3d3fcdb0]" name="testMantisBTUpdateIssuePriority" duration-ms="1170" started-at="2020-11-20T09:38:44 PST" finished-at="2020-11-20T09:38:45 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateIssuePriority -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateIssuePriorityTest@3d3fcdb0]" name="tearDown" is-config="true" duration-ms="70" started-at="2020-11-20T09:38:45 PST" finished-at="2020-11-20T09:38:45 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateIssuePriorityTest -->
+      <class name="tests.UpdateProjectViewStatusTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateProjectViewStatusTest@1e9e725a]" name="setUp" is-config="true" duration-ms="273" started-at="2020-11-20T09:39:00 PST" finished-at="2020-11-20T09:39:00 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateProjectViewStatus()[pri:0, instance:tests.UpdateProjectViewStatusTest@1e9e725a]" name="testMantisBTUpdateProjectViewStatus" duration-ms="1058" started-at="2020-11-20T09:39:00 PST" finished-at="2020-11-20T09:39:01 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateProjectViewStatus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateProjectViewStatusTest@1e9e725a]" name="tearDown" is-config="true" duration-ms="75" started-at="2020-11-20T09:39:01 PST" finished-at="2020-11-20T09:39:01 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateProjectViewStatusTest -->
+      <class name="tests.UpdateUserEmptyTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateUserEmptyTest@3c0a50da]" name="setUp" is-config="true" duration-ms="270" started-at="2020-11-20T09:39:06 PST" finished-at="2020-11-20T09:39:07 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateUserEmpty()[pri:0, instance:tests.UpdateUserEmptyTest@3c0a50da]" name="testMantisBTUpdateUserEmpty" duration-ms="1091" started-at="2020-11-20T09:39:07 PST" finished-at="2020-11-20T09:39:08 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateUserEmpty -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateUserEmptyTest@3c0a50da]" name="tearDown" is-config="true" duration-ms="73" started-at="2020-11-20T09:39:08 PST" finished-at="2020-11-20T09:39:08 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateUserEmptyTest -->
+      <class name="tests.UpdateIssueStatusFeedbackTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateIssueStatusFeedbackTest@64d7f7e0]" name="setUp" is-config="true" duration-ms="283" started-at="2020-11-20T09:38:48 PST" finished-at="2020-11-20T09:38:48 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateIssueStatusFeedback()[pri:0, instance:tests.UpdateIssueStatusFeedbackTest@64d7f7e0]" name="testMantisBTUpdateIssueStatusFeedback" duration-ms="1164" started-at="2020-11-20T09:38:48 PST" finished-at="2020-11-20T09:38:49 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateIssueStatusFeedback -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateIssueStatusFeedbackTest@64d7f7e0]" name="tearDown" is-config="true" duration-ms="69" started-at="2020-11-20T09:38:49 PST" finished-at="2020-11-20T09:38:49 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateIssueStatusFeedbackTest -->
+      <class name="tests.UpdateCategoryTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateCategoryTest@15d9bc04]" name="setUp" is-config="true" duration-ms="308" started-at="2020-11-20T09:39:01 PST" finished-at="2020-11-20T09:39:02 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateCategory()[pri:0, instance:tests.UpdateCategoryTest@15d9bc04]" name="testMantisBTUpdateCategory" duration-ms="1315" started-at="2020-11-20T09:39:02 PST" finished-at="2020-11-20T09:39:03 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateCategory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateCategoryTest@15d9bc04]" name="tearDown" is-config="true" duration-ms="82" started-at="2020-11-20T09:39:03 PST" finished-at="2020-11-20T09:39:03 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateCategoryTest -->
+      <class name="tests.LinkMultipleSubprojectsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.LinkMultipleSubprojectsTest@58fdd99]" name="setUp" is-config="true" duration-ms="356" started-at="2020-11-20T09:39:34 PST" finished-at="2020-11-20T09:39:34 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTLinkMultipleSubprojects()[pri:0, instance:tests.LinkMultipleSubprojectsTest@58fdd99]" name="testMantisBTLinkMultipleSubprojects" duration-ms="1544" started-at="2020-11-20T09:39:34 PST" finished-at="2020-11-20T09:39:36 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTLinkMultipleSubprojects -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LinkMultipleSubprojectsTest@58fdd99]" name="tearDown" is-config="true" duration-ms="73" started-at="2020-11-20T09:39:36 PST" finished-at="2020-11-20T09:39:36 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LinkMultipleSubprojectsTest -->
+      <class name="tests.DeleteUserTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.DeleteUserTest@19dc67c2]" name="setUp" is-config="true" duration-ms="284" started-at="2020-11-20T09:39:12 PST" finished-at="2020-11-20T09:39:13 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTDeleteUser()[pri:0, instance:tests.DeleteUserTest@19dc67c2]" name="testMantisBTDeleteUser" duration-ms="1252" started-at="2020-11-20T09:39:13 PST" finished-at="2020-11-20T09:39:14 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTDeleteUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.DeleteUserTest@19dc67c2]" name="tearDown" is-config="true" duration-ms="75" started-at="2020-11-20T09:39:14 PST" finished-at="2020-11-20T09:39:14 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DeleteUserTest -->
+      <class name="tests.UpdateProjectStatusTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateProjectStatusTest@146044d7]" name="setUp" is-config="true" duration-ms="255" started-at="2020-11-20T09:38:59 PST" finished-at="2020-11-20T09:38:59 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateProjectStatus()[pri:0, instance:tests.UpdateProjectStatusTest@146044d7]" name="testMantisBTUpdateProjectStatus" duration-ms="1100" started-at="2020-11-20T09:38:59 PST" finished-at="2020-11-20T09:39:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateProjectStatus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateProjectStatusTest@146044d7]" name="tearDown" is-config="true" duration-ms="68" started-at="2020-11-20T09:39:00 PST" finished-at="2020-11-20T09:39:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateProjectStatusTest -->
+      <class name="tests.UpdateIssueSeverityTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateIssueSeverityTest@641147d0]" name="setUp" is-config="true" duration-ms="291" started-at="2020-11-20T09:38:45 PST" finished-at="2020-11-20T09:38:45 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateIssueSeverity()[pri:0, instance:tests.UpdateIssueSeverityTest@641147d0]" name="testMantisBTUpdateIssueSeverity" duration-ms="1198" started-at="2020-11-20T09:38:45 PST" finished-at="2020-11-20T09:38:46 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateIssueSeverity -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateIssueSeverityTest@641147d0]" name="tearDown" is-config="true" duration-ms="46" started-at="2020-11-20T09:38:46 PST" finished-at="2020-11-20T09:38:46 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateIssueSeverityTest -->
+      <class name="tests.DeleteMultipleSubprojectsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.DeleteMultipleSubprojectsTest@6b1274d2]" name="setUp" is-config="true" duration-ms="261" started-at="2020-11-20T09:39:36 PST" finished-at="2020-11-20T09:39:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTDeleteMultipleSubprojects()[pri:0, instance:tests.DeleteMultipleSubprojectsTest@6b1274d2]" name="testMantisBTDeleteMultipleSubprojects" duration-ms="7742" started-at="2020-11-20T09:39:36 PST" finished-at="2020-11-20T09:39:44 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTDeleteMultipleSubprojects -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.DeleteMultipleSubprojectsTest@6b1274d2]" name="tearDown" is-config="true" duration-ms="69" started-at="2020-11-20T09:39:44 PST" finished-at="2020-11-20T09:39:44 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DeleteMultipleSubprojectsTest -->
+      <class name="tests.AddIssueTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddIssueTest@6166e06f]" name="setUp" is-config="true" duration-ms="279" started-at="2020-11-20T09:38:37 PST" finished-at="2020-11-20T09:38:38 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTAddIssue()[pri:0, instance:tests.AddIssueTest@6166e06f]" name="testMantisBTAddIssue" duration-ms="1678" started-at="2020-11-20T09:38:38 PST" finished-at="2020-11-20T09:38:39 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTAddIssue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddIssueTest@6166e06f]" name="tearDown" is-config="true" duration-ms="83" started-at="2020-11-20T09:38:39 PST" finished-at="2020-11-20T09:38:39 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddIssueTest -->
+      <class name="tests.AddProjectEmptyTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddProjectEmptyTest@16267862]" name="setUp" is-config="true" duration-ms="302" started-at="2020-11-20T09:38:32 PST" finished-at="2020-11-20T09:38:32 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTAddProjectEmpty()[pri:0, instance:tests.AddProjectEmptyTest@16267862]" name="testMantisBTAddProjectEmpty" duration-ms="930" started-at="2020-11-20T09:38:32 PST" finished-at="2020-11-20T09:38:33 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTAddProjectEmpty -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddProjectEmptyTest@16267862]" name="tearDown" is-config="true" duration-ms="72" started-at="2020-11-20T09:38:33 PST" finished-at="2020-11-20T09:38:33 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddProjectEmptyTest -->
+      <class name="tests.LoginNegativeTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginNegativeTest@221af3c0]" name="setUp" is-config="true" duration-ms="286" started-at="2020-11-20T09:39:14 PST" finished-at="2020-11-20T09:39:14 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTLoginNegative()[pri:0, instance:tests.LoginNegativeTest@221af3c0]" name="testMantisBTLoginNegative" duration-ms="317" started-at="2020-11-20T09:39:14 PST" finished-at="2020-11-20T09:39:14 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTLoginNegative -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginNegativeTest@221af3c0]" name="tearDown" is-config="true" duration-ms="79" started-at="2020-11-20T09:39:14 PST" finished-at="2020-11-20T09:39:15 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginNegativeTest -->
+      <class name="tests.DeleteMultipleUsersTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.DeleteMultipleUsersTest@78a2da20]" name="setUp" is-config="true" duration-ms="343" started-at="2020-11-20T09:39:20 PST" finished-at="2020-11-20T09:39:20 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTDeleteMultipleUsers()[pri:0, instance:tests.DeleteMultipleUsersTest@78a2da20]" name="testMantisBTDeleteMultipleUsers" duration-ms="2518" started-at="2020-11-20T09:39:20 PST" finished-at="2020-11-20T09:39:22 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTDeleteMultipleUsers -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.DeleteMultipleUsersTest@78a2da20]" name="tearDown" is-config="true" duration-ms="72" started-at="2020-11-20T09:39:22 PST" finished-at="2020-11-20T09:39:23 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DeleteMultipleUsersTest -->
+      <class name="tests.UpdateIssueSummaryTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateIssueSummaryTest@28c4711c]" name="setUp" is-config="true" duration-ms="271" started-at="2020-11-20T09:38:56 PST" finished-at="2020-11-20T09:38:56 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateIssueSummary()[pri:0, instance:tests.UpdateIssueSummaryTest@28c4711c]" name="testMantisBTUpdateIssueSummary" duration-ms="1198" started-at="2020-11-20T09:38:56 PST" finished-at="2020-11-20T09:38:57 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateIssueSummary -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateIssueSummaryTest@28c4711c]" name="tearDown" is-config="true" duration-ms="85" started-at="2020-11-20T09:38:57 PST" finished-at="2020-11-20T09:38:57 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateIssueSummaryTest -->
+      <class name="tests.AddCategoryEmptyTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddCategoryEmptyTest@442675e1]" name="setUp" is-config="true" duration-ms="267" started-at="2020-11-20T09:38:36 PST" finished-at="2020-11-20T09:38:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTAddCategoryEmpty()[pri:0, instance:tests.AddCategoryEmptyTest@442675e1]" name="testMantisBTAddCategoryEmpty" duration-ms="961" started-at="2020-11-20T09:38:36 PST" finished-at="2020-11-20T09:38:37 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTAddCategoryEmpty -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddCategoryEmptyTest@442675e1]" name="tearDown" is-config="true" duration-ms="78" started-at="2020-11-20T09:38:37 PST" finished-at="2020-11-20T09:38:37 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddCategoryEmptyTest -->
+      <class name="tests.AddUserWrongTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddUserWrongTest@12405818]" name="setUp" is-config="true" duration-ms="303" started-at="2020-11-20T09:38:25 PST" finished-at="2020-11-20T09:38:25 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTAddUserWrong()[pri:0, instance:tests.AddUserWrongTest@12405818]" name="testMantisBTAddUserWrong" duration-ms="1479" started-at="2020-11-20T09:38:25 PST" finished-at="2020-11-20T09:38:27 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTAddUserWrong -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddUserWrongTest@12405818]" name="tearDown" is-config="true" duration-ms="71" started-at="2020-11-20T09:38:27 PST" finished-at="2020-11-20T09:38:27 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddUserWrongTest -->
+      <class name="tests.UpdateIssueStatusResolvedTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateIssueStatusResolvedTest@38364841]" name="setUp" is-config="true" duration-ms="271" started-at="2020-11-20T09:38:54 PST" finished-at="2020-11-20T09:38:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateIssueStatusResolved()[pri:0, instance:tests.UpdateIssueStatusResolvedTest@38364841]" name="testMantisBTUpdateIssueStatusResolved" duration-ms="1144" started-at="2020-11-20T09:38:54 PST" finished-at="2020-11-20T09:38:56 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateIssueStatusResolved -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateIssueStatusResolvedTest@38364841]" name="tearDown" is-config="true" duration-ms="78" started-at="2020-11-20T09:38:56 PST" finished-at="2020-11-20T09:38:56 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateIssueStatusResolvedTest -->
+      <class name="tests.AddMultipleUsersTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddMultipleUsersTest@23a5fd2]" name="setUp" is-config="true" duration-ms="272" started-at="2020-11-20T09:39:15 PST" finished-at="2020-11-20T09:39:16 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTAddMultipleUsers()[pri:0, instance:tests.AddMultipleUsersTest@23a5fd2]" name="testMantisBTAddMultipleUsers" duration-ms="3842" started-at="2020-11-20T09:39:16 PST" finished-at="2020-11-20T09:39:20 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTAddMultipleUsers -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddMultipleUsersTest@23a5fd2]" name="tearDown" is-config="true" duration-ms="74" started-at="2020-11-20T09:39:20 PST" finished-at="2020-11-20T09:39:20 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddMultipleUsersTest -->
+      <class name="tests.DeleteProjectTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.DeleteProjectTest@77be656f]" name="setUp" is-config="true" duration-ms="281" started-at="2020-11-20T09:39:11 PST" finished-at="2020-11-20T09:39:11 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTDeleteProject()[pri:0, instance:tests.DeleteProjectTest@77be656f]" name="testMantisBTDeleteProject" duration-ms="1081" started-at="2020-11-20T09:39:11 PST" finished-at="2020-11-20T09:39:12 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTDeleteProject -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.DeleteProjectTest@77be656f]" name="tearDown" is-config="true" duration-ms="77" started-at="2020-11-20T09:39:12 PST" finished-at="2020-11-20T09:39:12 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DeleteProjectTest -->
+      <class name="tests.LogoutTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.LogoutTest@62bd765]" name="setUp" is-config="true" duration-ms="265" started-at="2020-11-20T09:39:15 PST" finished-at="2020-11-20T09:39:15 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTLogout()[pri:0, instance:tests.LogoutTest@62bd765]" name="testMantisBTLogout" duration-ms="521" started-at="2020-11-20T09:39:15 PST" finished-at="2020-11-20T09:39:15 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LogoutTest@62bd765]" name="tearDown" is-config="true" duration-ms="73" started-at="2020-11-20T09:39:15 PST" finished-at="2020-11-20T09:39:15 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LogoutTest -->
+      <class name="tests.ViewSummaryIssueTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.ViewSummaryIssueTest@6b0c2d26]" name="setUp" is-config="true" duration-ms="276" started-at="2020-11-20T09:38:42 PST" finished-at="2020-11-20T09:38:42 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTSummaryIssue()[pri:0, instance:tests.ViewSummaryIssueTest@6b0c2d26]" name="testMantisBTSummaryIssue" duration-ms="675" started-at="2020-11-20T09:38:42 PST" finished-at="2020-11-20T09:38:43 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTSummaryIssue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ViewSummaryIssueTest@6b0c2d26]" name="tearDown" is-config="true" duration-ms="73" started-at="2020-11-20T09:38:43 PST" finished-at="2020-11-20T09:38:43 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ViewSummaryIssueTest -->
+      <class name="tests.UpdateIssueStatusNewTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateIssueStatusNewTest@6e38921c]" name="setUp" is-config="true" duration-ms="309" started-at="2020-11-20T09:38:46 PST" finished-at="2020-11-20T09:38:47 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateIssueStatusNew()[pri:0, instance:tests.UpdateIssueStatusNewTest@6e38921c]" name="testMantisBTUpdateIssueStatusNew" duration-ms="1180" started-at="2020-11-20T09:38:47 PST" finished-at="2020-11-20T09:38:48 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateIssueStatusNew -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateIssueStatusNewTest@6e38921c]" name="tearDown" is-config="true" duration-ms="75" started-at="2020-11-20T09:38:48 PST" finished-at="2020-11-20T09:38:48 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateIssueStatusNewTest -->
+      <class name="tests.UpdateCategoryEmptyTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateCategoryEmptyTest@473b46c3]" name="setUp" is-config="true" duration-ms="272" started-at="2020-11-20T09:39:03 PST" finished-at="2020-11-20T09:39:03 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateCategoryEmpty()[pri:0, instance:tests.UpdateCategoryEmptyTest@473b46c3]" name="testMantisBTUpdateCategoryEmpty" duration-ms="1196" started-at="2020-11-20T09:39:03 PST" finished-at="2020-11-20T09:39:05 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateCategoryEmpty -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateCategoryEmptyTest@473b46c3]" name="tearDown" is-config="true" duration-ms="80" started-at="2020-11-20T09:39:05 PST" finished-at="2020-11-20T09:39:05 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateCategoryEmptyTest -->
+      <class name="tests.UpdateProjectDescriptionTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateProjectDescriptionTest@59717824]" name="setUp" is-config="true" duration-ms="264" started-at="2020-11-20T09:38:57 PST" finished-at="2020-11-20T09:38:57 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateProjectDescription()[pri:0, instance:tests.UpdateProjectDescriptionTest@59717824]" name="testMantisBTUpdateProjectDescription" duration-ms="1144" started-at="2020-11-20T09:38:57 PST" finished-at="2020-11-20T09:38:59 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateProjectDescription -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateProjectDescriptionTest@59717824]" name="tearDown" is-config="true" duration-ms="67" started-at="2020-11-20T09:38:59 PST" finished-at="2020-11-20T09:38:59 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateProjectDescriptionTest -->
+      <class name="tests.DeleteIssueTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.DeleteIssueTest@797badd3]" name="setUp" is-config="true" duration-ms="258" started-at="2020-11-20T09:39:09 PST" finished-at="2020-11-20T09:39:10 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTDeleteIssue()[pri:0, instance:tests.DeleteIssueTest@797badd3]" name="testMantisBTDeleteIssue" duration-ms="1161" started-at="2020-11-20T09:39:10 PST" finished-at="2020-11-20T09:39:11 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTDeleteIssue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.DeleteIssueTest@797badd3]" name="tearDown" is-config="true" duration-ms="71" started-at="2020-11-20T09:39:11 PST" finished-at="2020-11-20T09:39:11 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DeleteIssueTest -->
+      <class name="tests.DeleteCategoryTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.DeleteCategoryTest@646be2c3]" name="setUp" is-config="true" duration-ms="253" started-at="2020-11-20T09:39:08 PST" finished-at="2020-11-20T09:39:08 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTDeleteCategory()[pri:0, instance:tests.DeleteCategoryTest@646be2c3]" name="testMantisBTDeleteCategory" duration-ms="1260" started-at="2020-11-20T09:39:08 PST" finished-at="2020-11-20T09:39:09 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTDeleteCategory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.DeleteCategoryTest@646be2c3]" name="tearDown" is-config="true" duration-ms="74" started-at="2020-11-20T09:39:09 PST" finished-at="2020-11-20T09:39:09 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DeleteCategoryTest -->
+      <class name="tests.AddUserEmptyTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddUserEmptyTest@314c508a]" name="setUp" is-config="true" duration-ms="285" started-at="2020-11-20T09:38:27 PST" finished-at="2020-11-20T09:38:27 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTAddUserEmpty()[pri:0, instance:tests.AddUserEmptyTest@314c508a]" name="testMantisBTAddUserEmpty" duration-ms="987" started-at="2020-11-20T09:38:27 PST" finished-at="2020-11-20T09:38:28 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTAddUserEmpty -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddUserEmptyTest@314c508a]" name="tearDown" is-config="true" duration-ms="70" started-at="2020-11-20T09:38:28 PST" finished-at="2020-11-20T09:38:28 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddUserEmptyTest -->
+      <class name="tests.AddIssueEmptyTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddIssueEmptyTest@49e202ad]" name="setUp" is-config="true" duration-ms="280" started-at="2020-11-20T09:38:39 PST" finished-at="2020-11-20T09:38:40 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTAddIssueEmpty()[pri:0, instance:tests.AddIssueEmptyTest@49e202ad]" name="testMantisBTAddIssueEmpty" duration-ms="838" started-at="2020-11-20T09:38:40 PST" finished-at="2020-11-20T09:38:41 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTAddIssueEmpty -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddIssueEmptyTest@49e202ad]" name="tearDown" is-config="true" duration-ms="79" started-at="2020-11-20T09:38:41 PST" finished-at="2020-11-20T09:38:41 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddIssueEmptyTest -->
+      <class name="tests.AddMultipleSubprojectsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddMultipleSubprojectsTest@dd3b207]" name="setUp" is-config="true" duration-ms="341" started-at="2020-11-20T09:39:23 PST" finished-at="2020-11-20T09:39:23 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTAddMultipleSubprojects()[pri:0, instance:tests.AddMultipleSubprojectsTest@dd3b207]" name="testMantisBTAddMultipleSubprojects" duration-ms="2755" started-at="2020-11-20T09:39:23 PST" finished-at="2020-11-20T09:39:26 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTAddMultipleSubprojects -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddMultipleSubprojectsTest@dd3b207]" name="tearDown" is-config="true" duration-ms="75" started-at="2020-11-20T09:39:26 PST" finished-at="2020-11-20T09:39:26 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddMultipleSubprojectsTest -->
+      <class name="tests.UpdateUserTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.UpdateUserTest@516be40f]" name="setUp" is-config="true" duration-ms="294" started-at="2020-11-20T09:39:05 PST" finished-at="2020-11-20T09:39:05 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTUpdateUser()[pri:0, instance:tests.UpdateUserTest@516be40f]" name="testMantisBTUpdateUser" duration-ms="1248" started-at="2020-11-20T09:39:05 PST" finished-at="2020-11-20T09:39:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTUpdateUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.UpdateUserTest@516be40f]" name="tearDown" is-config="true" duration-ms="68" started-at="2020-11-20T09:39:06 PST" finished-at="2020-11-20T09:39:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UpdateUserTest -->
+      <class name="tests.AddProjectWrongTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddProjectWrongTest@6b67034]" name="setUp" is-config="true" duration-ms="275" started-at="2020-11-20T09:38:30 PST" finished-at="2020-11-20T09:38:30 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTAddProjectWrong()[pri:0, instance:tests.AddProjectWrongTest@6b67034]" name="testMantisBTAddProjectWrong" duration-ms="1330" started-at="2020-11-20T09:38:30 PST" finished-at="2020-11-20T09:38:32 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTAddProjectWrong -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddProjectWrongTest@6b67034]" name="tearDown" is-config="true" duration-ms="71" started-at="2020-11-20T09:38:32 PST" finished-at="2020-11-20T09:38:32 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddProjectWrongTest -->
+      <class name="tests.AddProjectTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddProjectTest@10b48321]" name="setUp" is-config="true" duration-ms="290" started-at="2020-11-20T09:38:28 PST" finished-at="2020-11-20T09:38:29 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMantisBTAddProject()[pri:0, instance:tests.AddProjectTest@10b48321]" name="testMantisBTAddProject" duration-ms="1609" started-at="2020-11-20T09:38:29 PST" finished-at="2020-11-20T09:38:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMantisBTAddProject -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddProjectTest@10b48321]" name="tearDown" is-config="true" duration-ms="71" started-at="2020-11-20T09:38:30 PST" finished-at="2020-11-20T09:38:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddProjectTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

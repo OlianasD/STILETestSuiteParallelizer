@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="port"  value="3000"/>
+  <test thread-count="5" name="Test">
+    <classes>
+<class name="tests.AddBuildingTest"/>
+<class name="tests.AddRoomTest"/>
+<class name="tests.CheckBuildingRoomTest"/>
+<class name="tests.AddEntryTest"/>
+<class name="tests.CheckEntryTest"/>
+<class name="tests.AddLongNameBuildingNegativeTest"/>
+<class name="tests.AddLongNameRoomNegativeTest"/>
+<class name="tests.SearchEntryNegativeTest"/>
+<class name="tests.RemoveEntryTest"/>
+<class name="tests.AddMultipleEntriesSameRoomSameDayTest"/>
+<class name="tests.AddMultipleEntriesSameRoomDifferentDaysTest"/>
+<class name="tests.SearchMultipleEntriesTest"/>
+<class name="tests.RemoveRoomTest"/>
+<class name="tests.AddMultipleRoomsTest"/>
+<class name="tests.CheckMultipleBuildingRoomsTest"/>
+<class name="tests.AddMultipleEntriesDifferentRoomsSameDayTest"/>
+<class name="tests.AddMultipleEntriesDifferentRoomsDifferentDaysTest"/>
+<class name="tests.CheckMultipleEntriesTest"/>
+<class name="tests.RemoveMultipleEntriesTest"/>
+<class name="tests.RemoveMultipleRoomsTest"/>
+<class name="tests.AddAndRemoveSerialEntryTest"/>
+<class name="tests.RemoveBuildingTest"/>
+</classes>
+</test>
+</suite>

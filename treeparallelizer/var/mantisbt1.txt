@@ -1,0 +1,223 @@
+Generating warranted path for AddUserWrongTest_1
+Generating warranted path for AddUserEmptyTest_2
+Generating warranted path for AddProjectWrongTest_4
+Generating warranted path for AddProjectEmptyTest_5
+Generating warranted path for AddCategoryWrongTest_7
+Generating warranted path for AddCategoryEmptyTest_8
+Generating warranted path for AddIssueEmptyTest_10
+Generating warranted path for ViewSummaryIssueTest_12
+Generating warranted path for UpdateIssuePriorityTest_13
+Generating warranted path for UpdateIssueSeverityTest_14
+Generating warranted path for UpdateIssueStatusNewTest_15
+Generating warranted path for UpdateIssueStatusFeedbackTest_16
+Generating warranted path for UpdateIssueStatusAcknowledgedTest_17
+Generating warranted path for UpdateIssueStatusConfirmedTest_18
+Generating warranted path for UpdateIssueStatusAssignedTest_19
+Generating warranted path for UpdateIssueStatusResolvedTest_20
+Generating warranted path for UpdateIssueSummaryTest_21
+Generating warranted path for UpdateProjectDescriptionTest_22
+Generating warranted path for UpdateProjectStatusTest_23
+Generating warranted path for UpdateProjectViewStatusTest_24
+Generating warranted path for UpdateCategoryTest_25
+Generating warranted path for UpdateCategoryEmptyTest_26
+Generating warranted path for UpdateUserTest_27
+Generating warranted path for UpdateUserEmptyTest_28
+Generating warranted path for DeleteCategoryTest_29
+Generating warranted path for DeleteIssueTest_30
+Generating warranted path for LoginNegativeTest_33
+Generating warranted path for LogoutTest_34
+Generating warranted path for DeleteMultipleUsersTest_36
+Generating warranted path for DeleteMultipleSubprojectsTest_40
+checkpoint
+[AddUserTest_0, AddUserWrongTest_1]
+[AddUserEmptyTest_2]
+[AddProjectTest_3, AddProjectWrongTest_4]
+[AddProjectEmptyTest_5]
+[AddProjectTest_3, AddCategoryTest_6, AddCategoryWrongTest_7]
+[AddProjectTest_3, AddCategoryEmptyTest_8]
+[AddProjectTest_3, AddIssueEmptyTest_10]
+[AddProjectTest_3, AddCategoryTest_6, AddIssueTest_9, ViewSummaryIssueTest_12]
+[AddProjectTest_3, AddCategoryTest_6, AddIssueTest_9, UpdateIssuePriorityTest_13]
+[AddProjectTest_3, AddCategoryTest_6, AddIssueTest_9, UpdateIssueSeverityTest_14]
+[AddProjectTest_3, AddCategoryTest_6, AddIssueTest_9, AssignIssueTest_11, UpdateIssueStatusNewTest_15]
+[AddProjectTest_3, AddCategoryTest_6, AddIssueTest_9, AssignIssueTest_11, UpdateIssueStatusFeedbackTest_16]
+[AddProjectTest_3, AddCategoryTest_6, AddIssueTest_9, AssignIssueTest_11, UpdateIssueStatusAcknowledgedTest_17]
+[AddProjectTest_3, AddCategoryTest_6, AddIssueTest_9, AssignIssueTest_11, UpdateIssueStatusConfirmedTest_18]
+[AddProjectTest_3, AddCategoryTest_6, AddIssueTest_9, AssignIssueTest_11, UpdateIssueStatusAssignedTest_19]
+[AddProjectTest_3, AddCategoryTest_6, AddIssueTest_9, AssignIssueTest_11, UpdateIssueStatusResolvedTest_20]
+[AddProjectTest_3, AddCategoryTest_6, AddIssueTest_9, UpdateIssueSummaryTest_21]
+[AddProjectTest_3, UpdateProjectDescriptionTest_22]
+[AddProjectTest_3, UpdateProjectStatusTest_23]
+[AddProjectTest_3, UpdateProjectViewStatusTest_24]
+[AddProjectTest_3, AddCategoryTest_6, UpdateCategoryTest_25]
+[AddProjectTest_3, AddCategoryTest_6, UpdateCategoryEmptyTest_26]
+[AddUserTest_0, UpdateUserTest_27]
+[AddUserTest_0, UpdateUserEmptyTest_28]
+[AddProjectTest_3, AddCategoryTest_6, DeleteCategoryTest_29]
+[AddProjectTest_3, AddCategoryTest_6, AddIssueTest_9, DeleteIssueTest_30]
+[LoginNegativeTest_33]
+[LogoutTest_34]
+[AddUserTest_0, DeleteUserTest_32, AddMultipleUsersTest_35, DeleteMultipleUsersTest_36]
+[AddProjectTest_3, DeleteProjectTest_31, AddMultipleSubprojectsTest_37, UnlinkMultipleSubprojectsTest_38, LinkMultipleSubprojectsTest_39, DeleteMultipleSubprojectsTest_40]
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Pre-starting 42 test processes...
+Starting container c5f5388395504b7ee21ea365f4a54d26b106530239abdd8df5cca79bee84f397 with app port = 3100, db port = 3400
+Container c5f5388395504b7ee21ea365f4a54d26b106530239abdd8df5cca79bee84f397is up and running with app port = 3100, db port = 3400
+Starting container eb3938286f1e0fb91de5b21fb34ed0b6fff97c7d820a9dca847f4df1e21bc3c8 with app port = 3101, db port = 3401
+Container eb3938286f1e0fb91de5b21fb34ed0b6fff97c7d820a9dca847f4df1e21bc3c8is up and running with app port = 3101, db port = 3401
+Starting container 4c8ec4ecfad8de57a189779b50dda7fed6fc584201e8393269b03ecca1106437 with app port = 3102, db port = 3402
+Container 4c8ec4ecfad8de57a189779b50dda7fed6fc584201e8393269b03ecca1106437is up and running with app port = 3102, db port = 3402
+Starting container 10c0e9c72411a58082265f90a81eb86605379664e3b9740b58d55b2522528a54 with app port = 3103, db port = 3403
+Container 10c0e9c72411a58082265f90a81eb86605379664e3b9740b58d55b2522528a54is up and running with app port = 3103, db port = 3403
+Starting container 92c1512fde1a3078d7eb9ce5b97ea285b72b792085d7e54a907fc306d6cff859 with app port = 3104, db port = 3404
+Container 92c1512fde1a3078d7eb9ce5b97ea285b72b792085d7e54a907fc306d6cff859is up and running with app port = 3104, db port = 3404
+Starting container ec4a379a26cfddf64834050a725329cbb95120d16f6ccc105cb0db62e4cc0d05 with app port = 3105, db port = 3405
+Container ec4a379a26cfddf64834050a725329cbb95120d16f6ccc105cb0db62e4cc0d05is up and running with app port = 3105, db port = 3405
+Starting container f029a84432bfce9551f36411de695ef5167d7d68638cffcd4021a3dc18676428 with app port = 3106, db port = 3406
+Container f029a84432bfce9551f36411de695ef5167d7d68638cffcd4021a3dc18676428is up and running with app port = 3106, db port = 3406
+Starting container 0bdf3172a626dd275ae31c774065eae94136dc2198058096f5d9044dd9c9c739 with app port = 3107, db port = 3407
+Container 0bdf3172a626dd275ae31c774065eae94136dc2198058096f5d9044dd9c9c739is up and running with app port = 3107, db port = 3407
+Starting container 43cafff2640133b366da5ccb6b0c7ac59e012161e8142d1702508a6986606bb7 with app port = 3108, db port = 3408
+Container 43cafff2640133b366da5ccb6b0c7ac59e012161e8142d1702508a6986606bb7is up and running with app port = 3108, db port = 3408
+Starting container 3c8526ade4a11db84296ddc83a1c31ae786ec763d6e273aeaa92c4baa87474f6 with app port = 3109, db port = 3409
+Container 3c8526ade4a11db84296ddc83a1c31ae786ec763d6e273aeaa92c4baa87474f6is up and running with app port = 3109, db port = 3409
+Starting container 5cbcc05eecbc961d83f88d813f2fe73c63a5581e9584b00966beff219e64cd84 with app port = 3110, db port = 3410
+Container 5cbcc05eecbc961d83f88d813f2fe73c63a5581e9584b00966beff219e64cd84is up and running with app port = 3110, db port = 3410
+Starting container d11ed4dabc5f5ac649e74159250043d5573ef0bf1d9ae6fdc1439c702758debb with app port = 3111, db port = 3411
+Container d11ed4dabc5f5ac649e74159250043d5573ef0bf1d9ae6fdc1439c702758debbis up and running with app port = 3111, db port = 3411
+Starting container 2f418a0f6cbae7ae185d2736c43a2275a910d53096b71643ed8369aa43384176 with app port = 3112, db port = 3412
+Container 2f418a0f6cbae7ae185d2736c43a2275a910d53096b71643ed8369aa43384176is up and running with app port = 3112, db port = 3412
+Starting container 643403d9188a0aaa5ed3fe9026b9c7d52aca3b0a71761a14a06072aad5ad770c with app port = 3113, db port = 3413
+Container 643403d9188a0aaa5ed3fe9026b9c7d52aca3b0a71761a14a06072aad5ad770cis up and running with app port = 3113, db port = 3413
+Starting container 307351e4bce39e7756f59d940e87f44396a46553e5990d57ec6cf0069e808c55 with app port = 3114, db port = 3414
+Container 307351e4bce39e7756f59d940e87f44396a46553e5990d57ec6cf0069e808c55is up and running with app port = 3114, db port = 3414
+Starting container d0cd5e4be99a5faf89f7e266e52065ea243d115681f78afe21ac307384ad1f96 with app port = 3115, db port = 3415
+Container d0cd5e4be99a5faf89f7e266e52065ea243d115681f78afe21ac307384ad1f96is up and running with app port = 3115, db port = 3415
+Exception caught when killing container c5f5388395504b7ee21ea365f4a54d26b106530239abdd8df5cca79bee84f397
+Starting container f58742d5f873cafddec267980a3e36cfdf2abf91552a55b919e0bbd1cce69c93 with app port = 3116, db port = 3416
+Container f58742d5f873cafddec267980a3e36cfdf2abf91552a55b919e0bbd1cce69c93is up and running with app port = 3116, db port = 3416
+Starting container 5386d07789ee358797156bd03c69db45563f37a8233c2137905ff5100daf4f24 with app port = 3117, db port = 3417
+Container 5386d07789ee358797156bd03c69db45563f37a8233c2137905ff5100daf4f24is up and running with app port = 3117, db port = 3417
+Starting container 951658b92ae97cb9cc470b2d445448c408cab2657d3498efc5482f0acd5d4614 with app port = 3118, db port = 3418
+Container 951658b92ae97cb9cc470b2d445448c408cab2657d3498efc5482f0acd5d4614is up and running with app port = 3118, db port = 3418
+Starting container 85ad4863a189ff63225ecc4153205bbdd2b6fa142053ded2adacf7ba7427af9b with app port = 3119, db port = 3419
+Container 85ad4863a189ff63225ecc4153205bbdd2b6fa142053ded2adacf7ba7427af9bis up and running with app port = 3119, db port = 3419
+Starting container 56ed45b69768845ab92b564049501fb3eb809eaacdfdc2c1d9fad68b3fe2466d with app port = 3120, db port = 3420
+Container 56ed45b69768845ab92b564049501fb3eb809eaacdfdc2c1d9fad68b3fe2466dis up and running with app port = 3120, db port = 3420
+Starting container 38ece41c79d7b79cf9412d17b6a3f90036f0c20078504b2bb52932410c42a612 with app port = 3121, db port = 3421
+Container 38ece41c79d7b79cf9412d17b6a3f90036f0c20078504b2bb52932410c42a612is up and running with app port = 3121, db port = 3421
+Exception caught when killing container 3c8526ade4a11db84296ddc83a1c31ae786ec763d6e273aeaa92c4baa87474f6
+Starting container f8ef117eac2cef491d164297899a43e7ae565c992c23780e691b9ad462071723 with app port = 3122, db port = 3422
+Container f8ef117eac2cef491d164297899a43e7ae565c992c23780e691b9ad462071723is up and running with app port = 3122, db port = 3422
+Starting container b5e2d0938ad3bcb5bae435036783ea7d511525d79ab96fde3b1496462973e811 with app port = 3123, db port = 3423
+Container b5e2d0938ad3bcb5bae435036783ea7d511525d79ab96fde3b1496462973e811is up and running with app port = 3123, db port = 3423
+Starting container 27da07996270d1a443d308e59e60af05a4743ff14a9bbe68b80a522db7256d8b with app port = 3124, db port = 3424
+Container 27da07996270d1a443d308e59e60af05a4743ff14a9bbe68b80a522db7256d8bis up and running with app port = 3124, db port = 3424
+Exception caught when killing container 5386d07789ee358797156bd03c69db45563f37a8233c2137905ff5100daf4f24
+Starting container 8fb2838aab42393db3610717e0f85c5b58880530e05f128d028487d483e81f71 with app port = 3125, db port = 3425
+Container 8fb2838aab42393db3610717e0f85c5b58880530e05f128d028487d483e81f71is up and running with app port = 3125, db port = 3425
+Starting container 939aa8ec18ee90e2b84b1b350c4764e755e3a83183320b5fe55e8e32ba11a27c with app port = 3126, db port = 3426
+Container 939aa8ec18ee90e2b84b1b350c4764e755e3a83183320b5fe55e8e32ba11a27cis up and running with app port = 3126, db port = 3426
+Starting container 9547ce64bb98717c0ac90067e0d0c1051151cda6a4c3cd135248427c47da8844 with app port = 3127, db port = 3427
+Container 9547ce64bb98717c0ac90067e0d0c1051151cda6a4c3cd135248427c47da8844is up and running with app port = 3127, db port = 3427
+Starting container c916b021325e3d24086f86f376194efd5665b8a5f81ce5ab3a74d1cbba05ef20 with app port = 3128, db port = 3428
+Container c916b021325e3d24086f86f376194efd5665b8a5f81ce5ab3a74d1cbba05ef20is up and running with app port = 3128, db port = 3428
+Starting container 591dd2f202ad615fec950a5413d488058304b1b9b17c70a0c95bb7754be7f794 with app port = 3129, db port = 3429
+Container 591dd2f202ad615fec950a5413d488058304b1b9b17c70a0c95bb7754be7f794is up and running with app port = 3129, db port = 3429
+Exception caught when killing container 4c8ec4ecfad8de57a189779b50dda7fed6fc584201e8393269b03ecca1106437
+Exception caught when killing container b5e2d0938ad3bcb5bae435036783ea7d511525d79ab96fde3b1496462973e811
+Finished
+Time spent: 3.735783333333333 min
+Created containers: 30
+Time for pre-starting test processes: 1.708 s
+Docker clone time for root node: 17.402
+AddUserTest: PASS
+	 Test execution time: 17.078, Docker clone time: 12.155, Docker kill time: 0.016
+AddUserEmptyTest: PASS
+	 Test execution time: 16.002, Docker clone time: 0.0, Docker kill time: 0.365
+AddProjectTest: PASS
+	 Test execution time: 17.355, Docker clone time: 18.532, Docker kill time: 0.015
+AddProjectEmptyTest: PASS
+	 Test execution time: 15.998, Docker clone time: 0.0, Docker kill time: 6.242
+LoginNegativeTest: PASS
+	 Test execution time: 12.743, Docker clone time: 0.0, Docker kill time: 1.592
+LogoutTest: PASS
+	 Test execution time: 12.677, Docker clone time: 0.0, Docker kill time: 0.478
+AddUserWrongTest: PASS
+	 Test execution time: 14.539, Docker clone time: 0.0, Docker kill time: 2.406
+UpdateUserTest: PASS
+	 Test execution time: 23.51, Docker clone time: 0.0, Docker kill time: 0.367
+UpdateUserEmptyTest: PASS
+	 Test execution time: 26.593, Docker clone time: 0.0, Docker kill time: 0.604
+DeleteUserTest: PASS
+	 Test execution time: 27.969, Docker clone time: 0.0, Docker kill time: 0.0
+AddProjectWrongTest: PASS
+	 Test execution time: 26.194, Docker clone time: 0.0, Docker kill time: 0.346
+AddCategoryTest: FAIL
+	 Test execution time: 48.271, Docker clone time: 6.222, Docker kill time: 0.016
+AddCategoryEmptyTest: PASS
+	 Test execution time: 26.432, Docker clone time: 0.0, Docker kill time: 0.406
+AddIssueEmptyTest: PASS
+	 Test execution time: 24.262, Docker clone time: 0.0, Docker kill time: 0.474
+UpdateProjectDescriptionTest: PASS
+	 Test execution time: 25.034, Docker clone time: 0.0, Docker kill time: 0.318
+UpdateProjectStatusTest: PASS
+	 Test execution time: 22.971, Docker clone time: 0.0, Docker kill time: 0.478
+UpdateProjectViewStatusTest: PASS
+	 Test execution time: 21.371, Docker clone time: 0.0, Docker kill time: 0.355
+DeleteProjectTest: PASS
+	 Test execution time: 20.887, Docker clone time: 0.0, Docker kill time: 0.0
+AddMultipleUsersTest: PASS
+	 Test execution time: 8.94, Docker clone time: 0.0, Docker kill time: 0.0
+AddCategoryWrongTest: FAIL
+	 Test execution time: 8.289, Docker clone time: 0.0, Docker kill time: 0.307
+AddIssueTest: FAIL
+	 Test execution time: 38.213, Docker clone time: 9.692, Docker kill time: 0.009
+UpdateCategoryTest: FAIL
+	 Test execution time: 40.598, Docker clone time: 0.0, Docker kill time: 1.772
+UpdateCategoryEmptyTest: FAIL
+	 Test execution time: 9.178, Docker clone time: 0.0, Docker kill time: 0.303
+DeleteCategoryTest: FAIL
+	 Test execution time: 37.542, Docker clone time: 0.0, Docker kill time: 0.751
+AddMultipleSubprojectsTest: PASS
+	 Test execution time: 7.159, Docker clone time: 0.0, Docker kill time: 0.0
+DeleteMultipleUsersTest: PASS
+	 Test execution time: 6.6, Docker clone time: 0.0, Docker kill time: 0.321
+ViewSummaryIssueTest: FAIL
+	 Test execution time: 40.843, Docker clone time: 0.0, Docker kill time: 0.318
+UpdateIssuePriorityTest: FAIL
+	 Test execution time: 41.447, Docker clone time: 0.0, Docker kill time: 0.322
+UpdateIssueSeverityTest: FAIL
+	 Test execution time: 41.749, Docker clone time: 0.0, Docker kill time: 0.317
+AssignIssueTest: FAIL
+	 Test execution time: 41.516, Docker clone time: 8.958, Docker kill time: 0.271
+UpdateIssueSummaryTest: FAIL
+	 Test execution time: 40.252, Docker clone time: 0.0, Docker kill time: 1.017
+DeleteIssueTest: FAIL
+	 Test execution time: 39.203, Docker clone time: 0.0, Docker kill time: 0.313
+UnlinkMultipleSubprojectsTest: PASS
+	 Test execution time: 1.1061166666666666, Docker clone time: 0.0, Docker kill time: 0.0
+UpdateIssueStatusNewTest: FAIL
+	 Test execution time: 39.055, Docker clone time: 0.0, Docker kill time: 0.324
+UpdateIssueStatusFeedbackTest: FAIL
+	 Test execution time: 41.585, Docker clone time: 0.0, Docker kill time: 0.332
+UpdateIssueStatusAcknowledgedTest: FAIL
+	 Test execution time: 41.991, Docker clone time: 0.0, Docker kill time: 0.344
+UpdateIssueStatusConfirmedTest: FAIL
+	 Test execution time: 40.431, Docker clone time: 0.0, Docker kill time: 0.306
+UpdateIssueStatusAssignedTest: FAIL
+	 Test execution time: 40.136, Docker clone time: 0.0, Docker kill time: 0.537
+UpdateIssueStatusResolvedTest: FAIL
+	 Test execution time: 40.122, Docker clone time: 0.0, Docker kill time: 0.283
+LinkMultipleSubprojectsTest: PASS
+	 Test execution time: 5.738, Docker clone time: 0.0, Docker kill time: 0.0
+DeleteMultipleSubprojectsTest: PASS
+	 Test execution time: 1.0974, Docker clone time: 0.0, Docker kill time: 0.606
+Summary: 41 total tests, 23 passed ,18 failed, 0 skipped, 0 not visited, 0 executor exceptions, 0 test class not loaded, 0 unknown failures
+Removing all created containers...
+Removing all created images...
+Exception caught when removing image sha256:70d5e2633cf0d6b4aa895619b0e9a86f856b40f64aa349af951486e091baa3de
+Exception caught when removing image sha256:3459f6db6d5266182ec9cac098dd957a6b160044bb3c2f8c14e0ebaeae831e61
+Exception caught when removing image sha256:635cc5df138e9f6de1487a342c6ab102f0d45a89461b5424b6d5760684436452

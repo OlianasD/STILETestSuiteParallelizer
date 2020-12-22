@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="port"  value="3000"/>
+  <test thread-count="5" name="Test">
+    <classes>
+<class name="tests.AddProjectTest"/>
+<class name="tests.EditProjectTest"/>
+<class name="tests.SearchProjectTest"/>
+<class name="tests.CloseProjectTest"/>
+<class name="tests.SearchClosedProjectTest"/>
+<class name="tests.OpenProjectTest"/>
+<class name="tests.AddRoleTest"/>
+<class name="tests.EditRoleTest"/>
+<class name="tests.AddUserTest"/>
+<class name="tests.EditUserRoleTest"/>
+<class name="tests.LoginUserTest"/>
+<class name="tests.AssignUserToProjectTest"/>
+<class name="tests.AddMilestoneTest"/>
+<class name="tests.EditMilestoneTest"/>
+<class name="tests.CloseMilestoneTest"/>
+<class name="tests.OpenMilestoneTest"/>
+<class name="tests.AddTasklistTest"/>
+<class name="tests.CloseTasklistTest"/>
+<class name="tests.OpenTasklistTest"/>
+<class name="tests.AddAndRemoveMultipleTasksTest"/>
+<class name="tests.AddTaskDesktopPresentTest"/>
+<class name="tests.RemoveTaskDesktopNotPresentTest"/>
+<class name="tests.AddTasksTest"/>
+<class name="tests.CloseTasksTest"/>
+<class name="tests.OpenTasksTest"/>
+<class name="tests.CloseTasksProjectPercentageTest"/>
+<class name="tests.OpenTasksProjectPercentageTest"/>
+<class name="tests.AddUserAlreadyPresentTest"/>
+<class name="tests.AddUserEmptyValuesTest"/>
+<class name="tests.AddAndRemoveLateMilestoneTest"/>
+<class name="tests.AddMultipleProjectsTest"/>
+<class name="tests.SearchMultipleProjectsTest"/>
+<class name="tests.RemoveMultipleProjectsTest"/>
+<class name="tests.RemoveUserFromProjectTest"/>
+<class name="tests.RemoveTasksTest"/>
+<class name="tests.RemoveTasklistTest"/>
+<class name="tests.RemoveMilestoneTest"/>
+<class name="tests.RemoveRoleTest"/>
+<class name="tests.RemoveUserTest"/>
+<class name="tests.RemoveProjectTest"/>
+
+</classes>
+</test>
+</suite>

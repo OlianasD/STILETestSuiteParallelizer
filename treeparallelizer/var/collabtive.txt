@@ -1,0 +1,177 @@
+Generating warranted path for SearchProjectTest_2
+Generating warranted path for SearchClosedProjectTest_4
+Generating warranted path for EditUserRoleTest_9
+Generating warranted path for LoginUserTest_10
+Generating warranted path for EditMilestoneTest_13
+Generating warranted path for AddAndRemoveMultipleTasksTest_19
+Generating warranted path for AddUserAlreadyPresentTest_27
+Generating warranted path for AddUserEmptyValuesTest_28
+Generating warranted path for AddAndRemoveLateMilestoneTest_29
+Generating warranted path for SearchMultipleProjectsTest_31
+Generating warranted path for RemoveTasksTest_34
+Generating warranted path for RemoveTasklistTest_35
+Generating warranted path for RemoveMilestoneTest_36
+Generating warranted path for RemoveRoleTest_37
+Generating warranted path for RemoveUserTest_38
+Generating warranted path for RemoveProjectTest_39
+checkpoint
+[AddProjectTest_0, SearchProjectTest_2]
+[AddProjectTest_0, CloseProjectTest_3, SearchClosedProjectTest_4]
+[AddProjectTest_0, CloseProjectTest_3, OpenProjectTest_5, AddRoleTest_6, EditRoleTest_7, AddUserTest_8, EditUserRoleTest_9]
+[AddProjectTest_0, CloseProjectTest_3, OpenProjectTest_5, AddRoleTest_6, AddUserTest_8, LoginUserTest_10]
+[AddProjectTest_0, CloseProjectTest_3, OpenProjectTest_5, AddMilestoneTest_12, EditMilestoneTest_13]
+[AddProjectTest_0, CloseProjectTest_3, OpenProjectTest_5, AddMilestoneTest_12, CloseMilestoneTest_14, OpenMilestoneTest_15, AddTasklistTest_16, CloseTasklistTest_17, OpenTasklistTest_18, AddAndRemoveMultipleTasksTest_19]
+[AddProjectTest_0, CloseProjectTest_3, OpenProjectTest_5, AddRoleTest_6, AddUserTest_8, AddUserAlreadyPresentTest_27]
+[AddUserEmptyValuesTest_28]
+[AddProjectTest_0, CloseProjectTest_3, OpenProjectTest_5, AddAndRemoveLateMilestoneTest_29]
+[AddMultipleProjectsTest_30, SearchMultipleProjectsTest_31]
+[AddProjectTest_0, CloseProjectTest_3, OpenProjectTest_5, AddMilestoneTest_12, CloseMilestoneTest_14, OpenMilestoneTest_15, AddTasklistTest_16, CloseTasklistTest_17, OpenTasklistTest_18, AddTaskDesktopPresentTest_20, RemoveTaskDesktopNotPresentTest_21, AddTasksTest_22, CloseTasksTest_23, OpenTasksTest_24, CloseTasksProjectPercentageTest_25, OpenTasksProjectPercentageTest_26, RemoveTasksTest_34]
+[AddProjectTest_0, CloseProjectTest_3, OpenProjectTest_5, AddMilestoneTest_12, CloseMilestoneTest_14, OpenMilestoneTest_15, AddTasklistTest_16, CloseTasklistTest_17, OpenTasklistTest_18, RemoveTasklistTest_35]
+[AddProjectTest_0, CloseProjectTest_3, OpenProjectTest_5, AddMilestoneTest_12, CloseMilestoneTest_14, OpenMilestoneTest_15, RemoveMilestoneTest_36]
+[RemoveRoleTest_37]
+[AddProjectTest_0, CloseProjectTest_3, OpenProjectTest_5, AddRoleTest_6, AddUserTest_8, AssignUserToProjectTest_11, RemoveUserFromProjectTest_33, RemoveUserTest_38]
+[AddProjectTest_0, EditProjectTest_1, CloseProjectTest_3, OpenProjectTest_5, AddMultipleProjectsTest_30, RemoveMultipleProjectsTest_32, RemoveProjectTest_39]
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Pre-starting 45 test processes...
+Starting container fe75807c63994256a52c79c41b4280b24dd12b5f82b0aa8958b4d135203b30ec with app port = 3100, db port = 3400
+Container fe75807c63994256a52c79c41b4280b24dd12b5f82b0aa8958b4d135203b30ecis up and running with app port = 3100, db port = 3400
+Starting container 1d773fde6b76424568f48a3c18273c0c16642a82e7b96c3662e73484edf6316a with app port = 3101, db port = 3401
+Container 1d773fde6b76424568f48a3c18273c0c16642a82e7b96c3662e73484edf6316ais up and running with app port = 3101, db port = 3401
+Starting container eef16e0dceabf537f96b44ac8482ba3637a3f1f9fc30a9f84272d4460b4be7f9 with app port = 3102, db port = 3402
+Container eef16e0dceabf537f96b44ac8482ba3637a3f1f9fc30a9f84272d4460b4be7f9is up and running with app port = 3102, db port = 3402
+Starting container c9ca3f3d8253eb8338f83576802cfc55e39575264804b13eefb0d81429eb7d7f with app port = 3103, db port = 3403
+Container c9ca3f3d8253eb8338f83576802cfc55e39575264804b13eefb0d81429eb7d7fis up and running with app port = 3103, db port = 3403
+Starting container 4e9ee19d93ae2bd4e99571694a042e74839370d4629f6ba9d786e05952aa3cd2 with app port = 3104, db port = 3404
+Container 4e9ee19d93ae2bd4e99571694a042e74839370d4629f6ba9d786e05952aa3cd2is up and running with app port = 3104, db port = 3404
+Starting container dd1c206222f37b9f11478ece81a9d364319f2b14df62f18006c85eadc358d5c4 with app port = 3105, db port = 3405
+Container dd1c206222f37b9f11478ece81a9d364319f2b14df62f18006c85eadc358d5c4is up and running with app port = 3105, db port = 3405
+Starting container d1c73a299764ed31e272d05fa3fd80d9c8fc7415c2381665bd753c1ce51d8923 with app port = 3106, db port = 3406
+Container d1c73a299764ed31e272d05fa3fd80d9c8fc7415c2381665bd753c1ce51d8923is up and running with app port = 3106, db port = 3406
+Starting container 12a56e288c419c58838a3988c31179b4e1599f10c5b2b4afa95c136cf78200b2 with app port = 3107, db port = 3407
+Container 12a56e288c419c58838a3988c31179b4e1599f10c5b2b4afa95c136cf78200b2is up and running with app port = 3107, db port = 3407
+Starting container 89c6b921741ae9da7ccc88851358eee95a07d849c46b6534a38e1ab8de202d1c with app port = 3108, db port = 3408
+Container 89c6b921741ae9da7ccc88851358eee95a07d849c46b6534a38e1ab8de202d1cis up and running with app port = 3108, db port = 3408
+Starting container e620cb9096da0834e7ce418952b3622e29956efb19f4a0f79bd033bcf4148b83 with app port = 3109, db port = 3409
+Container e620cb9096da0834e7ce418952b3622e29956efb19f4a0f79bd033bcf4148b83is up and running with app port = 3109, db port = 3409
+Starting container 427e7de2a8439ff7749fb7d7d7e9de7acf3a39e358d7f0d819b61f49570bd8d9 with app port = 3110, db port = 3410
+Container 427e7de2a8439ff7749fb7d7d7e9de7acf3a39e358d7f0d819b61f49570bd8d9is up and running with app port = 3110, db port = 3410
+Starting container 93912617da076a10a02548768a81f3d12eef0928d42e81e9acf92ce210bc41cc with app port = 3111, db port = 3411
+Container 93912617da076a10a02548768a81f3d12eef0928d42e81e9acf92ce210bc41ccis up and running with app port = 3111, db port = 3411
+Exception caught when killing container dd1c206222f37b9f11478ece81a9d364319f2b14df62f18006c85eadc358d5c4
+Starting container b81b0a83c8d285063714c97fae7cde254dd513d737fd8b6b30dd381278ef468f with app port = 3112, db port = 3412
+Container b81b0a83c8d285063714c97fae7cde254dd513d737fd8b6b30dd381278ef468fis up and running with app port = 3112, db port = 3412
+Exception caught when killing container 12a56e288c419c58838a3988c31179b4e1599f10c5b2b4afa95c136cf78200b2
+Exception caught when killing container 12a56e288c419c58838a3988c31179b4e1599f10c5b2b4afa95c136cf78200b2
+Exception caught when killing container fe75807c63994256a52c79c41b4280b24dd12b5f82b0aa8958b4d135203b30ec
+Starting container 1d36aee9dec6764baf72c3616f2d4be5115e99ab3175a7b4b01c9fd8f7695fba with app port = 3113, db port = 3413
+Container 1d36aee9dec6764baf72c3616f2d4be5115e99ab3175a7b4b01c9fd8f7695fbais up and running with app port = 3113, db port = 3413
+Exception caught when killing container 89c6b921741ae9da7ccc88851358eee95a07d849c46b6534a38e1ab8de202d1c
+Starting container 4048a0c401e4b1c9454249f7b761e216d8febb4256a44c8d25848d1af09c371e with app port = 3114, db port = 3414
+Container 4048a0c401e4b1c9454249f7b761e216d8febb4256a44c8d25848d1af09c371eis up and running with app port = 3114, db port = 3414
+Starting container d78e7cabdb0d3e7fa24a41cda30afdd1e0ef05bb809c19bc58b0b972a2dcd447 with app port = 3115, db port = 3415
+Container d78e7cabdb0d3e7fa24a41cda30afdd1e0ef05bb809c19bc58b0b972a2dcd447is up and running with app port = 3115, db port = 3415
+Exception caught when killing container 1d36aee9dec6764baf72c3616f2d4be5115e99ab3175a7b4b01c9fd8f7695fba
+Exception caught when killing container 89c6b921741ae9da7ccc88851358eee95a07d849c46b6534a38e1ab8de202d1c
+Exception caught when killing container dd1c206222f37b9f11478ece81a9d364319f2b14df62f18006c85eadc358d5c4
+Finished
+Time spent: 11.828333333333335 min
+Created containers: 16
+Time for pre-starting test processes: 1.92 s
+Docker clone time for root node: 14.584
+AddProjectTest: FAIL
+	 Test execution time: 23.238, Docker clone time: 3.527, Docker kill time: 0.005
+AddUserEmptyValuesTest: PASS
+	 Test execution time: 29.126, Docker clone time: 0.0, Docker kill time: 0.317
+AddMultipleProjectsTest: PASS
+	 Test execution time: 35.305, Docker clone time: 0.0, Docker kill time: 0.0
+RemoveRoleTest: PASS
+	 Test execution time: 25.838, Docker clone time: 0.0, Docker kill time: 0.331
+SearchProjectTest: FAIL
+	 Test execution time: 18.608, Docker clone time: 0.0, Docker kill time: 0.352
+CloseProjectTest: FAIL
+	 Test execution time: 51.504, Docker clone time: 1.569, Docker kill time: 0.004
+EditProjectTest: FAIL
+	 Test execution time: 46.282, Docker clone time: 0.0, Docker kill time: 0.0
+SearchMultipleProjectsTest: PASS
+	 Test execution time: 13.361, Docker clone time: 0.0, Docker kill time: 0.297
+SearchClosedProjectTest: PASS
+	 Test execution time: 11.064, Docker clone time: 0.0, Docker kill time: 0.354
+OpenProjectTest: FAIL
+	 Test execution time: 41.677, Docker clone time: 2.449, Docker kill time: 0.011
+CloseProjectTest: FAIL
+	 Test execution time: 38.608, Docker clone time: 0.0, Docker kill time: 0.0
+AddRoleTest: SKIP
+	 Test execution time: 11.185, Docker clone time: 1.148, Docker kill time: 0.013
+AddMilestoneTest: FAIL
+	 Test execution time: 50.115, Docker clone time: 1.707, Docker kill time: 0.005
+AddAndRemoveLateMilestoneTest: FAIL
+	 Test execution time: 49.513, Docker clone time: 0.0, Docker kill time: 0.379
+OpenProjectTest: FAIL
+	 Test execution time: 38.97, Docker clone time: 0.0, Docker kill time: 0.0
+EditRoleTest: FAIL
+	 Test execution time: 25.922, Docker clone time: 0.0, Docker kill time: 0.0
+AddUserTest: SKIP
+	 Test execution time: 15.573, Docker clone time: 3.568, Docker kill time: 0.007
+EditMilestoneTest: FAIL
+	 Test execution time: 58.588, Docker clone time: 0.0, Docker kill time: 0.35
+CloseMilestoneTest: FAIL
+	 Test execution time: 59.089, Docker clone time: 0.0, Docker kill time: 0.0
+AddMultipleProjectsTest: PASS
+	 Test execution time: 54.491, Docker clone time: 0.0, Docker kill time: 0.0
+AddUserTest: FAIL
+	 Test execution time: 1.0737833333333335, Docker clone time: 0.0, Docker kill time: 0.0
+LoginUserTest: FAIL
+	 Test execution time: 59.658, Docker clone time: 0.0, Docker kill time: 0.379
+AddUserAlreadyPresentTest: FAIL
+	 Test execution time: 42.855, Docker clone time: 0.0, Docker kill time: 0.369
+AssignUserToProjectTest: SKIP
+	 Test execution time: 26.744, Docker clone time: 0.0, Docker kill time: 0.0
+OpenMilestoneTest: FAIL
+	 Test execution time: 38.234, Docker clone time: 1.199, Docker kill time: 0.008
+RemoveMultipleProjectsTest: FAIL
+	 Test execution time: 48.897, Docker clone time: 0.0, Docker kill time: 0.0
+EditUserRoleTest: FAIL
+	 Test execution time: 13.247, Docker clone time: 0.0, Docker kill time: 0.356
+RemoveUserFromProjectTest: SKIP
+	 Test execution time: 22.382, Docker clone time: 0.0, Docker kill time: 0.0
+AddTasklistTest: FAIL
+	 Test execution time: 40.786, Docker clone time: 0.0, Docker kill time: 0.0
+RemoveMilestoneTest: FAIL
+	 Test execution time: 40.984, Docker clone time: 0.0, Docker kill time: 0.295
+RemoveProjectTest: PASS
+	 Test execution time: 10.985, Docker clone time: 0.0, Docker kill time: 0.311
+RemoveUserTest: SKIP
+	 Test execution time: 13.823, Docker clone time: 0.0, Docker kill time: 0.369
+CloseTasklistTest: FAIL
+	 Test execution time: 36.921, Docker clone time: 0.0, Docker kill time: 0.0
+OpenTasklistTest: FAIL
+	 Test execution time: 37.282, Docker clone time: 2.466, Docker kill time: 0.005
+AddAndRemoveMultipleTasksTest: FAIL
+	 Test execution time: 45.49, Docker clone time: 0.0, Docker kill time: 0.463
+AddTaskDesktopPresentTest: FAIL
+	 Test execution time: 45.335, Docker clone time: 0.0, Docker kill time: 0.0
+RemoveTasklistTest: FAIL
+	 Test execution time: 44.617, Docker clone time: 0.0, Docker kill time: 0.374
+RemoveTaskDesktopNotPresentTest: FAIL
+	 Test execution time: 37.321, Docker clone time: 0.0, Docker kill time: 0.0
+AddTasksTest: FAIL
+	 Test execution time: 36.936, Docker clone time: 0.0, Docker kill time: 0.0
+CloseTasksTest: FAIL
+	 Test execution time: 37.389, Docker clone time: 0.0, Docker kill time: 0.0
+OpenTasksTest: FAIL
+	 Test execution time: 37.078, Docker clone time: 0.0, Docker kill time: 0.0
+CloseTasksProjectPercentageTest: FAIL
+	 Test execution time: 37.362, Docker clone time: 0.0, Docker kill time: 0.0
+OpenTasksProjectPercentageTest: FAIL
+	 Test execution time: 37.534, Docker clone time: 0.0, Docker kill time: 0.0
+RemoveTasksTest: FAIL
+	 Test execution time: 37.403, Docker clone time: 0.0, Docker kill time: 0.274
+Summary: 44 total tests, 7 passed ,32 failed, 5 skipped, 0 not visited, 0 executor exceptions, 0 test class not loaded, 0 unknown failures
+Removing all created containers...
+Removing all created images...
+Exception caught when removing image sha256:f10cf9c138a3e2a19d3ca8805e378c6b0376d5d370b86432da1d0a72e7c65220
+Exception caught when removing image sha256:45f7644f94451c264616bd595bb35e56ba65cd2126991269f98afa739cb9beed
+Exception caught when removing image sha256:b5514ee355f81c391c85eac2301d720113311b347dd64abe5455c5e447704a6d
+Exception caught when removing image sha256:f685fb8ffdbee0fa52e06c1096f7df715ef5a28a2dd4a8b67377a23fae89c67f

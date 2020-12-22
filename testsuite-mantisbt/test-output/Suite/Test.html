@@ -1,0 +1,284 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>41/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 20 09:38:22 PST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>82 seconds (82289 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.AddCategoryTest.testMantisBTAddCategory()'><b>testMantisBTAddCategory</b><br>Test class: tests.AddCategoryTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddCategoryTest@453da22c</td></tr>
+<tr>
+<td title='tests.AddCategoryEmptyTest.testMantisBTAddCategoryEmpty()'><b>testMantisBTAddCategoryEmpty</b><br>Test class: tests.AddCategoryEmptyTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddCategoryEmptyTest@442675e1</td></tr>
+<tr>
+<td title='tests.AddCategoryWrongTest.testMantisBTAddCategoryWrong()'><b>testMantisBTAddCategoryWrong</b><br>Test class: tests.AddCategoryWrongTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddCategoryWrongTest@71248c21</td></tr>
+<tr>
+<td title='tests.AddIssueTest.testMantisBTAddIssue()'><b>testMantisBTAddIssue</b><br>Test class: tests.AddIssueTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddIssueTest@6166e06f</td></tr>
+<tr>
+<td title='tests.AddIssueEmptyTest.testMantisBTAddIssueEmpty()'><b>testMantisBTAddIssueEmpty</b><br>Test class: tests.AddIssueEmptyTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddIssueEmptyTest@49e202ad</td></tr>
+<tr>
+<td title='tests.AddMultipleSubprojectsTest.testMantisBTAddMultipleSubprojects()'><b>testMantisBTAddMultipleSubprojects</b><br>Test class: tests.AddMultipleSubprojectsTest</td>
+<td></td>
+<td>2</td>
+<td>tests.AddMultipleSubprojectsTest@dd3b207</td></tr>
+<tr>
+<td title='tests.AddMultipleUsersTest.testMantisBTAddMultipleUsers()'><b>testMantisBTAddMultipleUsers</b><br>Test class: tests.AddMultipleUsersTest</td>
+<td></td>
+<td>3</td>
+<td>tests.AddMultipleUsersTest@23a5fd2</td></tr>
+<tr>
+<td title='tests.AddProjectTest.testMantisBTAddProject()'><b>testMantisBTAddProject</b><br>Test class: tests.AddProjectTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddProjectTest@10b48321</td></tr>
+<tr>
+<td title='tests.AddProjectEmptyTest.testMantisBTAddProjectEmpty()'><b>testMantisBTAddProjectEmpty</b><br>Test class: tests.AddProjectEmptyTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddProjectEmptyTest@16267862</td></tr>
+<tr>
+<td title='tests.AddProjectWrongTest.testMantisBTAddProjectWrong()'><b>testMantisBTAddProjectWrong</b><br>Test class: tests.AddProjectWrongTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddProjectWrongTest@6b67034</td></tr>
+<tr>
+<td title='tests.AddUserTest.testMantisBTAddUser()'><b>testMantisBTAddUser</b><br>Test class: tests.AddUserTest</td>
+<td></td>
+<td>2</td>
+<td>tests.AddUserTest@6c3f5566</td></tr>
+<tr>
+<td title='tests.AddUserEmptyTest.testMantisBTAddUserEmpty()'><b>testMantisBTAddUserEmpty</b><br>Test class: tests.AddUserEmptyTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddUserEmptyTest@314c508a</td></tr>
+<tr>
+<td title='tests.AddUserWrongTest.testMantisBTAddUserWrong()'><b>testMantisBTAddUserWrong</b><br>Test class: tests.AddUserWrongTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddUserWrongTest@12405818</td></tr>
+<tr>
+<td title='tests.AssignIssueTest.testMantisBTAssignIssue()'><b>testMantisBTAssignIssue</b><br>Test class: tests.AssignIssueTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AssignIssueTest@1c72da34</td></tr>
+<tr>
+<td title='tests.DeleteCategoryTest.testMantisBTDeleteCategory()'><b>testMantisBTDeleteCategory</b><br>Test class: tests.DeleteCategoryTest</td>
+<td></td>
+<td>1</td>
+<td>tests.DeleteCategoryTest@646be2c3</td></tr>
+<tr>
+<td title='tests.DeleteIssueTest.testMantisBTDeleteIssue()'><b>testMantisBTDeleteIssue</b><br>Test class: tests.DeleteIssueTest</td>
+<td></td>
+<td>1</td>
+<td>tests.DeleteIssueTest@797badd3</td></tr>
+<tr>
+<td title='tests.DeleteMultipleSubprojectsTest.testMantisBTDeleteMultipleSubprojects()'><b>testMantisBTDeleteMultipleSubprojects</b><br>Test class: tests.DeleteMultipleSubprojectsTest</td>
+<td></td>
+<td>7</td>
+<td>tests.DeleteMultipleSubprojectsTest@6b1274d2</td></tr>
+<tr>
+<td title='tests.DeleteMultipleUsersTest.testMantisBTDeleteMultipleUsers()'><b>testMantisBTDeleteMultipleUsers</b><br>Test class: tests.DeleteMultipleUsersTest</td>
+<td></td>
+<td>2</td>
+<td>tests.DeleteMultipleUsersTest@78a2da20</td></tr>
+<tr>
+<td title='tests.DeleteProjectTest.testMantisBTDeleteProject()'><b>testMantisBTDeleteProject</b><br>Test class: tests.DeleteProjectTest</td>
+<td></td>
+<td>1</td>
+<td>tests.DeleteProjectTest@77be656f</td></tr>
+<tr>
+<td title='tests.DeleteUserTest.testMantisBTDeleteUser()'><b>testMantisBTDeleteUser</b><br>Test class: tests.DeleteUserTest</td>
+<td></td>
+<td>1</td>
+<td>tests.DeleteUserTest@19dc67c2</td></tr>
+<tr>
+<td title='tests.LinkMultipleSubprojectsTest.testMantisBTLinkMultipleSubprojects()'><b>testMantisBTLinkMultipleSubprojects</b><br>Test class: tests.LinkMultipleSubprojectsTest</td>
+<td></td>
+<td>1</td>
+<td>tests.LinkMultipleSubprojectsTest@58fdd99</td></tr>
+<tr>
+<td title='tests.LoginNegativeTest.testMantisBTLoginNegative()'><b>testMantisBTLoginNegative</b><br>Test class: tests.LoginNegativeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.LoginNegativeTest@221af3c0</td></tr>
+<tr>
+<td title='tests.LogoutTest.testMantisBTLogout()'><b>testMantisBTLogout</b><br>Test class: tests.LogoutTest</td>
+<td></td>
+<td>0</td>
+<td>tests.LogoutTest@62bd765</td></tr>
+<tr>
+<td title='tests.ViewSummaryIssueTest.testMantisBTSummaryIssue()'><b>testMantisBTSummaryIssue</b><br>Test class: tests.ViewSummaryIssueTest</td>
+<td></td>
+<td>0</td>
+<td>tests.ViewSummaryIssueTest@6b0c2d26</td></tr>
+<tr>
+<td title='tests.UnlinkMultipleSubprojectsTest.testMantisBTUnlinkMultipleSubprojects()'><b>testMantisBTUnlinkMultipleSubprojects</b><br>Test class: tests.UnlinkMultipleSubprojectsTest</td>
+<td></td>
+<td>7</td>
+<td>tests.UnlinkMultipleSubprojectsTest@551bdc27</td></tr>
+<tr>
+<td title='tests.UpdateCategoryTest.testMantisBTUpdateCategory()'><b>testMantisBTUpdateCategory</b><br>Test class: tests.UpdateCategoryTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateCategoryTest@15d9bc04</td></tr>
+<tr>
+<td title='tests.UpdateCategoryEmptyTest.testMantisBTUpdateCategoryEmpty()'><b>testMantisBTUpdateCategoryEmpty</b><br>Test class: tests.UpdateCategoryEmptyTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateCategoryEmptyTest@473b46c3</td></tr>
+<tr>
+<td title='tests.UpdateIssuePriorityTest.testMantisBTUpdateIssuePriority()'><b>testMantisBTUpdateIssuePriority</b><br>Test class: tests.UpdateIssuePriorityTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateIssuePriorityTest@3d3fcdb0</td></tr>
+<tr>
+<td title='tests.UpdateIssueSeverityTest.testMantisBTUpdateIssueSeverity()'><b>testMantisBTUpdateIssueSeverity</b><br>Test class: tests.UpdateIssueSeverityTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateIssueSeverityTest@641147d0</td></tr>
+<tr>
+<td title='tests.UpdateIssueStatusAcknowledgedTest.testMantisBTUpdateIssueStatusAcknowledged()'><b>testMantisBTUpdateIssueStatusAcknowledged</b><br>Test class: tests.UpdateIssueStatusAcknowledgedTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateIssueStatusAcknowledgedTest@27c6e487</td></tr>
+<tr>
+<td title='tests.UpdateIssueStatusAssignedTest.testMantisBTUpdateIssueStatusAssigned()'><b>testMantisBTUpdateIssueStatusAssigned</b><br>Test class: tests.UpdateIssueStatusAssignedTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateIssueStatusAssignedTest@6385cb26</td></tr>
+<tr>
+<td title='tests.UpdateIssueStatusConfirmedTest.testMantisBTUpdateIssueStatusConfirmed()'><b>testMantisBTUpdateIssueStatusConfirmed</b><br>Test class: tests.UpdateIssueStatusConfirmedTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateIssueStatusConfirmedTest@49070868</td></tr>
+<tr>
+<td title='tests.UpdateIssueStatusFeedbackTest.testMantisBTUpdateIssueStatusFeedback()'><b>testMantisBTUpdateIssueStatusFeedback</b><br>Test class: tests.UpdateIssueStatusFeedbackTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateIssueStatusFeedbackTest@64d7f7e0</td></tr>
+<tr>
+<td title='tests.UpdateIssueStatusNewTest.testMantisBTUpdateIssueStatusNew()'><b>testMantisBTUpdateIssueStatusNew</b><br>Test class: tests.UpdateIssueStatusNewTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateIssueStatusNewTest@6e38921c</td></tr>
+<tr>
+<td title='tests.UpdateIssueStatusResolvedTest.testMantisBTUpdateIssueStatusResolved()'><b>testMantisBTUpdateIssueStatusResolved</b><br>Test class: tests.UpdateIssueStatusResolvedTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateIssueStatusResolvedTest@38364841</td></tr>
+<tr>
+<td title='tests.UpdateIssueSummaryTest.testMantisBTUpdateIssueSummary()'><b>testMantisBTUpdateIssueSummary</b><br>Test class: tests.UpdateIssueSummaryTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateIssueSummaryTest@28c4711c</td></tr>
+<tr>
+<td title='tests.UpdateProjectDescriptionTest.testMantisBTUpdateProjectDescription()'><b>testMantisBTUpdateProjectDescription</b><br>Test class: tests.UpdateProjectDescriptionTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateProjectDescriptionTest@59717824</td></tr>
+<tr>
+<td title='tests.UpdateProjectStatusTest.testMantisBTUpdateProjectStatus()'><b>testMantisBTUpdateProjectStatus</b><br>Test class: tests.UpdateProjectStatusTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateProjectStatusTest@146044d7</td></tr>
+<tr>
+<td title='tests.UpdateProjectViewStatusTest.testMantisBTUpdateProjectViewStatus()'><b>testMantisBTUpdateProjectViewStatus</b><br>Test class: tests.UpdateProjectViewStatusTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateProjectViewStatusTest@1e9e725a</td></tr>
+<tr>
+<td title='tests.UpdateUserTest.testMantisBTUpdateUser()'><b>testMantisBTUpdateUser</b><br>Test class: tests.UpdateUserTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateUserTest@516be40f</td></tr>
+<tr>
+<td title='tests.UpdateUserEmptyTest.testMantisBTUpdateUserEmpty()'><b>testMantisBTUpdateUserEmpty</b><br>Test class: tests.UpdateUserEmptyTest</td>
+<td></td>
+<td>1</td>
+<td>tests.UpdateUserEmptyTest@3c0a50da</td></tr>
+</table><p>
+</body>
+</html>

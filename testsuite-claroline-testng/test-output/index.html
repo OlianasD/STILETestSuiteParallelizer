@@ -1,0 +1,1801 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods,   40 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddCourseTest" hash-for-method="testClarolineAddCourse">testClarolineAddCourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddCourseEventTest" hash-for-method="testClarolineAddCourseEvent">testClarolineAddCourseEvent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddCourseExerciseTest" hash-for-method="testClarolineAddCourseExercise">testClarolineAddCourseExercise</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddCourseExerciseQuestionsTest" hash-for-method="testClarolineAddCourseExerciseQuestions">testClarolineAddCourseExerciseQuestions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddDeniedCourseTest" hash-for-method="testClarolineAddDeniedCourse">testClarolineAddDeniedCourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddEmptyCourseTest" hash-for-method="testClarolineAddEmptyCourse">testClarolineAddEmptyCourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddEmptyUserTest" hash-for-method="testClarolineAddEmptyUser">testClarolineAddEmptyUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddMultipleUsersTest" hash-for-method="testClarolineAddMultipleUsers">testClarolineAddMultipleUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddPasswordCourseTest" hash-for-method="testClarolineAddPasswordCourse">testClarolineAddPasswordCourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddTwiceUserTest" hash-for-method="testClarolineAddTwiceUser">testClarolineAddTwiceUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddUserTest" hash-for-method="testClarolineAddUser">testClarolineAddUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddWrongEmailUserTest" hash-for-method="testClarolineAddWrongEmailUser">testClarolineAddWrongEmailUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddWrongPasswordUserTest" hash-for-method="testClarolineAddWrongPasswordUser">testClarolineAddWrongPasswordUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.DoCourseExerciseQuestionsTest" hash-for-method="testClarolineDoCourseExerciseQuestions">testClarolineDoCourseExerciseQuestions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.DoCourseExerciseQuestionsMultipleUsersTest" hash-for-method="testClarolineDoCourseExerciseQuestionsMultipleUsers">testClarolineDoCourseExerciseQuestionsMultipleUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.EnrolDeniedCourseTest" hash-for-method="testClarolineEnrolDeniedCourse">testClarolineEnrolDeniedCourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.EnrolMultipleUsersTest" hash-for-method="testClarolineEnrolMultipleUsers">testClarolineEnrolMultipleUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.EnrolPasswordCourseGoodPasswordUserTest" hash-for-method="testClarolineEnrolPasswordCourseGoodPasswordUser">testClarolineEnrolPasswordCourseGoodPasswordUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.EnrolPasswordCourseWrongPasswordUserTest" hash-for-method="testClarolineEnrolPasswordCourseWrongPasswordUser">testClarolineEnrolPasswordCourseWrongPasswordUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.EnrolUserTest" hash-for-method="testClarolineEnrolUser">testClarolineEnrolUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.LoginUserTest" hash-for-method="testClarolineLoginUser">testClarolineLoginUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.MakeCourseExerciseVisibleTest" hash-for-method="testClarolineMakeCourseExerciseVisible">testClarolineMakeCourseExerciseVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RemoveCourseTest" hash-for-method="testClarolineRemoveCourse">testClarolineRemoveCourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RemoveCourseEventTest" hash-for-method="testClarolineRemoveCourseEvent">testClarolineRemoveCourseEvent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RemoveCourseExerciseTest" hash-for-method="testClarolineRemoveCourseExercise">testClarolineRemoveCourseExercise</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RemoveCourseExerciseQuestionsTest" hash-for-method="testClarolineRemoveCourseExerciseQuestions">testClarolineRemoveCourseExerciseQuestions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RemoveEnrolMultipleUsersTest" hash-for-method="testClarolineRemoveEnrolMultipleUsers">testClarolineRemoveEnrolMultipleUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RemoveEnrolUserTest" hash-for-method="testClarolineRemoveEnrolUser">testClarolineRemoveEnrolUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RemoveMultipleUsersTest" hash-for-method="testClarolineRemoveMultipleUsers">testClarolineRemoveMultipleUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.RemoveUserTest" hash-for-method="testClarolineRemoveUser">testClarolineRemoveUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SearchAdminTest" hash-for-method="testClarolineSearchAdmin">testClarolineSearchAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SearchAllowedCourseTest" hash-for-method="testClarolineSearchAllowedCourse">testClarolineSearchAllowedCourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SearchAndRemoveDeniedCourseTest" hash-for-method="testClarolineSearchAndRemoveDeniedCourse">testClarolineSearchAndRemoveDeniedCourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SearchAndRemovePasswordCourseTest" hash-for-method="testClarolineSearchAndRemovePasswordCourse">testClarolineSearchAndRemovePasswordCourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SearchCourseTest" hash-for-method="testClarolineSearchCourse">testClarolineSearchCourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SearchMultipleUsersTest" hash-for-method="testClarolineSearchMultipleUsers">testClarolineSearchMultipleUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SearchStudentTest" hash-for-method="testClarolineSearchStudent">testClarolineSearchStudent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SearchTeacherTest" hash-for-method="testClarolineSearchTeacher">testClarolineSearchTeacher</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.SearchUserTest" hash-for-method="testClarolineSearchUser">testClarolineSearchUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.ViewProfileStatisticsUserTest" hash-for-method="testClarolineViewProfileStatisticsUser">testClarolineViewProfileStatisticsUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveCourseExerciseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineRemoveCourseExercise">
+                  </a> <!-- testClarolineRemoveCourseExercise -->
+                  <span class="method-name">testClarolineRemoveCourseExercise</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddMultipleUsersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineAddMultipleUsers">
+                  </a> <!-- testClarolineAddMultipleUsers -->
+                  <span class="method-name">testClarolineAddMultipleUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.EnrolMultipleUsersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineEnrolMultipleUsers">
+                  </a> <!-- testClarolineEnrolMultipleUsers -->
+                  <span class="method-name">testClarolineEnrolMultipleUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DoCourseExerciseQuestionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineDoCourseExerciseQuestions">
+                  </a> <!-- testClarolineDoCourseExerciseQuestions -->
+                  <span class="method-name">testClarolineDoCourseExerciseQuestions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveEnrolMultipleUsersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineRemoveEnrolMultipleUsers">
+                  </a> <!-- testClarolineRemoveEnrolMultipleUsers -->
+                  <span class="method-name">testClarolineRemoveEnrolMultipleUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddCourseExerciseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineAddCourseExercise">
+                  </a> <!-- testClarolineAddCourseExercise -->
+                  <span class="method-name">testClarolineAddCourseExercise</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddWrongEmailUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineAddWrongEmailUser">
+                  </a> <!-- testClarolineAddWrongEmailUser -->
+                  <span class="method-name">testClarolineAddWrongEmailUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddCourseExerciseQuestionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineAddCourseExerciseQuestions">
+                  </a> <!-- testClarolineAddCourseExerciseQuestions -->
+                  <span class="method-name">testClarolineAddCourseExerciseQuestions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.EnrolDeniedCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineEnrolDeniedCourse">
+                  </a> <!-- testClarolineEnrolDeniedCourse -->
+                  <span class="method-name">testClarolineEnrolDeniedCourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.EnrolPasswordCourseWrongPasswordUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineEnrolPasswordCourseWrongPasswordUser">
+                  </a> <!-- testClarolineEnrolPasswordCourseWrongPasswordUser -->
+                  <span class="method-name">testClarolineEnrolPasswordCourseWrongPasswordUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchAdminTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineSearchAdmin">
+                  </a> <!-- testClarolineSearchAdmin -->
+                  <span class="method-name">testClarolineSearchAdmin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddEmptyCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineAddEmptyCourse">
+                  </a> <!-- testClarolineAddEmptyCourse -->
+                  <span class="method-name">testClarolineAddEmptyCourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveCourseExerciseQuestionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineRemoveCourseExerciseQuestions">
+                  </a> <!-- testClarolineRemoveCourseExerciseQuestions -->
+                  <span class="method-name">testClarolineRemoveCourseExerciseQuestions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchAndRemovePasswordCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineSearchAndRemovePasswordCourse">
+                  </a> <!-- testClarolineSearchAndRemovePasswordCourse -->
+                  <span class="method-name">testClarolineSearchAndRemovePasswordCourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineSearchCourse">
+                  </a> <!-- testClarolineSearchCourse -->
+                  <span class="method-name">testClarolineSearchCourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchTeacherTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineSearchTeacher">
+                  </a> <!-- testClarolineSearchTeacher -->
+                  <span class="method-name">testClarolineSearchTeacher</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchStudentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineSearchStudent">
+                  </a> <!-- testClarolineSearchStudent -->
+                  <span class="method-name">testClarolineSearchStudent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddEmptyUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineAddEmptyUser">
+                  </a> <!-- testClarolineAddEmptyUser -->
+                  <span class="method-name">testClarolineAddEmptyUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.MakeCourseExerciseVisibleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineMakeCourseExerciseVisible">
+                  </a> <!-- testClarolineMakeCourseExerciseVisible -->
+                  <span class="method-name">testClarolineMakeCourseExerciseVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineAddCourse">
+                  </a> <!-- testClarolineAddCourse -->
+                  <span class="method-name">testClarolineAddCourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineLoginUser">
+                  </a> <!-- testClarolineLoginUser -->
+                  <span class="method-name">testClarolineLoginUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineAddUser">
+                  </a> <!-- testClarolineAddUser -->
+                  <span class="method-name">testClarolineAddUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineRemoveUser">
+                  </a> <!-- testClarolineRemoveUser -->
+                  <span class="method-name">testClarolineRemoveUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.EnrolUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineEnrolUser">
+                  </a> <!-- testClarolineEnrolUser -->
+                  <span class="method-name">testClarolineEnrolUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineSearchUser">
+                  </a> <!-- testClarolineSearchUser -->
+                  <span class="method-name">testClarolineSearchUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineRemoveCourse">
+                  </a> <!-- testClarolineRemoveCourse -->
+                  <span class="method-name">testClarolineRemoveCourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchMultipleUsersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineSearchMultipleUsers">
+                  </a> <!-- testClarolineSearchMultipleUsers -->
+                  <span class="method-name">testClarolineSearchMultipleUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.EnrolPasswordCourseGoodPasswordUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineEnrolPasswordCourseGoodPasswordUser">
+                  </a> <!-- testClarolineEnrolPasswordCourseGoodPasswordUser -->
+                  <span class="method-name">testClarolineEnrolPasswordCourseGoodPasswordUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchAllowedCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineSearchAllowedCourse">
+                  </a> <!-- testClarolineSearchAllowedCourse -->
+                  <span class="method-name">testClarolineSearchAllowedCourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddCourseEventTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineAddCourseEvent">
+                  </a> <!-- testClarolineAddCourseEvent -->
+                  <span class="method-name">testClarolineAddCourseEvent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddWrongPasswordUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineAddWrongPasswordUser">
+                  </a> <!-- testClarolineAddWrongPasswordUser -->
+                  <span class="method-name">testClarolineAddWrongPasswordUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddTwiceUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineAddTwiceUser">
+                  </a> <!-- testClarolineAddTwiceUser -->
+                  <span class="method-name">testClarolineAddTwiceUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchAndRemoveDeniedCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineSearchAndRemoveDeniedCourse">
+                  </a> <!-- testClarolineSearchAndRemoveDeniedCourse -->
+                  <span class="method-name">testClarolineSearchAndRemoveDeniedCourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveEnrolUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineRemoveEnrolUser">
+                  </a> <!-- testClarolineRemoveEnrolUser -->
+                  <span class="method-name">testClarolineRemoveEnrolUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddPasswordCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineAddPasswordCourse">
+                  </a> <!-- testClarolineAddPasswordCourse -->
+                  <span class="method-name">testClarolineAddPasswordCourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ViewProfileStatisticsUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineViewProfileStatisticsUser">
+                  </a> <!-- testClarolineViewProfileStatisticsUser -->
+                  <span class="method-name">testClarolineViewProfileStatisticsUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveMultipleUsersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineRemoveMultipleUsers">
+                  </a> <!-- testClarolineRemoveMultipleUsers -->
+                  <span class="method-name">testClarolineRemoveMultipleUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RemoveCourseEventTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineRemoveCourseEvent">
+                  </a> <!-- testClarolineRemoveCourseEvent -->
+                  <span class="method-name">testClarolineRemoveCourseEvent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DoCourseExerciseQuestionsMultipleUsersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineDoCourseExerciseQuestionsMultipleUsers">
+                  </a> <!-- testClarolineDoCourseExerciseQuestionsMultipleUsers -->
+                  <span class="method-name">testClarolineDoCourseExerciseQuestionsMultipleUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddDeniedCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClarolineAddDeniedCourse">
+                  </a> <!-- testClarolineAddDeniedCourse -->
+                  <span class="method-name">testClarolineAddDeniedCourse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/anonymous/workspace/FSE19-submission-material/testsuite-claroline-testng/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;parameter name=&quot;port&quot; value=&quot;3000&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AddUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.SearchUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.LoginUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddCourseTest&quot;/&gt;
+      &lt;class name=&quot;tests.SearchCourseTest&quot;/&gt;
+      &lt;class name=&quot;tests.EnrolUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddCourseEventTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddCourseExerciseTest&quot;/&gt;
+      &lt;class name=&quot;tests.MakeCourseExerciseVisibleTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddCourseExerciseQuestionsTest&quot;/&gt;
+      &lt;class name=&quot;tests.DoCourseExerciseQuestionsTest&quot;/&gt;
+      &lt;class name=&quot;tests.ViewProfileStatisticsUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddMultipleUsersTest&quot;/&gt;
+      &lt;class name=&quot;tests.SearchMultipleUsersTest&quot;/&gt;
+      &lt;class name=&quot;tests.SearchStudentTest&quot;/&gt;
+      &lt;class name=&quot;tests.SearchTeacherTest&quot;/&gt;
+      &lt;class name=&quot;tests.SearchAdminTest&quot;/&gt;
+      &lt;class name=&quot;tests.EnrolMultipleUsersTest&quot;/&gt;
+      &lt;class name=&quot;tests.DoCourseExerciseQuestionsMultipleUsersTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveEnrolMultipleUsersTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveMultipleUsersTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddEmptyUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddWrongEmailUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddTwiceUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddWrongPasswordUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddEmptyCourseTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddDeniedCourseTest&quot;/&gt;
+      &lt;class name=&quot;tests.EnrolDeniedCourseTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddPasswordCourseTest&quot;/&gt;
+      &lt;class name=&quot;tests.EnrolPasswordCourseWrongPasswordUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.EnrolPasswordCourseGoodPasswordUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.SearchAllowedCourseTest&quot;/&gt;
+      &lt;class name=&quot;tests.SearchAndRemovePasswordCourseTest&quot;/&gt;
+      &lt;class name=&quot;tests.SearchAndRemoveDeniedCourseTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveCourseExerciseQuestionsTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveCourseEventTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveCourseExerciseTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveEnrolUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.RemoveCourseTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (40 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testClarolineAddCourseExerciseQuestions')
+data.setCell(0, 2, 'tests.AddCourseExerciseQuestionsTest')
+data.setCell(0, 3, 5365);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testClarolineDoCourseExerciseQuestionsMultipleUsers')
+data.setCell(1, 2, 'tests.DoCourseExerciseQuestionsMultipleUsersTest')
+data.setCell(1, 3, 4752);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testClarolineEnrolMultipleUsers')
+data.setCell(2, 2, 'tests.EnrolMultipleUsersTest')
+data.setCell(2, 3, 3587);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testClarolineAddMultipleUsers')
+data.setCell(3, 2, 'tests.AddMultipleUsersTest')
+data.setCell(3, 3, 3405);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testClarolineAddCourseEvent')
+data.setCell(4, 2, 'tests.AddCourseEventTest')
+data.setCell(4, 3, 1946);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testClarolineAddPasswordCourse')
+data.setCell(5, 2, 'tests.AddPasswordCourseTest')
+data.setCell(5, 3, 1697);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testClarolineAddCourse')
+data.setCell(6, 2, 'tests.AddCourseTest')
+data.setCell(6, 3, 1662);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testClarolineAddUser')
+data.setCell(7, 2, 'tests.AddUserTest')
+data.setCell(7, 3, 1641);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testClarolineAddDeniedCourse')
+data.setCell(8, 2, 'tests.AddDeniedCourseTest')
+data.setCell(8, 3, 1543);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testClarolineAddTwiceUser')
+data.setCell(9, 2, 'tests.AddTwiceUserTest')
+data.setCell(9, 3, 1443);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testClarolineAddCourseExercise')
+data.setCell(10, 2, 'tests.AddCourseExerciseTest')
+data.setCell(10, 3, 1439);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testClarolineAddWrongEmailUser')
+data.setCell(11, 2, 'tests.AddWrongEmailUserTest')
+data.setCell(11, 3, 1418);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testClarolineDoCourseExerciseQuestions')
+data.setCell(12, 2, 'tests.DoCourseExerciseQuestionsTest')
+data.setCell(12, 3, 1373);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testClarolineAddWrongPasswordUser')
+data.setCell(13, 2, 'tests.AddWrongPasswordUserTest')
+data.setCell(13, 3, 1352);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testClarolineRemoveCourseExerciseQuestions')
+data.setCell(14, 2, 'tests.RemoveCourseExerciseQuestionsTest')
+data.setCell(14, 3, 1322);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testClarolineRemoveMultipleUsers')
+data.setCell(15, 2, 'tests.RemoveMultipleUsersTest')
+data.setCell(15, 3, 1297);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testClarolineRemoveEnrolMultipleUsers')
+data.setCell(16, 2, 'tests.RemoveEnrolMultipleUsersTest')
+data.setCell(16, 3, 1240);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testClarolineSearchAndRemovePasswordCourse')
+data.setCell(17, 2, 'tests.SearchAndRemovePasswordCourseTest')
+data.setCell(17, 3, 1191);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testClarolineEnrolPasswordCourseGoodPasswordUser')
+data.setCell(18, 2, 'tests.EnrolPasswordCourseGoodPasswordUserTest')
+data.setCell(18, 3, 1183);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testClarolineSearchAndRemoveDeniedCourse')
+data.setCell(19, 2, 'tests.SearchAndRemoveDeniedCourseTest')
+data.setCell(19, 3, 1168);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testClarolineEnrolPasswordCourseWrongPasswordUser')
+data.setCell(20, 2, 'tests.EnrolPasswordCourseWrongPasswordUserTest')
+data.setCell(20, 3, 1150);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testClarolineRemoveCourseEvent')
+data.setCell(21, 2, 'tests.RemoveCourseEventTest')
+data.setCell(21, 3, 1135);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testClarolineSearchMultipleUsers')
+data.setCell(22, 2, 'tests.SearchMultipleUsersTest')
+data.setCell(22, 3, 1064);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testClarolineSearchAllowedCourse')
+data.setCell(23, 2, 'tests.SearchAllowedCourseTest')
+data.setCell(23, 3, 1051);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testClarolineRemoveCourse')
+data.setCell(24, 2, 'tests.RemoveCourseTest')
+data.setCell(24, 3, 1041);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testClarolineSearchStudent')
+data.setCell(25, 2, 'tests.SearchStudentTest')
+data.setCell(25, 3, 1036);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testClarolineEnrolUser')
+data.setCell(26, 2, 'tests.EnrolUserTest')
+data.setCell(26, 3, 1034);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testClarolineSearchAdmin')
+data.setCell(27, 2, 'tests.SearchAdminTest')
+data.setCell(27, 3, 1023);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testClarolineRemoveCourseExercise')
+data.setCell(28, 2, 'tests.RemoveCourseExerciseTest')
+data.setCell(28, 3, 1012);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testClarolineSearchTeacher')
+data.setCell(29, 2, 'tests.SearchTeacherTest')
+data.setCell(29, 3, 1010);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testClarolineRemoveUser')
+data.setCell(30, 2, 'tests.RemoveUserTest')
+data.setCell(30, 3, 1000);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testClarolineViewProfileStatisticsUser')
+data.setCell(31, 2, 'tests.ViewProfileStatisticsUserTest')
+data.setCell(31, 3, 973);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testClarolineSearchUser')
+data.setCell(32, 2, 'tests.SearchUserTest')
+data.setCell(32, 3, 944);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testClarolineEnrolDeniedCourse')
+data.setCell(33, 2, 'tests.EnrolDeniedCourseTest')
+data.setCell(33, 3, 938);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testClarolineSearchCourse')
+data.setCell(34, 2, 'tests.SearchCourseTest')
+data.setCell(34, 3, 928);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testClarolineAddEmptyCourse')
+data.setCell(35, 2, 'tests.AddEmptyCourseTest')
+data.setCell(35, 3, 925);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testClarolineMakeCourseExerciseVisible')
+data.setCell(36, 2, 'tests.MakeCourseExerciseVisibleTest')
+data.setCell(36, 3, 922);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testClarolineAddEmptyUser')
+data.setCell(37, 2, 'tests.AddEmptyUserTest')
+data.setCell(37, 3, 852);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testClarolineRemoveEnrolUser')
+data.setCell(38, 2, 'tests.RemoveEnrolUserTest')
+data.setCell(38, 3, 752);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testClarolineLoginUser')
+data.setCell(39, 2, 'tests.LoginUserTest')
+data.setCell(39, 3, 540);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineAddUser</span>
+                <span class="method-start">1477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3120 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">3199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineSearchUser</span>
+                <span class="method-start">3534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4478 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">4547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineLoginUser</span>
+                <span class="method-start">4880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5420 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">5496 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineAddCourse</span>
+                <span class="method-start">5824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7487 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">7558 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineSearchCourse</span>
+                <span class="method-start">7906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8834 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.EnrolUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">8904 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineEnrolUser</span>
+                <span class="method-start">9235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10269 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddCourseEventTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">10342 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineAddCourseEvent</span>
+                <span class="method-start">10733 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12680 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddCourseExerciseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">12759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineAddCourseExercise</span>
+                <span class="method-start">13078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14517 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MakeCourseExerciseVisibleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">14594 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineMakeCourseExerciseVisible</span>
+                <span class="method-start">14929 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15851 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddCourseExerciseQuestionsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">15923 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineAddCourseExerciseQuestions</span>
+                <span class="method-start">16256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21621 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DoCourseExerciseQuestionsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">21689 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineDoCourseExerciseQuestions</span>
+                <span class="method-start">22049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23422 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ViewProfileStatisticsUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">23490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineViewProfileStatisticsUser</span>
+                <span class="method-start">23822 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24795 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddMultipleUsersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">24865 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineAddMultipleUsers</span>
+                <span class="method-start">25193 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28598 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchMultipleUsersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">28680 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineSearchMultipleUsers</span>
+                <span class="method-start">29018 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30082 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchStudentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">30159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineSearchStudent</span>
+                <span class="method-start">30493 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31529 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchTeacherTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">31608 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineSearchTeacher</span>
+                <span class="method-start">31921 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32931 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchAdminTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">33003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineSearchAdmin</span>
+                <span class="method-start">33324 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34347 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.EnrolMultipleUsersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">34415 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineEnrolMultipleUsers</span>
+                <span class="method-start">34747 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38335 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DoCourseExerciseQuestionsMultipleUsersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">38401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineDoCourseExerciseQuestionsMultipleUsers</span>
+                <span class="method-start">38729 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43481 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveEnrolMultipleUsersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">43557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineRemoveEnrolMultipleUsers</span>
+                <span class="method-start">43892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45133 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveMultipleUsersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">45207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineRemoveMultipleUsers</span>
+                <span class="method-start">45560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46858 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddEmptyUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">46935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineAddEmptyUser</span>
+                <span class="method-start">47248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48100 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddWrongEmailUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">48172 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineAddWrongEmailUser</span>
+                <span class="method-start">48498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49916 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddTwiceUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">49998 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineAddTwiceUser</span>
+                <span class="method-start">50318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51761 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddWrongPasswordUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">51832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineAddWrongPasswordUser</span>
+                <span class="method-start">52146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53498 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddEmptyCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">53565 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineAddEmptyCourse</span>
+                <span class="method-start">53876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54801 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddDeniedCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">54880 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineAddDeniedCourse</span>
+                <span class="method-start">55194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56737 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.EnrolDeniedCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">56810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineEnrolDeniedCourse</span>
+                <span class="method-start">57134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58072 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddPasswordCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">58143 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineAddPasswordCourse</span>
+                <span class="method-start">58466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60163 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.EnrolPasswordCourseWrongPasswordUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">60231 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineEnrolPasswordCourseWrongPasswordUser</span>
+                <span class="method-start">60560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61710 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.EnrolPasswordCourseGoodPasswordUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">61783 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineEnrolPasswordCourseGoodPasswordUser</span>
+                <span class="method-start">62117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63300 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchAllowedCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">63373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineSearchAllowedCourse</span>
+                <span class="method-start">63679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64730 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchAndRemovePasswordCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">64799 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineSearchAndRemovePasswordCourse</span>
+                <span class="method-start">65133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66324 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchAndRemoveDeniedCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">66405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineSearchAndRemoveDeniedCourse</span>
+                <span class="method-start">66747 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67915 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveCourseExerciseQuestionsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">67985 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineRemoveCourseExerciseQuestions</span>
+                <span class="method-start">68303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">69626 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveCourseEventTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">69691 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineRemoveCourseEvent</span>
+                <span class="method-start">70040 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71175 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveCourseExerciseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">71244 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineRemoveCourseExercise</span>
+                <span class="method-start">71573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72585 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveEnrolUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">72657 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineRemoveEnrolUser</span>
+                <span class="method-start">72982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">73734 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">73806 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineRemoveUser</span>
+                <span class="method-start">74131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75131 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RemoveCourseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">75204 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClarolineRemoveCourse</span>
+                <span class="method-start">75534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">76575 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

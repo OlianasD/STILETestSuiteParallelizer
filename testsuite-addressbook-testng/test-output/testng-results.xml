@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="27" passed="27">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51850" started-at="2020-12-01T07:31:40 PST" finished-at="2020-12-01T07:32:32 PST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51850" started-at="2020-12-01T07:31:40 PST" finished-at="2020-12-01T07:32:32 PST">
+      <class name="tests.AddressBookAssignToGroupTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookAssignToGroupTest@2833cc44]" name="setUp" is-config="true" duration-ms="281" started-at="2020-12-01T07:31:46 PST" finished-at="2020-12-01T07:31:47 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookAssignToGroup()[pri:0, instance:tests.AddressBookAssignToGroupTest@2833cc44]" name="testAddressBookAssignToGroup" duration-ms="500" started-at="2020-12-01T07:31:47 PST" finished-at="2020-12-01T07:31:47 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookAssignToGroup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookAssignToGroupTest@2833cc44]" name="tearDown" is-config="true" duration-ms="68" started-at="2020-12-01T07:31:47 PST" finished-at="2020-12-01T07:31:47 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookAssignToGroupTest -->
+      <class name="tests.AddressBookPrintMultipleAddressBookTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookPrintMultipleAddressBookTest@1877ab81]" name="setUp" is-config="true" duration-ms="318" started-at="2020-12-01T07:32:15 PST" finished-at="2020-12-01T07:32:15 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookPrintMultipleAddressBook()[pri:0, instance:tests.AddressBookPrintMultipleAddressBookTest@1877ab81]" name="testAddressBookPrintMultipleAddressBook" duration-ms="1130" started-at="2020-12-01T07:32:15 PST" finished-at="2020-12-01T07:32:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookPrintMultipleAddressBook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookPrintMultipleAddressBookTest@1877ab81]" name="tearDown" is-config="true" duration-ms="36" started-at="2020-12-01T07:32:16 PST" finished-at="2020-12-01T07:32:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookPrintMultipleAddressBookTest -->
+      <class name="tests.AddressBookEditMultipleAddressBookTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookEditMultipleAddressBookTest@305fd85d]" name="setUp" is-config="true" duration-ms="359" started-at="2020-12-01T07:32:16 PST" finished-at="2020-12-01T07:32:17 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookEditMultipleAddressBook()[pri:0, instance:tests.AddressBookEditMultipleAddressBookTest@305fd85d]" name="testAddressBookEditMultipleAddressBook" duration-ms="3590" started-at="2020-12-01T07:32:17 PST" finished-at="2020-12-01T07:32:20 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookEditMultipleAddressBook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookEditMultipleAddressBookTest@305fd85d]" name="tearDown" is-config="true" duration-ms="73" started-at="2020-12-01T07:32:20 PST" finished-at="2020-12-01T07:32:20 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookEditMultipleAddressBookTest -->
+      <class name="tests.AddressBookSearchAddressBookNameTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookSearchAddressBookNameTest@17579e0f]" name="setUp" is-config="true" duration-ms="292" started-at="2020-12-01T07:31:43 PST" finished-at="2020-12-01T07:31:44 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookSearchAddressBookName()[pri:0, instance:tests.AddressBookSearchAddressBookNameTest@17579e0f]" name="testAddressBookSearchAddressBookName" duration-ms="563" started-at="2020-12-01T07:31:44 PST" finished-at="2020-12-01T07:31:44 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookSearchAddressBookName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookSearchAddressBookNameTest@17579e0f]" name="tearDown" is-config="true" duration-ms="75" started-at="2020-12-01T07:31:44 PST" finished-at="2020-12-01T07:31:44 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookSearchAddressBookNameTest -->
+      <class name="tests.AddressBookRemoveFromMultipleGroupsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookRemoveFromMultipleGroupsTest@11438d26]" name="setUp" is-config="true" duration-ms="353" started-at="2020-12-01T07:32:26 PST" finished-at="2020-12-01T07:32:26 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookRemoveFromMultipleGroups()[pri:0, instance:tests.AddressBookRemoveFromMultipleGroupsTest@11438d26]" name="testAddressBookRemoveFromMultipleGroups" duration-ms="2206" started-at="2020-12-01T07:32:26 PST" finished-at="2020-12-01T07:32:29 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookRemoveFromMultipleGroups -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookRemoveFromMultipleGroupsTest@11438d26]" name="tearDown" is-config="true" duration-ms="71" started-at="2020-12-01T07:32:29 PST" finished-at="2020-12-01T07:32:29 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookRemoveFromMultipleGroupsTest -->
+      <class name="tests.AddressBookSearchAddressBookEmailTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookSearchAddressBookEmailTest@4d41cee]" name="setUp" is-config="true" duration-ms="262" started-at="2020-12-01T07:31:44 PST" finished-at="2020-12-01T07:31:44 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookSearchAddressBookEmail()[pri:0, instance:tests.AddressBookSearchAddressBookEmailTest@4d41cee]" name="testAddressBookSearchAddressBookEmail" duration-ms="590" started-at="2020-12-01T07:31:44 PST" finished-at="2020-12-01T07:31:45 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookSearchAddressBookEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookSearchAddressBookEmailTest@4d41cee]" name="tearDown" is-config="true" duration-ms="74" started-at="2020-12-01T07:31:45 PST" finished-at="2020-12-01T07:31:45 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookSearchAddressBookEmailTest -->
+      <class name="tests.AddressBookRemoveMultipleGroupsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookRemoveMultipleGroupsTest@34cd072c]" name="setUp" is-config="true" duration-ms="303" started-at="2020-12-01T07:32:29 PST" finished-at="2020-12-01T07:32:29 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookRemoveMultipleGroups()[pri:0, instance:tests.AddressBookRemoveMultipleGroupsTest@34cd072c]" name="testAddressBookRemoveMultipleGroups" duration-ms="954" started-at="2020-12-01T07:32:29 PST" finished-at="2020-12-01T07:32:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookRemoveMultipleGroups -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookRemoveMultipleGroupsTest@34cd072c]" name="tearDown" is-config="true" duration-ms="45" started-at="2020-12-01T07:32:30 PST" finished-at="2020-12-01T07:32:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookRemoveMultipleGroupsTest -->
+      <class name="tests.AddressBookAddGroupTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookAddGroupTest@3712b94]" name="setUp" is-config="true" duration-ms="274" started-at="2020-12-01T07:31:45 PST" finished-at="2020-12-01T07:31:45 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookAddGroup()[pri:0, instance:tests.AddressBookAddGroupTest@3712b94]" name="testAddressBookAddGroup" duration-ms="978" started-at="2020-12-01T07:31:45 PST" finished-at="2020-12-01T07:31:46 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookAddGroup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookAddGroupTest@3712b94]" name="tearDown" is-config="true" duration-ms="74" started-at="2020-12-01T07:31:46 PST" finished-at="2020-12-01T07:31:46 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookAddGroupTest -->
+      <class name="tests.AddressBookSearchByGroupTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookSearchByGroupTest@33f88ab]" name="setUp" is-config="true" duration-ms="342" started-at="2020-12-01T07:31:47 PST" finished-at="2020-12-01T07:31:48 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookSearchByGroup()[pri:0, instance:tests.AddressBookSearchByGroupTest@33f88ab]" name="testAddressBookSearchByGroup" duration-ms="755" started-at="2020-12-01T07:31:48 PST" finished-at="2020-12-01T07:31:48 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookSearchByGroup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookSearchByGroupTest@33f88ab]" name="tearDown" is-config="true" duration-ms="66" started-at="2020-12-01T07:31:48 PST" finished-at="2020-12-01T07:31:48 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookSearchByGroupTest -->
+      <class name="tests.AddressBookCheckMultipleBirthdaysInfoTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookCheckMultipleBirthdaysInfoTest@57e1b0c]" name="setUp" is-config="true" duration-ms="446" started-at="2020-12-01T07:32:12 PST" finished-at="2020-12-01T07:32:13 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookCheckMultipleBirthdaysInfo()[pri:0, instance:tests.AddressBookCheckMultipleBirthdaysInfoTest@57e1b0c]" name="testAddressBookCheckMultipleBirthdaysInfo" duration-ms="1123" started-at="2020-12-01T07:32:13 PST" finished-at="2020-12-01T07:32:14 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookCheckMultipleBirthdaysInfo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookCheckMultipleBirthdaysInfoTest@57e1b0c]" name="tearDown" is-config="true" duration-ms="69" started-at="2020-12-01T07:32:14 PST" finished-at="2020-12-01T07:32:14 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookCheckMultipleBirthdaysInfoTest -->
+      <class name="tests.AddressBookCheckBirthdayInfoTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookCheckBirthdayInfoTest@27a8c74e]" name="setUp" is-config="true" duration-ms="313" started-at="2020-12-01T07:31:48 PST" finished-at="2020-12-01T07:31:49 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookCheckBirthdayInfo()[pri:0, instance:tests.AddressBookCheckBirthdayInfoTest@27a8c74e]" name="testAddressBookCheckBirthdayInfo" duration-ms="657" started-at="2020-12-01T07:31:49 PST" finished-at="2020-12-01T07:31:49 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookCheckBirthdayInfo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookCheckBirthdayInfoTest@27a8c74e]" name="tearDown" is-config="true" duration-ms="73" started-at="2020-12-01T07:31:49 PST" finished-at="2020-12-01T07:31:50 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookCheckBirthdayInfoTest -->
+      <class name="tests.AddressBookEditGroupTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookEditGroupTest@59e5ddf]" name="setUp" is-config="true" duration-ms="348" started-at="2020-12-01T07:31:53 PST" finished-at="2020-12-01T07:31:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookEditGroup()[pri:0, instance:tests.AddressBookEditGroupTest@59e5ddf]" name="testAddressBookEditGroup" duration-ms="1489" started-at="2020-12-01T07:31:54 PST" finished-at="2020-12-01T07:31:55 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookEditGroup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookEditGroupTest@59e5ddf]" name="tearDown" is-config="true" duration-ms="78" started-at="2020-12-01T07:31:55 PST" finished-at="2020-12-01T07:31:55 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookEditGroupTest -->
+      <class name="tests.AddressBookAddMultipleGroupsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookAddMultipleGroupsTest@6ee52dcd]" name="setUp" is-config="true" duration-ms="335" started-at="2020-12-01T07:32:06 PST" finished-at="2020-12-01T07:32:06 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookAddMultipleGroups()[pri:0, instance:tests.AddressBookAddMultipleGroupsTest@6ee52dcd]" name="testAddressBookAddMultipleGroups" duration-ms="2877" started-at="2020-12-01T07:32:06 PST" finished-at="2020-12-01T07:32:09 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookAddMultipleGroups -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookAddMultipleGroupsTest@6ee52dcd]" name="tearDown" is-config="true" duration-ms="74" started-at="2020-12-01T07:32:09 PST" finished-at="2020-12-01T07:32:09 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookAddMultipleGroupsTest -->
+      <class name="tests.AddressBookRemoveAddressBookTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookRemoveAddressBookTest@1f57539]" name="setUp" is-config="true" duration-ms="288" started-at="2020-12-01T07:31:57 PST" finished-at="2020-12-01T07:31:57 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookRemoveAddressBook()[pri:0, instance:tests.AddressBookRemoveAddressBookTest@1f57539]" name="testAddressBookRemoveAddressBook" duration-ms="594" started-at="2020-12-01T07:31:57 PST" finished-at="2020-12-01T07:31:58 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookRemoveAddressBook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookRemoveAddressBookTest@1f57539]" name="tearDown" is-config="true" duration-ms="89" started-at="2020-12-01T07:31:58 PST" finished-at="2020-12-01T07:31:58 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookRemoveAddressBookTest -->
+      <class name="tests.AddressBookAssignToMultipleGroupsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookAssignToMultipleGroupsTest@4493d195]" name="setUp" is-config="true" duration-ms="392" started-at="2020-12-01T07:32:09 PST" finished-at="2020-12-01T07:32:09 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookAssignToMultipleGroups()[pri:0, instance:tests.AddressBookAssignToMultipleGroupsTest@4493d195]" name="testAddressBookAssignToMultipleGroups" duration-ms="1425" started-at="2020-12-01T07:32:09 PST" finished-at="2020-12-01T07:32:11 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookAssignToMultipleGroups -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookAssignToMultipleGroupsTest@4493d195]" name="tearDown" is-config="true" duration-ms="69" started-at="2020-12-01T07:32:11 PST" finished-at="2020-12-01T07:32:11 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookAssignToMultipleGroupsTest -->
+      <class name="tests.AddressBookSearchMultipleAddressBookNameTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookSearchMultipleAddressBookNameTest@704a52ec]" name="setUp" is-config="true" duration-ms="449" started-at="2020-12-01T07:32:03 PST" finished-at="2020-12-01T07:32:04 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookSearchMultipleAddressBookName()[pri:0, instance:tests.AddressBookSearchMultipleAddressBookNameTest@704a52ec]" name="testAddressBookSearchMultipleAddressBookName" duration-ms="1889" started-at="2020-12-01T07:32:04 PST" finished-at="2020-12-01T07:32:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookSearchMultipleAddressBookName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookSearchMultipleAddressBookNameTest@704a52ec]" name="tearDown" is-config="true" duration-ms="68" started-at="2020-12-01T07:32:06 PST" finished-at="2020-12-01T07:32:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookSearchMultipleAddressBookNameTest -->
+      <class name="tests.AddressBookPrintAddressBookTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookPrintAddressBookTest@1b68ddbd]" name="setUp" is-config="true" duration-ms="271" started-at="2020-12-01T07:31:51 PST" finished-at="2020-12-01T07:31:51 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookPrintAddressBook()[pri:0, instance:tests.AddressBookPrintAddressBookTest@1b68ddbd]" name="testAddressBookPrintAddressBook" duration-ms="583" started-at="2020-12-01T07:31:51 PST" finished-at="2020-12-01T07:31:51 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookPrintAddressBook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookPrintAddressBookTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="69" started-at="2020-12-01T07:31:51 PST" finished-at="2020-12-01T07:31:51 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookPrintAddressBookTest -->
+      <class name="tests.AddressBookRemoveGroupTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookRemoveGroupTest@e320068]" name="setUp" is-config="true" duration-ms="300" started-at="2020-12-01T07:31:56 PST" finished-at="2020-12-01T07:31:57 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookRemoveGroup()[pri:0, instance:tests.AddressBookRemoveGroupTest@e320068]" name="testAddressBookRemoveGroup" duration-ms="534" started-at="2020-12-01T07:31:57 PST" finished-at="2020-12-01T07:31:57 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookRemoveGroup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookRemoveGroupTest@e320068]" name="tearDown" is-config="true" duration-ms="76" started-at="2020-12-01T07:31:57 PST" finished-at="2020-12-01T07:31:57 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookRemoveGroupTest -->
+      <class name="tests.AddressBookEditAddressBookTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookEditAddressBookTest@646d64ab]" name="setUp" is-config="true" duration-ms="462" started-at="2020-12-01T07:31:51 PST" finished-at="2020-12-01T07:31:52 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookEditAddressBook()[pri:0, instance:tests.AddressBookEditAddressBookTest@646d64ab]" name="testAddressBookEditAddressBook" duration-ms="1314" started-at="2020-12-01T07:31:52 PST" finished-at="2020-12-01T07:31:53 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookEditAddressBook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookEditAddressBookTest@646d64ab]" name="tearDown" is-config="true" duration-ms="73" started-at="2020-12-01T07:31:53 PST" finished-at="2020-12-01T07:31:53 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookEditAddressBookTest -->
+      <class name="tests.AddressBookRemoveFromGroupTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookRemoveFromGroupTest@536aaa8d]" name="setUp" is-config="true" duration-ms="309" started-at="2020-12-01T07:31:55 PST" finished-at="2020-12-01T07:31:56 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookRemoveFromGroup()[pri:0, instance:tests.AddressBookRemoveFromGroupTest@536aaa8d]" name="testAddressBookRemoveFromGroup" duration-ms="608" started-at="2020-12-01T07:31:56 PST" finished-at="2020-12-01T07:31:56 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookRemoveFromGroup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookRemoveFromGroupTest@536aaa8d]" name="tearDown" is-config="true" duration-ms="86" started-at="2020-12-01T07:31:56 PST" finished-at="2020-12-01T07:31:56 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookRemoveFromGroupTest -->
+      <class name="tests.AddressBookSearchByMultipleGroupsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookSearchByMultipleGroupsTest@2781e022]" name="setUp" is-config="true" duration-ms="277" started-at="2020-12-01T07:32:11 PST" finished-at="2020-12-01T07:32:11 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookSearchByMultipleGroups()[pri:0, instance:tests.AddressBookSearchByMultipleGroupsTest@2781e022]" name="testAddressBookSearchByMultipleGroups" duration-ms="1132" started-at="2020-12-01T07:32:11 PST" finished-at="2020-12-01T07:32:12 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookSearchByMultipleGroups -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookSearchByMultipleGroupsTest@2781e022]" name="tearDown" is-config="true" duration-ms="35" started-at="2020-12-01T07:32:12 PST" finished-at="2020-12-01T07:32:12 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookSearchByMultipleGroupsTest -->
+      <class name="tests.AddressBookAddAddressBookTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookAddAddressBookTest@4b1c1ea0]" name="setUp" is-config="true" duration-ms="1520" started-at="2020-12-01T07:31:40 PST" finished-at="2020-12-01T07:31:41 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookAddAddressBook()[pri:0, instance:tests.AddressBookAddAddressBookTest@4b1c1ea0]" name="testAddressBookAddAddressBook" duration-ms="1718" started-at="2020-12-01T07:31:41 PST" finished-at="2020-12-01T07:31:43 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookAddAddressBook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookAddAddressBookTest@4b1c1ea0]" name="tearDown" is-config="true" duration-ms="79" started-at="2020-12-01T07:31:43 PST" finished-at="2020-12-01T07:31:43 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookAddAddressBookTest -->
+      <class name="tests.AddressBookEditMultipleGroupsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookEditMultipleGroupsTest@458c1321]" name="setUp" is-config="true" duration-ms="390" started-at="2020-12-01T07:32:20 PST" finished-at="2020-12-01T07:32:21 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookEditMultipleGroups()[pri:0, instance:tests.AddressBookEditMultipleGroupsTest@458c1321]" name="testAddressBookEditMultipleGroups" duration-ms="5150" started-at="2020-12-01T07:32:21 PST" finished-at="2020-12-01T07:32:26 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookEditMultipleGroups -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookEditMultipleGroupsTest@458c1321]" name="tearDown" is-config="true" duration-ms="76" started-at="2020-12-01T07:32:26 PST" finished-at="2020-12-01T07:32:26 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookEditMultipleGroupsTest -->
+      <class name="tests.AddressBookRemoveMultipleAddressBookTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookRemoveMultipleAddressBookTest@7a1ebcd8]" name="setUp" is-config="true" duration-ms="261" started-at="2020-12-01T07:32:30 PST" finished-at="2020-12-01T07:32:30 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookRemoveMultipleAddressBook()[pri:0, instance:tests.AddressBookRemoveMultipleAddressBookTest@7a1ebcd8]" name="testAddressBookRemoveMultipleAddressBook" duration-ms="1385" started-at="2020-12-01T07:32:30 PST" finished-at="2020-12-01T07:32:32 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookRemoveMultipleAddressBook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookRemoveMultipleAddressBookTest@7a1ebcd8]" name="tearDown" is-config="true" duration-ms="68" started-at="2020-12-01T07:32:32 PST" finished-at="2020-12-01T07:32:32 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookRemoveMultipleAddressBookTest -->
+      <class name="tests.AddressBookAddMultipleAddressBookTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookAddMultipleAddressBookTest@76f2b07d]" name="setUp" is-config="true" duration-ms="260" started-at="2020-12-01T07:31:58 PST" finished-at="2020-12-01T07:31:58 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookAddMultipleAddressBook()[pri:0, instance:tests.AddressBookAddMultipleAddressBookTest@76f2b07d]" name="testAddressBookAddMultipleAddressBook" duration-ms="4729" started-at="2020-12-01T07:31:58 PST" finished-at="2020-12-01T07:32:03 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookAddMultipleAddressBook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookAddMultipleAddressBookTest@76f2b07d]" name="tearDown" is-config="true" duration-ms="72" started-at="2020-12-01T07:32:03 PST" finished-at="2020-12-01T07:32:03 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookAddMultipleAddressBookTest -->
+      <class name="tests.AddressBookCheckMultipleAddressBookTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookCheckMultipleAddressBookTest@4232c52b]" name="setUp" is-config="true" duration-ms="276" started-at="2020-12-01T07:32:14 PST" finished-at="2020-12-01T07:32:14 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookCheckMultipleAddressBook()[pri:0, instance:tests.AddressBookCheckMultipleAddressBookTest@4232c52b]" name="testAddressBookCheckMultipleAddressBook" duration-ms="752" started-at="2020-12-01T07:32:14 PST" finished-at="2020-12-01T07:32:15 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookCheckMultipleAddressBook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookCheckMultipleAddressBookTest@4232c52b]" name="tearDown" is-config="true" duration-ms="69" started-at="2020-12-01T07:32:15 PST" finished-at="2020-12-01T07:32:15 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookCheckMultipleAddressBookTest -->
+      <class name="tests.AddressBookCheckAddressBookTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddressBookCheckAddressBookTest@2d8f65a4]" name="setUp" is-config="true" duration-ms="366" started-at="2020-12-01T07:31:50 PST" finished-at="2020-12-01T07:31:50 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddressBookCheckAddressBook()[pri:0, instance:tests.AddressBookCheckAddressBookTest@2d8f65a4]" name="testAddressBookCheckAddressBook" duration-ms="585" started-at="2020-12-01T07:31:50 PST" finished-at="2020-12-01T07:31:50 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressBookCheckAddressBook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddressBookCheckAddressBookTest@2d8f65a4]" name="tearDown" is-config="true" duration-ms="68" started-at="2020-12-01T07:31:50 PST" finished-at="2020-12-01T07:31:51 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddressBookCheckAddressBookTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

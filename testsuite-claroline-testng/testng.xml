@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="port"  value="3000"/>
+  <test thread-count="5" name="Test">
+    <classes>
+<class name="tests.AddUserTest"/>
+<class name="tests.SearchUserTest"/>
+<class name="tests.LoginUserTest"/>
+<class name="tests.AddCourseTest"/>
+<class name="tests.SearchCourseTest"/>
+<class name="tests.EnrolUserTest"/>
+<class name="tests.AddCourseEventTest"/>
+<class name="tests.AddCourseExerciseTest"/>
+<class name="tests.MakeCourseExerciseVisibleTest"/>
+<class name="tests.AddCourseExerciseQuestionsTest"/>
+<class name="tests.DoCourseExerciseQuestionsTest"/>
+<class name="tests.ViewProfileStatisticsUserTest"/>
+<class name="tests.AddMultipleUsersTest"/>
+<class name="tests.SearchMultipleUsersTest"/>
+<class name="tests.SearchStudentTest"/>
+<class name="tests.SearchTeacherTest"/>
+<class name="tests.SearchAdminTest"/>
+<class name="tests.EnrolMultipleUsersTest"/>
+<class name="tests.DoCourseExerciseQuestionsMultipleUsersTest"/>
+<class name="tests.RemoveEnrolMultipleUsersTest"/>
+<class name="tests.RemoveMultipleUsersTest"/>
+<class name="tests.AddEmptyUserTest"/>
+<class name="tests.AddWrongEmailUserTest"/>
+<class name="tests.AddTwiceUserTest"/>
+<class name="tests.AddWrongPasswordUserTest"/>
+<class name="tests.AddEmptyCourseTest"/>
+<class name="tests.AddDeniedCourseTest"/>
+<class name="tests.EnrolDeniedCourseTest"/>
+<class name="tests.AddPasswordCourseTest"/>
+<class name="tests.EnrolPasswordCourseWrongPasswordUserTest"/>
+<class name="tests.EnrolPasswordCourseGoodPasswordUserTest"/>
+<class name="tests.SearchAllowedCourseTest"/>
+<class name="tests.SearchAndRemovePasswordCourseTest"/>
+<class name="tests.SearchAndRemoveDeniedCourseTest"/>
+<class name="tests.RemoveCourseExerciseQuestionsTest"/>
+<class name="tests.RemoveCourseEventTest"/>
+<class name="tests.RemoveCourseExerciseTest"/>
+<class name="tests.RemoveEnrolUserTest"/>
+<class name="tests.RemoveUserTest"/>
+<class name="tests.RemoveCourseTest"/>
+</classes>
+</test>
+</suite>

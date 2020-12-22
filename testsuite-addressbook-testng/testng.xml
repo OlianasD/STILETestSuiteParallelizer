@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="port"  value="3000"/>
+  <test thread-count="5" name="Test">
+    <classes>
+<class name="tests.AddressBookAddAddressBookTest"/>
+<class name="tests.AddressBookSearchAddressBookNameTest"/>
+<class name="tests.AddressBookSearchAddressBookEmailTest"/>
+<class name="tests.AddressBookAddGroupTest"/>
+<class name="tests.AddressBookAssignToGroupTest"/>
+<class name="tests.AddressBookSearchByGroupTest"/>
+<class name="tests.AddressBookCheckBirthdayInfoTest"/>
+<class name="tests.AddressBookCheckAddressBookTest"/>
+<class name="tests.AddressBookPrintAddressBookTest"/>
+<class name="tests.AddressBookEditAddressBookTest"/>
+<class name="tests.AddressBookEditGroupTest"/>
+<class name="tests.AddressBookRemoveFromGroupTest"/>
+<class name="tests.AddressBookRemoveGroupTest"/>
+<class name="tests.AddressBookRemoveAddressBookTest"/>
+<class name="tests.AddressBookAddMultipleAddressBookTest"/>
+<class name="tests.AddressBookSearchMultipleAddressBookNameTest"/>
+<class name="tests.AddressBookAddMultipleGroupsTest"/>
+<class name="tests.AddressBookAssignToMultipleGroupsTest"/>
+<class name="tests.AddressBookSearchByMultipleGroupsTest"/>
+<class name="tests.AddressBookCheckMultipleBirthdaysInfoTest"/>
+<class name="tests.AddressBookCheckMultipleAddressBookTest"/>
+<class name="tests.AddressBookPrintMultipleAddressBookTest"/>
+<class name="tests.AddressBookEditMultipleAddressBookTest"/>
+<class name="tests.AddressBookEditMultipleGroupsTest"/>
+<class name="tests.AddressBookRemoveFromMultipleGroupsTest"/>
+<class name="tests.AddressBookRemoveMultipleGroupsTest"/>
+<class name="tests.AddressBookRemoveMultipleAddressBookTest"/>
+</classes>
+</test>
+</suite>

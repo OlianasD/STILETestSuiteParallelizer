@@ -1,0 +1,218 @@
+Generating warranted path for SearchUserTest_1
+Generating warranted path for LoginUserTest_2
+Generating warranted path for SearchCourseTest_4
+Generating warranted path for ViewProfileStatisticsUserTest_11
+Generating warranted path for SearchMultipleUsersTest_13
+Generating warranted path for SearchStudentTest_14
+Generating warranted path for SearchTeacherTest_15
+Generating warranted path for SearchAdminTest_16
+Generating warranted path for DoCourseExerciseQuestionsMultipleUsersTest_18
+Generating warranted path for RemoveEnrolMultipleUsersTest_19
+Generating warranted path for RemoveMultipleUsersTest_20
+Generating warranted path for AddEmptyUserTest_21
+Generating warranted path for AddWrongEmailUserTest_22
+Generating warranted path for AddTwiceUserTest_23
+Generating warranted path for AddWrongPasswordUserTest_24
+Generating warranted path for AddEmptyCourseTest_25
+Generating warranted path for EnrolDeniedCourseTest_27
+Generating warranted path for EnrolPasswordCourseWrongPasswordUserTest_29
+Generating warranted path for EnrolPasswordCourseGoodPasswordUserTest_30
+Generating warranted path for SearchAllowedCourseTest_31
+Generating warranted path for SearchAndRemovePasswordCourseTest_32
+Generating warranted path for SearchAndRemoveDeniedCourseTest_33
+Generating warranted path for RemoveCourseExerciseQuestionsTest_34
+Generating warranted path for RemoveCourseEventTest_35
+Generating warranted path for RemoveCourseExerciseTest_36
+Generating warranted path for RemoveEnrolUserTest_37
+Generating warranted path for RemoveUserTest_38
+Generating warranted path for RemoveCourseTest_39
+checkpoint
+[AddUserTest_0, SearchUserTest_1]
+[AddUserTest_0, LoginUserTest_2]
+[AddCourseTest_3, SearchCourseTest_4]
+[AddUserTest_0, AddCourseTest_3, EnrolUserTest_5, AddCourseExerciseTest_7, MakeCourseExerciseVisibleTest_8, AddCourseExerciseQuestionsTest_9, DoCourseExerciseQuestionsTest_10, ViewProfileStatisticsUserTest_11]
+[AddUserTest_0, AddMultipleUsersTest_12, SearchMultipleUsersTest_13]
+[AddUserTest_0, AddMultipleUsersTest_12, SearchStudentTest_14]
+[AddUserTest_0, AddMultipleUsersTest_12, SearchTeacherTest_15]
+[SearchAdminTest_16]
+[AddUserTest_0, AddCourseTest_3, EnrolUserTest_5, AddCourseExerciseTest_7, MakeCourseExerciseVisibleTest_8, AddCourseExerciseQuestionsTest_9, AddMultipleUsersTest_12, EnrolMultipleUsersTest_17, DoCourseExerciseQuestionsMultipleUsersTest_18]
+[AddUserTest_0, AddCourseTest_3, EnrolUserTest_5, AddMultipleUsersTest_12, EnrolMultipleUsersTest_17, RemoveEnrolMultipleUsersTest_19]
+[AddUserTest_0, AddMultipleUsersTest_12, RemoveMultipleUsersTest_20]
+[AddEmptyUserTest_21]
+[AddWrongEmailUserTest_22]
+[AddUserTest_0, AddTwiceUserTest_23]
+[AddWrongPasswordUserTest_24]
+[AddEmptyCourseTest_25]
+[AddUserTest_0, AddDeniedCourseTest_26, EnrolDeniedCourseTest_27]
+[AddUserTest_0, AddPasswordCourseTest_28, EnrolPasswordCourseWrongPasswordUserTest_29]
+[AddUserTest_0, AddPasswordCourseTest_28, EnrolPasswordCourseGoodPasswordUserTest_30]
+[AddCourseTest_3, SearchAllowedCourseTest_31]
+[AddPasswordCourseTest_28, SearchAndRemovePasswordCourseTest_32]
+[AddDeniedCourseTest_26, SearchAndRemoveDeniedCourseTest_33]
+[AddCourseTest_3, AddCourseExerciseTest_7, AddCourseExerciseQuestionsTest_9, RemoveCourseExerciseQuestionsTest_34]
+[AddCourseTest_3, AddCourseEventTest_6, RemoveCourseEventTest_35]
+[AddCourseTest_3, AddCourseExerciseTest_7, RemoveCourseExerciseTest_36]
+[AddUserTest_0, AddCourseTest_3, EnrolUserTest_5, RemoveEnrolUserTest_37]
+[AddUserTest_0, RemoveUserTest_38]
+[AddCourseTest_3, RemoveCourseTest_39]
+Pre-starting 49 test processes...
+Starting container 98cf6c98b549e3a586bd6b80cd22c67b5a6623bf73f48f486ffd5d8d0cf87d04 with app port = 3100, db port = 3400
+Container 98cf6c98b549e3a586bd6b80cd22c67b5a6623bf73f48f486ffd5d8d0cf87d04is up and running with app port = 3100, db port = 3400
+Starting container 81236c85919127d0886d0e7e0a12d3adb0a42252abda41d0c481f77949f0a176 with app port = 3101, db port = 3401
+Container 81236c85919127d0886d0e7e0a12d3adb0a42252abda41d0c481f77949f0a176is up and running with app port = 3101, db port = 3401
+Starting container 0b4e7b9840c56287409471793fb8d135686fc3b2c227bc154e128b1482f01e65 with app port = 3102, db port = 3402
+Container 0b4e7b9840c56287409471793fb8d135686fc3b2c227bc154e128b1482f01e65is up and running with app port = 3102, db port = 3402
+Starting container 95c08584ef35d684e5fd04e197166f46da7585bf7014f8f73037c5282fbad59e with app port = 3103, db port = 3403
+Container 95c08584ef35d684e5fd04e197166f46da7585bf7014f8f73037c5282fbad59eis up and running with app port = 3103, db port = 3403
+Starting container 92bbaa3cdae688946ffe8da4f91b578c089120939dda1f856757f6a960a83851 with app port = 3104, db port = 3404
+Container 92bbaa3cdae688946ffe8da4f91b578c089120939dda1f856757f6a960a83851is up and running with app port = 3104, db port = 3404
+Starting container 6b178c773bdca85989f200775bfaf10812926c1615e3f14b87a330aae9f291d2 with app port = 3105, db port = 3405
+Container 6b178c773bdca85989f200775bfaf10812926c1615e3f14b87a330aae9f291d2is up and running with app port = 3105, db port = 3405
+Starting container b1e7b3cb7d53d716d148a93080348e54389fb6fdb8935611c949d1e73e119f31 with app port = 3106, db port = 3406
+Container b1e7b3cb7d53d716d148a93080348e54389fb6fdb8935611c949d1e73e119f31is up and running with app port = 3106, db port = 3406
+Starting container 08609d3e01dadf6fa9a369b8b8427ba00d7607b332450b35d6e0ccc4c30ef850 with app port = 3107, db port = 3407
+Container 08609d3e01dadf6fa9a369b8b8427ba00d7607b332450b35d6e0ccc4c30ef850is up and running with app port = 3107, db port = 3407
+Starting container 6a79ada2adf29092869e18293762db5eeef1e176478d987d2e89fa798b0e7d48 with app port = 3108, db port = 3408
+Container 6a79ada2adf29092869e18293762db5eeef1e176478d987d2e89fa798b0e7d48is up and running with app port = 3108, db port = 3408
+Starting container f1fff05648b4275d62983a77da94dac3fe18d14d3b1347c838b96f1774397743 with app port = 3109, db port = 3409
+Container f1fff05648b4275d62983a77da94dac3fe18d14d3b1347c838b96f1774397743is up and running with app port = 3109, db port = 3409
+Starting container cd4324e980496ed586727a485576b034e3630b5bad39155e96351b4e5b8f76d7 with app port = 3110, db port = 3410
+Container cd4324e980496ed586727a485576b034e3630b5bad39155e96351b4e5b8f76d7is up and running with app port = 3110, db port = 3410
+Starting container f20bc14b303ee49d1a65930d1eca498ea3e0c2c1f700d553fa91688550631ef4 with app port = 3111, db port = 3411
+Container f20bc14b303ee49d1a65930d1eca498ea3e0c2c1f700d553fa91688550631ef4is up and running with app port = 3111, db port = 3411
+Starting container 86a858ee0217a940d1a9982583ff90be63b5ed37e4afb31e9840fb61de25a368 with app port = 3112, db port = 3412
+Container 86a858ee0217a940d1a9982583ff90be63b5ed37e4afb31e9840fb61de25a368is up and running with app port = 3112, db port = 3412
+Starting container b3576ea418092e3977762530155f83eb07e23fcff6d663dc1e9f6a516c1e7b60 with app port = 3113, db port = 3413
+Container b3576ea418092e3977762530155f83eb07e23fcff6d663dc1e9f6a516c1e7b60is up and running with app port = 3113, db port = 3413
+Starting container 013777ace61fdd37f3ee809ccf1671eeab2f59defd022f578e751d5a994bf376 with app port = 3114, db port = 3414
+Container 013777ace61fdd37f3ee809ccf1671eeab2f59defd022f578e751d5a994bf376is up and running with app port = 3114, db port = 3414
+Starting container 2da8c60908446ca90c6c1bd7ae4e5ec836003694567407ed7cc7da9991ded875 with app port = 3115, db port = 3415
+Container 2da8c60908446ca90c6c1bd7ae4e5ec836003694567407ed7cc7da9991ded875is up and running with app port = 3115, db port = 3415
+Starting container 7bda2ced5bb8d70158034319bccb5ba12e471e1a4a843ec4632f972975730067 with app port = 3116, db port = 3416
+Container 7bda2ced5bb8d70158034319bccb5ba12e471e1a4a843ec4632f972975730067is up and running with app port = 3116, db port = 3416
+Starting container 6c3e61baddb90b6af3cbe0caf429e62000b814e22723ae6914ffd1f76b61a8db with app port = 3117, db port = 3417
+Container 6c3e61baddb90b6af3cbe0caf429e62000b814e22723ae6914ffd1f76b61a8dbis up and running with app port = 3117, db port = 3417
+Starting container 8fa4ba2a60ba5ed273160104d3350a8427f08058abf6d5220f04969e90b39b79 with app port = 3118, db port = 3418
+Container 8fa4ba2a60ba5ed273160104d3350a8427f08058abf6d5220f04969e90b39b79is up and running with app port = 3118, db port = 3418
+Starting container 6546ce6d22618ef619b999856e0922308010e62eb62641547a7e66b18ffe38fd with app port = 3119, db port = 3419
+Container 6546ce6d22618ef619b999856e0922308010e62eb62641547a7e66b18ffe38fdis up and running with app port = 3119, db port = 3419
+Starting container cbb03906537bba3f8c401b68f2c9fe1965c19a6126143dbff4ca429aa6fd7d0e with app port = 3120, db port = 3420
+Container cbb03906537bba3f8c401b68f2c9fe1965c19a6126143dbff4ca429aa6fd7d0eis up and running with app port = 3120, db port = 3420
+Starting container 6a74c56df15217f45279da14daede6375fd578197c44c59ea24ba99a31759d15 with app port = 3121, db port = 3421
+Container 6a74c56df15217f45279da14daede6375fd578197c44c59ea24ba99a31759d15is up and running with app port = 3121, db port = 3421
+Starting container e5f32b28e4df84cbd2143bcd275566a5db763948eba7a1e754d0dcd7ff0ad5d2 with app port = 3122, db port = 3422
+Container e5f32b28e4df84cbd2143bcd275566a5db763948eba7a1e754d0dcd7ff0ad5d2is up and running with app port = 3122, db port = 3422
+Starting container 5ed5c4637277ede88cb8016af778bf8a82967d6103c5f31d2a7134d5bae56dc4 with app port = 3123, db port = 3423
+Container 5ed5c4637277ede88cb8016af778bf8a82967d6103c5f31d2a7134d5bae56dc4is up and running with app port = 3123, db port = 3423
+Starting container 82c66abeb3ad9ba34925bed603ea8a6bf8b01b3543761c252304a56dc3841fd4 with app port = 3124, db port = 3424
+Container 82c66abeb3ad9ba34925bed603ea8a6bf8b01b3543761c252304a56dc3841fd4is up and running with app port = 3124, db port = 3424
+Starting container 8b58b824474bc92bd4e85b617f4bc8bfcebc91e1ad9066d31c437a4d5ed3fad2 with app port = 3125, db port = 3425
+Container 8b58b824474bc92bd4e85b617f4bc8bfcebc91e1ad9066d31c437a4d5ed3fad2is up and running with app port = 3125, db port = 3425
+Starting container 808b152292afe74b0f3c5bfa283337beff3d9574be7e6487cc814f5c75ab5032 with app port = 3126, db port = 3426
+Container 808b152292afe74b0f3c5bfa283337beff3d9574be7e6487cc814f5c75ab5032is up and running with app port = 3126, db port = 3426
+Starting container 9137fe4c4e328f946b09c1f45ab0e53f563b3723751b29af951b0c469089aa24 with app port = 3127, db port = 3427
+Container 9137fe4c4e328f946b09c1f45ab0e53f563b3723751b29af951b0c469089aa24is up and running with app port = 3127, db port = 3427
+Finished
+Time spent: 3.2197999999999998 min
+Created containers: 28
+Time for pre-starting test processes: 2.229 s
+Docker clone time for root node: 22.959
+AddUserTest: PASS
+	 Test execution time: 21.524, Docker clone time: 20.553, Docker kill time: 0.026
+AddCourseTest: PASS
+	 Test execution time: 29.776, Docker clone time: 16.337, Docker kill time: 0.007
+SearchAdminTest: PASS
+	 Test execution time: 26.08, Docker clone time: 0.0, Docker kill time: 2.134
+AddEmptyUserTest: PASS
+	 Test execution time: 28.775, Docker clone time: 0.0, Docker kill time: 0.71
+AddWrongEmailUserTest: PASS
+	 Test execution time: 38.088, Docker clone time: 0.0, Docker kill time: 1.257
+AddWrongPasswordUserTest: PASS
+	 Test execution time: 43.104, Docker clone time: 0.0, Docker kill time: 0.404
+AddEmptyCourseTest: PASS
+	 Test execution time: 39.858, Docker clone time: 0.0, Docker kill time: 0.374
+AddPasswordCourseTest: PASS
+	 Test execution time: 47.433, Docker clone time: 0.0, Docker kill time: 0.0
+AddDeniedCourseTest: PASS
+	 Test execution time: 45.281, Docker clone time: 0.0, Docker kill time: 0.0
+SearchUserTest: PASS
+	 Test execution time: 44.095, Docker clone time: 0.0, Docker kill time: 0.35
+LoginUserTest: PASS
+	 Test execution time: 38.957, Docker clone time: 0.0, Docker kill time: 0.433
+AddCourseTest: PASS
+	 Test execution time: 49.324, Docker clone time: 0.0, Docker kill time: 0.0
+AddMultipleUsersTest: PASS
+	 Test execution time: 1.0407166666666667, Docker clone time: 5.896, Docker kill time: 0.005
+AddTwiceUserTest: PASS
+	 Test execution time: 46.53, Docker clone time: 0.0, Docker kill time: 0.76
+AddDeniedCourseTest: PASS
+	 Test execution time: 43.409, Docker clone time: 0.0, Docker kill time: 0.0
+AddPasswordCourseTest: PASS
+	 Test execution time: 42.595, Docker clone time: 1.817, Docker kill time: 0.01
+RemoveUserTest: PASS
+	 Test execution time: 37.617, Docker clone time: 0.0, Docker kill time: 0.451
+SearchCourseTest: PASS
+	 Test execution time: 40.431, Docker clone time: 0.0, Docker kill time: 0.384
+SearchAllowedCourseTest: PASS
+	 Test execution time: 39.039, Docker clone time: 0.0, Docker kill time: 0.376
+AddCourseExerciseTest: PASS
+	 Test execution time: 40.532, Docker clone time: 3.736, Docker kill time: 0.01
+AddCourseEventTest: PASS
+	 Test execution time: 41.287, Docker clone time: 0.0, Docker kill time: 0.0
+RemoveCourseTest: PASS
+	 Test execution time: 34.898, Docker clone time: 0.0, Docker kill time: 0.356
+SearchAndRemovePasswordCourseTest: PASS
+	 Test execution time: 31.237, Docker clone time: 0.0, Docker kill time: 0.562
+SearchAndRemoveDeniedCourseTest: PASS
+	 Test execution time: 33.613, Docker clone time: 0.0, Docker kill time: 0.375
+EnrolUserTest: PASS
+	 Test execution time: 27.322, Docker clone time: 3.873, Docker kill time: 0.008
+SearchMultipleUsersTest: PASS
+	 Test execution time: 33.543, Docker clone time: 0.0, Docker kill time: 0.366
+SearchStudentTest: PASS
+	 Test execution time: 33.776, Docker clone time: 0.0, Docker kill time: 0.382
+SearchTeacherTest: PASS
+	 Test execution time: 32.772, Docker clone time: 0.0, Docker kill time: 0.411
+RemoveMultipleUsersTest: PASS
+	 Test execution time: 33.25, Docker clone time: 0.0, Docker kill time: 0.384
+EnrolDeniedCourseTest: PASS
+	 Test execution time: 29.212, Docker clone time: 0.0, Docker kill time: 0.38
+EnrolPasswordCourseWrongPasswordUserTest: PASS
+	 Test execution time: 36.612, Docker clone time: 0.0, Docker kill time: 0.738
+EnrolPasswordCourseGoodPasswordUserTest: PASS
+	 Test execution time: 37.863, Docker clone time: 0.0, Docker kill time: 0.378
+AddCourseExerciseQuestionsTest: PASS
+	 Test execution time: 49.174, Docker clone time: 0.0, Docker kill time: 0.0
+RemoveCourseExerciseTest: PASS
+	 Test execution time: 36.1, Docker clone time: 0.0, Docker kill time: 0.419
+RemoveCourseEventTest: PASS
+	 Test execution time: 34.809, Docker clone time: 0.0, Docker kill time: 0.417
+AddCourseExerciseTest: PASS
+	 Test execution time: 28.09, Docker clone time: 0.0, Docker kill time: 0.0
+AddMultipleUsersTest: PASS
+	 Test execution time: 29.869, Docker clone time: 0.0, Docker kill time: 0.0
+RemoveEnrolUserTest: PASS
+	 Test execution time: 24.845, Docker clone time: 0.0, Docker kill time: 0.344
+RemoveCourseExerciseQuestionsTest: PASS
+	 Test execution time: 7.726, Docker clone time: 0.0, Docker kill time: 0.323
+MakeCourseExerciseVisibleTest: PASS
+	 Test execution time: 5.675, Docker clone time: 0.0, Docker kill time: 0.0
+EnrolMultipleUsersTest: FAIL
+	 Test execution time: 12.513, Docker clone time: 0.0, Docker kill time: 0.0
+AddCourseExerciseQuestionsTest: PASS
+	 Test execution time: 11.058, Docker clone time: 1.232, Docker kill time: 0.003
+RemoveEnrolMultipleUsersTest: FAIL
+	 Test execution time: 6.559, Docker clone time: 0.0, Docker kill time: 0.363
+DoCourseExerciseQuestionsTest: PASS
+	 Test execution time: 7.805, Docker clone time: 0.0, Docker kill time: 0.0
+AddMultipleUsersTest: PASS
+	 Test execution time: 10.133, Docker clone time: 0.0, Docker kill time: 0.0
+ViewProfileStatisticsUserTest: PASS
+	 Test execution time: 4.473, Docker clone time: 0.0, Docker kill time: 0.346
+EnrolMultipleUsersTest: FAIL
+	 Test execution time: 9.601, Docker clone time: 0.0, Docker kill time: 0.0
+DoCourseExerciseQuestionsMultipleUsersTest: FAIL
+	 Test execution time: 9.383, Docker clone time: 0.0, Docker kill time: 0.352
+Summary: 48 total tests, 44 passed ,4 failed, 0 skipped, 0 not visited, 0 executor exceptions, 0 test class not loaded, 0 unknown failures
+Removing all created containers...
+Removing all created images...

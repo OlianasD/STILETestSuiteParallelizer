@@ -1,0 +1,1 @@
+{"dockerHome":"/home/mrbs","graphPath":"src/main/resources/graphs/mrbs.txt","dockerImage":"dockercontainervm/mrbs:1.4.9","dockerEntryPoint":"./run-services-docker.sh"}

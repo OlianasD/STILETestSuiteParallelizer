@@ -1,0 +1,151 @@
+Generating warranted path for AddressBookSearchAddressBookNameTest_1
+Generating warranted path for AddressBookSearchAddressBookEmailTest_2
+Generating warranted path for AddressBookSearchByGroupTest_5
+Generating warranted path for AddressBookCheckBirthdayInfoTest_6
+Generating warranted path for AddressBookCheckAddressBookTest_7
+Generating warranted path for AddressBookPrintAddressBookTest_8
+Generating warranted path for AddressBookEditAddressBookTest_9
+Generating warranted path for AddressBookRemoveFromGroupTest_11
+Generating warranted path for AddressBookSearchMultipleAddressBookNameTest_15
+Generating warranted path for AddressBookSearchByMultipleGroupsTest_18
+Generating warranted path for AddressBookCheckMultipleBirthdaysInfoTest_19
+Generating warranted path for AddressBookCheckMultipleAddressBookTest_20
+Generating warranted path for AddressBookPrintMultipleAddressBookTest_21
+Generating warranted path for AddressBookEditMultipleAddressBookTest_22
+Generating warranted path for AddressBookRemoveFromMultipleGroupsTest_24
+Generating warranted path for AddressBookRemoveMultipleGroupsTest_25
+Generating warranted path for AddressBookRemoveMultipleAddressBookTest_26
+checkpoint
+[AddressBookAddAddressBookTest_0, AddressBookSearchAddressBookNameTest_1]
+[AddressBookAddAddressBookTest_0, AddressBookSearchAddressBookEmailTest_2]
+[AddressBookAddAddressBookTest_0, AddressBookAddGroupTest_3, AddressBookAssignToGroupTest_4, AddressBookSearchByGroupTest_5]
+[AddressBookAddAddressBookTest_0, AddressBookCheckBirthdayInfoTest_6]
+[AddressBookAddAddressBookTest_0, AddressBookCheckAddressBookTest_7]
+[AddressBookAddAddressBookTest_0, AddressBookPrintAddressBookTest_8]
+[AddressBookAddAddressBookTest_0, AddressBookEditAddressBookTest_9]
+[AddressBookAddAddressBookTest_0, AddressBookAddGroupTest_3, AddressBookAssignToGroupTest_4, AddressBookEditGroupTest_10, AddressBookRemoveFromGroupTest_11]
+[AddressBookAddAddressBookTest_0, AddressBookRemoveAddressBookTest_13, AddressBookAddMultipleAddressBookTest_14, AddressBookSearchMultipleAddressBookNameTest_15]
+[AddressBookAddAddressBookTest_0, AddressBookAddGroupTest_3, AddressBookEditGroupTest_10, AddressBookRemoveAddressBookTest_13, AddressBookAddMultipleAddressBookTest_14, AddressBookAddMultipleGroupsTest_16, AddressBookAssignToMultipleGroupsTest_17, AddressBookSearchByMultipleGroupsTest_18]
+[AddressBookAddAddressBookTest_0, AddressBookRemoveAddressBookTest_13, AddressBookAddMultipleAddressBookTest_14, AddressBookCheckMultipleBirthdaysInfoTest_19]
+[AddressBookAddAddressBookTest_0, AddressBookRemoveAddressBookTest_13, AddressBookAddMultipleAddressBookTest_14, AddressBookCheckMultipleAddressBookTest_20]
+[AddressBookAddAddressBookTest_0, AddressBookRemoveAddressBookTest_13, AddressBookAddMultipleAddressBookTest_14, AddressBookPrintMultipleAddressBookTest_21]
+[AddressBookAddAddressBookTest_0, AddressBookRemoveAddressBookTest_13, AddressBookAddMultipleAddressBookTest_14, AddressBookEditMultipleAddressBookTest_22]
+[AddressBookAddAddressBookTest_0, AddressBookAddGroupTest_3, AddressBookRemoveGroupTest_12, AddressBookRemoveAddressBookTest_13, AddressBookAddMultipleAddressBookTest_14, AddressBookAddMultipleGroupsTest_16, AddressBookAssignToMultipleGroupsTest_17, AddressBookEditMultipleGroupsTest_23, AddressBookRemoveFromMultipleGroupsTest_24]
+[AddressBookAddGroupTest_3, AddressBookRemoveGroupTest_12, AddressBookAddMultipleGroupsTest_16, AddressBookRemoveMultipleGroupsTest_25]
+[AddressBookAddAddressBookTest_0, AddressBookRemoveAddressBookTest_13, AddressBookAddMultipleAddressBookTest_14, AddressBookRemoveMultipleAddressBookTest_26]
+Pre-starting 38 test processes...
+Starting container 0a6192d2e389858e0ad5f1a5e44c5a236e9665b25d8f674516e082edd1ff31eb with app port = 3100, db port = 3400
+Container 0a6192d2e389858e0ad5f1a5e44c5a236e9665b25d8f674516e082edd1ff31ebis up and running with app port = 3100, db port = 3400
+Starting container 649b5679ace1fea7a35d21fe7334ccec56f3995dad75d094362e77a9820884d1 with app port = 3101, db port = 3401
+Container 649b5679ace1fea7a35d21fe7334ccec56f3995dad75d094362e77a9820884d1is up and running with app port = 3101, db port = 3401
+Starting container e408995732e777647dcbd4eeb28b7856eb538646f70273c956a87ee9655fa6b8 with app port = 3102, db port = 3402
+Container e408995732e777647dcbd4eeb28b7856eb538646f70273c956a87ee9655fa6b8is up and running with app port = 3102, db port = 3402
+Starting container 93b4ca448eb45efcf6e78d89a6fd045ac418e09b753802609919b0683b5941a0 with app port = 3103, db port = 3403
+Container 93b4ca448eb45efcf6e78d89a6fd045ac418e09b753802609919b0683b5941a0is up and running with app port = 3103, db port = 3403
+Starting container 962404463f5bde3a08b127a95964c68647e05eaee18b2d1954ff1ec577387ed2 with app port = 3104, db port = 3404
+Container 962404463f5bde3a08b127a95964c68647e05eaee18b2d1954ff1ec577387ed2is up and running with app port = 3104, db port = 3404
+Starting container 66ac486da6807bdf9314fc5cd410f118ee3d2698c130745b28b2f542f08313df with app port = 3105, db port = 3405
+Container 66ac486da6807bdf9314fc5cd410f118ee3d2698c130745b28b2f542f08313dfis up and running with app port = 3105, db port = 3405
+Starting container a946a06763d9af0f201e021994c2deab1bd37137e3630f8548cc99ccf264119e with app port = 3106, db port = 3406
+Container a946a06763d9af0f201e021994c2deab1bd37137e3630f8548cc99ccf264119eis up and running with app port = 3106, db port = 3406
+Starting container 475e901686ae54038096e68d85ceedcb02f1416f3af67ab8c4026dd74b4fd220 with app port = 3107, db port = 3407
+Container 475e901686ae54038096e68d85ceedcb02f1416f3af67ab8c4026dd74b4fd220is up and running with app port = 3107, db port = 3407
+Starting container ffc3bbf63a23681889f4d8f3714fe8deb2ef9c5c41238f395c3524d217dd69de with app port = 3108, db port = 3408
+Container ffc3bbf63a23681889f4d8f3714fe8deb2ef9c5c41238f395c3524d217dd69deis up and running with app port = 3108, db port = 3408
+Starting container 74143aa14fca4a909beb8516c82e67a3d42d2e122af71c36891e5b8f8935a18d with app port = 3109, db port = 3409
+Container 74143aa14fca4a909beb8516c82e67a3d42d2e122af71c36891e5b8f8935a18dis up and running with app port = 3109, db port = 3409
+Starting container b7b0d1890cdb32d156e8108f2021d3dbd82e9784e1d22d90548051a4535d9f58 with app port = 3110, db port = 3410
+Container b7b0d1890cdb32d156e8108f2021d3dbd82e9784e1d22d90548051a4535d9f58is up and running with app port = 3110, db port = 3410
+Starting container 8469be472cb1af523d7f7ed50eac1579cb9a8a0942fa101bfe9d68c4f813a611 with app port = 3111, db port = 3411
+Container 8469be472cb1af523d7f7ed50eac1579cb9a8a0942fa101bfe9d68c4f813a611is up and running with app port = 3111, db port = 3411
+Starting container 112f1ac379f9bb6b3df5c43861aeb5d534f74959dba67a848fae31558e1f21f6 with app port = 3112, db port = 3412
+Container 112f1ac379f9bb6b3df5c43861aeb5d534f74959dba67a848fae31558e1f21f6is up and running with app port = 3112, db port = 3412
+Starting container 192b3f6802572966a7e3bd28a7795944a9652a0ff21b5a6d8e6a4fe48b5a2952 with app port = 3113, db port = 3413
+Container 192b3f6802572966a7e3bd28a7795944a9652a0ff21b5a6d8e6a4fe48b5a2952is up and running with app port = 3113, db port = 3413
+Starting container b0622c808e6b36cd3f2b16ac513395b15397e60adf829a6af584bf78241fad1c with app port = 3114, db port = 3414
+Container b0622c808e6b36cd3f2b16ac513395b15397e60adf829a6af584bf78241fad1cis up and running with app port = 3114, db port = 3414
+Starting container f4b4c7949696eed2507207ecb0d8f250fdb0fed6f261e2c15c5dec7668af1da5 with app port = 3115, db port = 3415
+Container f4b4c7949696eed2507207ecb0d8f250fdb0fed6f261e2c15c5dec7668af1da5is up and running with app port = 3115, db port = 3415
+Starting container 16839b2d0002080fb9bea5d92107ea7a4a2dee4eb05eae291baf42c6c6938231 with app port = 3116, db port = 3416
+Container 16839b2d0002080fb9bea5d92107ea7a4a2dee4eb05eae291baf42c6c6938231is up and running with app port = 3116, db port = 3416
+Finished
+Time spent: 1.9380333333333333 min
+Created containers: 17
+Docker clone time for root node: 10.865
+AddressBookAddAddressBookTest: PASS
+	 Test execution time: 6.311, Docker clone time: 11.835, Docker kill time: 0.002
+AddressBookAddGroupTest: PASS
+	 Test execution time: 5.386, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookSearchAddressBookNameTest: PASS
+	 Test execution time: 14.115, Docker clone time: 0.0, Docker kill time: 0.327
+AddressBookSearchAddressBookEmailTest: PASS
+	 Test execution time: 16.296, Docker clone time: 0.0, Docker kill time: 0.355
+AddressBookAddGroupTest: PASS
+	 Test execution time: 18.484, Docker clone time: 3.285, Docker kill time: 0.004
+AddressBookCheckBirthdayInfoTest: PASS
+	 Test execution time: 16.072, Docker clone time: 0.0, Docker kill time: 0.343
+AddressBookCheckAddressBookTest: FAIL
+	 Test execution time: 16.654, Docker clone time: 0.0, Docker kill time: 2.201
+AddressBookPrintAddressBookTest: PASS
+	 Test execution time: 15.424, Docker clone time: 0.0, Docker kill time: 1.449
+AddressBookEditAddressBookTest: PASS
+	 Test execution time: 16.595, Docker clone time: 0.0, Docker kill time: 0.338
+AddressBookRemoveAddressBookTest: PASS
+	 Test execution time: 15.919, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookRemoveGroupTest: PASS
+	 Test execution time: 8.539, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookAssignToGroupTest: PASS
+	 Test execution time: 9.938, Docker clone time: 1.513, Docker kill time: 0.009
+AddressBookEditGroupTest: PASS
+	 Test execution time: 11.768, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookRemoveGroupTest: PASS
+	 Test execution time: 10.66, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookAddMultipleAddressBookTest: PASS
+	 Test execution time: 21.066, Docker clone time: 9.122, Docker kill time: 0.002
+AddressBookAddMultipleGroupsTest: PASS
+	 Test execution time: 22.854, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookSearchByGroupTest: PASS
+	 Test execution time: 10.885, Docker clone time: 0.0, Docker kill time: 0.321
+AddressBookEditGroupTest: PASS
+	 Test execution time: 12.026, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookRemoveAddressBookTest: PASS
+	 Test execution time: 9.896, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookRemoveAddressBookTest: PASS
+	 Test execution time: 10.051, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookSearchMultipleAddressBookNameTest: PASS
+	 Test execution time: 21.589, Docker clone time: 0.0, Docker kill time: 0.346
+AddressBookCheckMultipleBirthdaysInfoTest: PASS
+	 Test execution time: 20.964, Docker clone time: 0.0, Docker kill time: 0.355
+AddressBookCheckMultipleAddressBookTest: PASS
+	 Test execution time: 18.464, Docker clone time: 0.0, Docker kill time: 0.33
+AddressBookPrintMultipleAddressBookTest: PASS
+	 Test execution time: 18.719, Docker clone time: 0.0, Docker kill time: 0.357
+AddressBookEditMultipleAddressBookTest: PASS
+	 Test execution time: 20.476, Docker clone time: 0.0, Docker kill time: 0.339
+AddressBookRemoveMultipleAddressBookTest: PASS
+	 Test execution time: 18.508, Docker clone time: 0.0, Docker kill time: 0.345
+AddressBookRemoveMultipleGroupsTest: PASS
+	 Test execution time: 11.893, Docker clone time: 0.0, Docker kill time: 0.348
+AddressBookRemoveFromGroupTest: PASS
+	 Test execution time: 17.953, Docker clone time: 0.0, Docker kill time: 0.356
+AddressBookAddMultipleAddressBookTest: PASS
+	 Test execution time: 29.874, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookAddMultipleAddressBookTest: PASS
+	 Test execution time: 29.483, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookAddMultipleGroupsTest: PASS
+	 Test execution time: 6.034, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookAddMultipleGroupsTest: PASS
+	 Test execution time: 6.162, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookAssignToMultipleGroupsTest: PASS
+	 Test execution time: 5.044, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookAssignToMultipleGroupsTest: PASS
+	 Test execution time: 4.399, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookSearchByMultipleGroupsTest: PASS
+	 Test execution time: 4.87, Docker clone time: 0.0, Docker kill time: 0.315
+AddressBookEditMultipleGroupsTest: PASS
+	 Test execution time: 7.73, Docker clone time: 0.0, Docker kill time: 0.0
+AddressBookRemoveFromMultipleGroupsTest: PASS
+	 Test execution time: 4.417, Docker clone time: 0.0, Docker kill time: 0.299
+Summary: 37 total tests, 36 passed ,1 failed, 0 skipped, 0 not visited, 0 executor exceptions, 0 test class not loaded, 0 unknown failures
+Removing all created containers...
+Removing all created images...

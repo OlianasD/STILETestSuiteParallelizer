@@ -1,0 +1,1841 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">41 methods,   41 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddCategoryTest" hash-for-method="testMantisBTAddCategory">testMantisBTAddCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddCategoryEmptyTest" hash-for-method="testMantisBTAddCategoryEmpty">testMantisBTAddCategoryEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddCategoryWrongTest" hash-for-method="testMantisBTAddCategoryWrong">testMantisBTAddCategoryWrong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddIssueTest" hash-for-method="testMantisBTAddIssue">testMantisBTAddIssue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddIssueEmptyTest" hash-for-method="testMantisBTAddIssueEmpty">testMantisBTAddIssueEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddMultipleSubprojectsTest" hash-for-method="testMantisBTAddMultipleSubprojects">testMantisBTAddMultipleSubprojects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddMultipleUsersTest" hash-for-method="testMantisBTAddMultipleUsers">testMantisBTAddMultipleUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddProjectTest" hash-for-method="testMantisBTAddProject">testMantisBTAddProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddProjectEmptyTest" hash-for-method="testMantisBTAddProjectEmpty">testMantisBTAddProjectEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddProjectWrongTest" hash-for-method="testMantisBTAddProjectWrong">testMantisBTAddProjectWrong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddUserTest" hash-for-method="testMantisBTAddUser">testMantisBTAddUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddUserEmptyTest" hash-for-method="testMantisBTAddUserEmpty">testMantisBTAddUserEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AddUserWrongTest" hash-for-method="testMantisBTAddUserWrong">testMantisBTAddUserWrong</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.AssignIssueTest" hash-for-method="testMantisBTAssignIssue">testMantisBTAssignIssue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.DeleteCategoryTest" hash-for-method="testMantisBTDeleteCategory">testMantisBTDeleteCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.DeleteIssueTest" hash-for-method="testMantisBTDeleteIssue">testMantisBTDeleteIssue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.DeleteMultipleSubprojectsTest" hash-for-method="testMantisBTDeleteMultipleSubprojects">testMantisBTDeleteMultipleSubprojects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.DeleteMultipleUsersTest" hash-for-method="testMantisBTDeleteMultipleUsers">testMantisBTDeleteMultipleUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.DeleteProjectTest" hash-for-method="testMantisBTDeleteProject">testMantisBTDeleteProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.DeleteUserTest" hash-for-method="testMantisBTDeleteUser">testMantisBTDeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.LinkMultipleSubprojectsTest" hash-for-method="testMantisBTLinkMultipleSubprojects">testMantisBTLinkMultipleSubprojects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.LoginNegativeTest" hash-for-method="testMantisBTLoginNegative">testMantisBTLoginNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.LogoutTest" hash-for-method="testMantisBTLogout">testMantisBTLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.ViewSummaryIssueTest" hash-for-method="testMantisBTSummaryIssue">testMantisBTSummaryIssue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UnlinkMultipleSubprojectsTest" hash-for-method="testMantisBTUnlinkMultipleSubprojects">testMantisBTUnlinkMultipleSubprojects</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateCategoryTest" hash-for-method="testMantisBTUpdateCategory">testMantisBTUpdateCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateCategoryEmptyTest" hash-for-method="testMantisBTUpdateCategoryEmpty">testMantisBTUpdateCategoryEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateIssuePriorityTest" hash-for-method="testMantisBTUpdateIssuePriority">testMantisBTUpdateIssuePriority</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateIssueSeverityTest" hash-for-method="testMantisBTUpdateIssueSeverity">testMantisBTUpdateIssueSeverity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateIssueStatusAcknowledgedTest" hash-for-method="testMantisBTUpdateIssueStatusAcknowledged">testMantisBTUpdateIssueStatusAcknowledged</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateIssueStatusAssignedTest" hash-for-method="testMantisBTUpdateIssueStatusAssigned">testMantisBTUpdateIssueStatusAssigned</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateIssueStatusConfirmedTest" hash-for-method="testMantisBTUpdateIssueStatusConfirmed">testMantisBTUpdateIssueStatusConfirmed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateIssueStatusFeedbackTest" hash-for-method="testMantisBTUpdateIssueStatusFeedback">testMantisBTUpdateIssueStatusFeedback</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateIssueStatusNewTest" hash-for-method="testMantisBTUpdateIssueStatusNew">testMantisBTUpdateIssueStatusNew</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateIssueStatusResolvedTest" hash-for-method="testMantisBTUpdateIssueStatusResolved">testMantisBTUpdateIssueStatusResolved</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateIssueSummaryTest" hash-for-method="testMantisBTUpdateIssueSummary">testMantisBTUpdateIssueSummary</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateProjectDescriptionTest" hash-for-method="testMantisBTUpdateProjectDescription">testMantisBTUpdateProjectDescription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateProjectStatusTest" hash-for-method="testMantisBTUpdateProjectStatus">testMantisBTUpdateProjectStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateProjectViewStatusTest" hash-for-method="testMantisBTUpdateProjectViewStatus">testMantisBTUpdateProjectViewStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateUserTest" hash-for-method="testMantisBTUpdateUser">testMantisBTUpdateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.UpdateUserEmptyTest" hash-for-method="testMantisBTUpdateUserEmpty">testMantisBTUpdateUserEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateIssueStatusResolvedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateIssueStatusResolved">
+                  </a> <!-- testMantisBTUpdateIssueStatusResolved -->
+                  <span class="method-name">testMantisBTUpdateIssueStatusResolved</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateIssueStatusConfirmedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateIssueStatusConfirmed">
+                  </a> <!-- testMantisBTUpdateIssueStatusConfirmed -->
+                  <span class="method-name">testMantisBTUpdateIssueStatusConfirmed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddCategoryEmptyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTAddCategoryEmpty">
+                  </a> <!-- testMantisBTAddCategoryEmpty -->
+                  <span class="method-name">testMantisBTAddCategoryEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateIssueSeverityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateIssueSeverity">
+                  </a> <!-- testMantisBTUpdateIssueSeverity -->
+                  <span class="method-name">testMantisBTUpdateIssueSeverity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DeleteProjectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTDeleteProject">
+                  </a> <!-- testMantisBTDeleteProject -->
+                  <span class="method-name">testMantisBTDeleteProject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AssignIssueTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTAssignIssue">
+                  </a> <!-- testMantisBTAssignIssue -->
+                  <span class="method-name">testMantisBTAssignIssue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateCategoryEmptyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateCategoryEmpty">
+                  </a> <!-- testMantisBTUpdateCategoryEmpty -->
+                  <span class="method-name">testMantisBTUpdateCategoryEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddUserWrongTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTAddUserWrong">
+                  </a> <!-- testMantisBTAddUserWrong -->
+                  <span class="method-name">testMantisBTAddUserWrong</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateIssuePriorityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateIssuePriority">
+                  </a> <!-- testMantisBTUpdateIssuePriority -->
+                  <span class="method-name">testMantisBTUpdateIssuePriority</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddUserEmptyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTAddUserEmpty">
+                  </a> <!-- testMantisBTAddUserEmpty -->
+                  <span class="method-name">testMantisBTAddUserEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ViewSummaryIssueTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTSummaryIssue">
+                  </a> <!-- testMantisBTSummaryIssue -->
+                  <span class="method-name">testMantisBTSummaryIssue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddProjectWrongTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTAddProjectWrong">
+                  </a> <!-- testMantisBTAddProjectWrong -->
+                  <span class="method-name">testMantisBTAddProjectWrong</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateUserEmptyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateUserEmpty">
+                  </a> <!-- testMantisBTUpdateUserEmpty -->
+                  <span class="method-name">testMantisBTUpdateUserEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateIssueStatusAcknowledgedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateIssueStatusAcknowledged">
+                  </a> <!-- testMantisBTUpdateIssueStatusAcknowledged -->
+                  <span class="method-name">testMantisBTUpdateIssueStatusAcknowledged</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateIssueStatusFeedbackTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateIssueStatusFeedback">
+                  </a> <!-- testMantisBTUpdateIssueStatusFeedback -->
+                  <span class="method-name">testMantisBTUpdateIssueStatusFeedback</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateCategoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateCategory">
+                  </a> <!-- testMantisBTUpdateCategory -->
+                  <span class="method-name">testMantisBTUpdateCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DeleteMultipleSubprojectsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTDeleteMultipleSubprojects">
+                  </a> <!-- testMantisBTDeleteMultipleSubprojects -->
+                  <span class="method-name">testMantisBTDeleteMultipleSubprojects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginNegativeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTLoginNegative">
+                  </a> <!-- testMantisBTLoginNegative -->
+                  <span class="method-name">testMantisBTLoginNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateIssueSummaryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateIssueSummary">
+                  </a> <!-- testMantisBTUpdateIssueSummary -->
+                  <span class="method-name">testMantisBTUpdateIssueSummary</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddIssueEmptyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTAddIssueEmpty">
+                  </a> <!-- testMantisBTAddIssueEmpty -->
+                  <span class="method-name">testMantisBTAddIssueEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateProjectDescriptionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateProjectDescription">
+                  </a> <!-- testMantisBTUpdateProjectDescription -->
+                  <span class="method-name">testMantisBTUpdateProjectDescription</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateIssueStatusNewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateIssueStatusNew">
+                  </a> <!-- testMantisBTUpdateIssueStatusNew -->
+                  <span class="method-name">testMantisBTUpdateIssueStatusNew</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateUser">
+                  </a> <!-- testMantisBTUpdateUser -->
+                  <span class="method-name">testMantisBTUpdateUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DeleteCategoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTDeleteCategory">
+                  </a> <!-- testMantisBTDeleteCategory -->
+                  <span class="method-name">testMantisBTDeleteCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UnlinkMultipleSubprojectsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUnlinkMultipleSubprojects">
+                  </a> <!-- testMantisBTUnlinkMultipleSubprojects -->
+                  <span class="method-name">testMantisBTUnlinkMultipleSubprojects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DeleteUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTDeleteUser">
+                  </a> <!-- testMantisBTDeleteUser -->
+                  <span class="method-name">testMantisBTDeleteUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTLogout">
+                  </a> <!-- testMantisBTLogout -->
+                  <span class="method-name">testMantisBTLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DeleteIssueTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTDeleteIssue">
+                  </a> <!-- testMantisBTDeleteIssue -->
+                  <span class="method-name">testMantisBTDeleteIssue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddCategoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTAddCategory">
+                  </a> <!-- testMantisBTAddCategory -->
+                  <span class="method-name">testMantisBTAddCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LinkMultipleSubprojectsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTLinkMultipleSubprojects">
+                  </a> <!-- testMantisBTLinkMultipleSubprojects -->
+                  <span class="method-name">testMantisBTLinkMultipleSubprojects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateProjectViewStatusTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateProjectViewStatus">
+                  </a> <!-- testMantisBTUpdateProjectViewStatus -->
+                  <span class="method-name">testMantisBTUpdateProjectViewStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddMultipleUsersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTAddMultipleUsers">
+                  </a> <!-- testMantisBTAddMultipleUsers -->
+                  <span class="method-name">testMantisBTAddMultipleUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DeleteMultipleUsersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTDeleteMultipleUsers">
+                  </a> <!-- testMantisBTDeleteMultipleUsers -->
+                  <span class="method-name">testMantisBTDeleteMultipleUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTAddUser">
+                  </a> <!-- testMantisBTAddUser -->
+                  <span class="method-name">testMantisBTAddUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddMultipleSubprojectsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTAddMultipleSubprojects">
+                  </a> <!-- testMantisBTAddMultipleSubprojects -->
+                  <span class="method-name">testMantisBTAddMultipleSubprojects</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateProjectStatusTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateProjectStatus">
+                  </a> <!-- testMantisBTUpdateProjectStatus -->
+                  <span class="method-name">testMantisBTUpdateProjectStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddProjectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTAddProject">
+                  </a> <!-- testMantisBTAddProject -->
+                  <span class="method-name">testMantisBTAddProject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddProjectEmptyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTAddProjectEmpty">
+                  </a> <!-- testMantisBTAddProjectEmpty -->
+                  <span class="method-name">testMantisBTAddProjectEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddIssueTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTAddIssue">
+                  </a> <!-- testMantisBTAddIssue -->
+                  <span class="method-name">testMantisBTAddIssue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddCategoryWrongTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTAddCategoryWrong">
+                  </a> <!-- testMantisBTAddCategoryWrong -->
+                  <span class="method-name">testMantisBTAddCategoryWrong</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateIssueStatusAssignedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMantisBTUpdateIssueStatusAssigned">
+                  </a> <!-- testMantisBTUpdateIssueStatusAssigned -->
+                  <span class="method-name">testMantisBTUpdateIssueStatusAssigned</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/anonymous/workspace/FSE19-submission-material/testsuite-mantisbt/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;parameter name=&quot;port&quot; value=&quot;3000&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AddUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddUserWrongTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddUserEmptyTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddProjectTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddProjectWrongTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddProjectEmptyTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddCategoryTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddCategoryWrongTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddCategoryEmptyTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddIssueTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddIssueEmptyTest&quot;/&gt;
+      &lt;class name=&quot;tests.AssignIssueTest&quot;/&gt;
+      &lt;class name=&quot;tests.ViewSummaryIssueTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateIssuePriorityTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateIssueSeverityTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateIssueStatusNewTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateIssueStatusFeedbackTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateIssueStatusAcknowledgedTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateIssueStatusConfirmedTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateIssueStatusAssignedTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateIssueStatusResolvedTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateIssueSummaryTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateProjectDescriptionTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateProjectStatusTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateProjectViewStatusTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateCategoryTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateCategoryEmptyTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateUserEmptyTest&quot;/&gt;
+      &lt;class name=&quot;tests.DeleteCategoryTest&quot;/&gt;
+      &lt;class name=&quot;tests.DeleteIssueTest&quot;/&gt;
+      &lt;class name=&quot;tests.DeleteProjectTest&quot;/&gt;
+      &lt;class name=&quot;tests.DeleteUserTest&quot;/&gt;
+      &lt;class name=&quot;tests.LoginNegativeTest&quot;/&gt;
+      &lt;class name=&quot;tests.LogoutTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddMultipleUsersTest&quot;/&gt;
+      &lt;class name=&quot;tests.DeleteMultipleUsersTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddMultipleSubprojectsTest&quot;/&gt;
+      &lt;class name=&quot;tests.UnlinkMultipleSubprojectsTest&quot;/&gt;
+      &lt;class name=&quot;tests.LinkMultipleSubprojectsTest&quot;/&gt;
+      &lt;class name=&quot;tests.DeleteMultipleSubprojectsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (41 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(41);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testMantisBTDeleteMultipleSubprojects')
+data.setCell(0, 2, 'tests.DeleteMultipleSubprojectsTest')
+data.setCell(0, 3, 7742);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testMantisBTUnlinkMultipleSubprojects')
+data.setCell(1, 2, 'tests.UnlinkMultipleSubprojectsTest')
+data.setCell(1, 3, 7661);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMantisBTAddMultipleUsers')
+data.setCell(2, 2, 'tests.AddMultipleUsersTest')
+data.setCell(2, 3, 3842);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMantisBTAddMultipleSubprojects')
+data.setCell(3, 2, 'tests.AddMultipleSubprojectsTest')
+data.setCell(3, 3, 2755);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testMantisBTDeleteMultipleUsers')
+data.setCell(4, 2, 'tests.DeleteMultipleUsersTest')
+data.setCell(4, 3, 2518);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testMantisBTAddUser')
+data.setCell(5, 2, 'tests.AddUserTest')
+data.setCell(5, 3, 2121);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testMantisBTAddIssue')
+data.setCell(6, 2, 'tests.AddIssueTest')
+data.setCell(6, 3, 1678);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testMantisBTAddProject')
+data.setCell(7, 2, 'tests.AddProjectTest')
+data.setCell(7, 3, 1609);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testMantisBTLinkMultipleSubprojects')
+data.setCell(8, 2, 'tests.LinkMultipleSubprojectsTest')
+data.setCell(8, 3, 1544);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testMantisBTAddUserWrong')
+data.setCell(9, 2, 'tests.AddUserWrongTest')
+data.setCell(9, 3, 1479);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testMantisBTAddProjectWrong')
+data.setCell(10, 2, 'tests.AddProjectWrongTest')
+data.setCell(10, 3, 1330);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testMantisBTUpdateCategory')
+data.setCell(11, 2, 'tests.UpdateCategoryTest')
+data.setCell(11, 3, 1315);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testMantisBTDeleteCategory')
+data.setCell(12, 2, 'tests.DeleteCategoryTest')
+data.setCell(12, 3, 1260);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testMantisBTDeleteUser')
+data.setCell(13, 2, 'tests.DeleteUserTest')
+data.setCell(13, 3, 1252);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testMantisBTUpdateUser')
+data.setCell(14, 2, 'tests.UpdateUserTest')
+data.setCell(14, 3, 1248);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testMantisBTUpdateIssueStatusAcknowledged')
+data.setCell(15, 2, 'tests.UpdateIssueStatusAcknowledgedTest')
+data.setCell(15, 3, 1237);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testMantisBTUpdateIssueStatusConfirmed')
+data.setCell(16, 2, 'tests.UpdateIssueStatusConfirmedTest')
+data.setCell(16, 3, 1220);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testMantisBTAssignIssue')
+data.setCell(17, 2, 'tests.AssignIssueTest')
+data.setCell(17, 3, 1217);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testMantisBTUpdateIssueStatusAssigned')
+data.setCell(18, 2, 'tests.UpdateIssueStatusAssignedTest')
+data.setCell(18, 3, 1204);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testMantisBTUpdateIssueSummary')
+data.setCell(19, 2, 'tests.UpdateIssueSummaryTest')
+data.setCell(19, 3, 1198);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testMantisBTUpdateIssueSeverity')
+data.setCell(20, 2, 'tests.UpdateIssueSeverityTest')
+data.setCell(20, 3, 1198);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testMantisBTUpdateCategoryEmpty')
+data.setCell(21, 2, 'tests.UpdateCategoryEmptyTest')
+data.setCell(21, 3, 1196);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testMantisBTUpdateIssueStatusNew')
+data.setCell(22, 2, 'tests.UpdateIssueStatusNewTest')
+data.setCell(22, 3, 1180);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testMantisBTUpdateIssuePriority')
+data.setCell(23, 2, 'tests.UpdateIssuePriorityTest')
+data.setCell(23, 3, 1170);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testMantisBTUpdateIssueStatusFeedback')
+data.setCell(24, 2, 'tests.UpdateIssueStatusFeedbackTest')
+data.setCell(24, 3, 1164);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testMantisBTDeleteIssue')
+data.setCell(25, 2, 'tests.DeleteIssueTest')
+data.setCell(25, 3, 1161);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testMantisBTUpdateIssueStatusResolved')
+data.setCell(26, 2, 'tests.UpdateIssueStatusResolvedTest')
+data.setCell(26, 3, 1144);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testMantisBTUpdateProjectDescription')
+data.setCell(27, 2, 'tests.UpdateProjectDescriptionTest')
+data.setCell(27, 3, 1144);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testMantisBTAddCategoryWrong')
+data.setCell(28, 2, 'tests.AddCategoryWrongTest')
+data.setCell(28, 3, 1116);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testMantisBTUpdateProjectStatus')
+data.setCell(29, 2, 'tests.UpdateProjectStatusTest')
+data.setCell(29, 3, 1100);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testMantisBTUpdateUserEmpty')
+data.setCell(30, 2, 'tests.UpdateUserEmptyTest')
+data.setCell(30, 3, 1091);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testMantisBTAddCategory')
+data.setCell(31, 2, 'tests.AddCategoryTest')
+data.setCell(31, 3, 1087);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testMantisBTDeleteProject')
+data.setCell(32, 2, 'tests.DeleteProjectTest')
+data.setCell(32, 3, 1081);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testMantisBTUpdateProjectViewStatus')
+data.setCell(33, 2, 'tests.UpdateProjectViewStatusTest')
+data.setCell(33, 3, 1058);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testMantisBTAddUserEmpty')
+data.setCell(34, 2, 'tests.AddUserEmptyTest')
+data.setCell(34, 3, 987);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testMantisBTAddCategoryEmpty')
+data.setCell(35, 2, 'tests.AddCategoryEmptyTest')
+data.setCell(35, 3, 961);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testMantisBTAddProjectEmpty')
+data.setCell(36, 2, 'tests.AddProjectEmptyTest')
+data.setCell(36, 3, 930);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testMantisBTAddIssueEmpty')
+data.setCell(37, 2, 'tests.AddIssueEmptyTest')
+data.setCell(37, 3, 838);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testMantisBTSummaryIssue')
+data.setCell(38, 2, 'tests.ViewSummaryIssueTest')
+data.setCell(38, 3, 675);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testMantisBTLogout')
+data.setCell(39, 2, 'tests.LogoutTest')
+data.setCell(39, 3, 521);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testMantisBTLoginNegative')
+data.setCell(40, 2, 'tests.LoginNegativeTest')
+data.setCell(40, 3, 317);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTAddUser</span>
+                <span class="method-start">1174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3303 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddUserWrongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">3384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTAddUserWrong</span>
+                <span class="method-start">3687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5169 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddUserEmptyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">5241 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTAddUserEmpty</span>
+                <span class="method-start">5526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6514 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddProjectTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">6585 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTAddProject</span>
+                <span class="method-start">6875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8486 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddProjectWrongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">8558 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTAddProjectWrong</span>
+                <span class="method-start">8833 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10164 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddProjectEmptyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">10236 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTAddProjectEmpty</span>
+                <span class="method-start">10538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11469 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddCategoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">11542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTAddCategory</span>
+                <span class="method-start">11794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12881 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddCategoryWrongTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">12964 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTAddCategoryWrong</span>
+                <span class="method-start">13278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14395 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddCategoryEmptyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">14464 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTAddCategoryEmpty</span>
+                <span class="method-start">14731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15693 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddIssueTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">15772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTAddIssue</span>
+                <span class="method-start">16051 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17730 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddIssueEmptyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">17814 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTAddIssueEmpty</span>
+                <span class="method-start">18094 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18933 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AssignIssueTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">19013 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTAssignIssue</span>
+                <span class="method-start">19272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20490 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ViewSummaryIssueTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">20563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTSummaryIssue</span>
+                <span class="method-start">20840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21516 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateIssuePriorityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">21591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateIssuePriority</span>
+                <span class="method-start">21877 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23048 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateIssueSeverityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">23118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateIssueSeverity</span>
+                <span class="method-start">23409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24608 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateIssueStatusNewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">24655 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateIssueStatusNew</span>
+                <span class="method-start">24964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26145 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateIssueStatusFeedbackTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">26221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateIssueStatusFeedback</span>
+                <span class="method-start">26504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27669 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateIssueStatusAcknowledgedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">27739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateIssueStatusAcknowledged</span>
+                <span class="method-start">28025 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29263 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateIssueStatusConfirmedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">29337 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateIssueStatusConfirmed</span>
+                <span class="method-start">29624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30845 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateIssueStatusAssignedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">30914 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateIssueStatusAssigned</span>
+                <span class="method-start">31194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32399 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateIssueStatusResolvedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">32466 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateIssueStatusResolved</span>
+                <span class="method-start">32737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33882 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateIssueSummaryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">33961 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateIssueSummary</span>
+                <span class="method-start">34232 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35430 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateProjectDescriptionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">35516 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateProjectDescription</span>
+                <span class="method-start">35780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36925 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateProjectStatusTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">36993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateProjectStatus</span>
+                <span class="method-start">37248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38348 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateProjectViewStatusTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">38417 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateProjectViewStatus</span>
+                <span class="method-start">38690 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39748 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateCategoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">39825 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateCategory</span>
+                <span class="method-start">40133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41449 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateCategoryEmptyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">41532 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateCategoryEmpty</span>
+                <span class="method-start">41804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43001 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">43082 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateUser</span>
+                <span class="method-start">43376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44625 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateUserEmptyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">44694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUpdateUserEmpty</span>
+                <span class="method-start">44964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46055 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DeleteCategoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">46129 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTDeleteCategory</span>
+                <span class="method-start">46383 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47646 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DeleteIssueTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">47721 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTDeleteIssue</span>
+                <span class="method-start">47979 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49140 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DeleteProjectTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">49213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTDeleteProject</span>
+                <span class="method-start">49494 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50576 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DeleteUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">50653 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTDeleteUser</span>
+                <span class="method-start">50937 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52189 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginNegativeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">52265 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTLoginNegative</span>
+                <span class="method-start">52551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52869 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">52949 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTLogout</span>
+                <span class="method-start">53214 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53736 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddMultipleUsersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">53810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTAddMultipleUsers</span>
+                <span class="method-start">54082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57925 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DeleteMultipleUsersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">58000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTDeleteMultipleUsers</span>
+                <span class="method-start">58343 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60862 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddMultipleSubprojectsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">60935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTAddMultipleSubprojects</span>
+                <span class="method-start">61276 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64031 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UnlinkMultipleSubprojectsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">64106 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTUnlinkMultipleSubprojects</span>
+                <span class="method-start">64469 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72130 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LinkMultipleSubprojectsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">72197 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTLinkMultipleSubprojects</span>
+                <span class="method-start">72553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">74098 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DeleteMultipleSubprojectsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(3000)</span>
+                <span class="method-start">74172 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMantisBTDeleteMultipleSubprojects</span>
+                <span class="method-start">74433 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">82175 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

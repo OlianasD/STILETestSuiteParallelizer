@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="22" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59799" started-at="2020-07-28T09:14:23 PDT" finished-at="2020-07-28T09:15:23 PDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="59799" started-at="2020-07-28T09:14:23 PDT" finished-at="2020-07-28T09:15:23 PDT">
+      <class name="tests.AddMultipleEntriesSameRoomDifferentDaysTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddMultipleEntriesSameRoomDifferentDaysTest@fad74ee]" name="setUp" is-config="true" duration-ms="362" started-at="2020-07-28T09:14:45 PDT" finished-at="2020-07-28T09:14:45 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddMultipleEntriesSameRoomDifferentDays()[pri:0, instance:tests.AddMultipleEntriesSameRoomDifferentDaysTest@fad74ee]" name="testAddMultipleEntriesSameRoomDifferentDays" duration-ms="4155" started-at="2020-07-28T09:14:45 PDT" finished-at="2020-07-28T09:14:49 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleEntriesSameRoomDifferentDays -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddMultipleEntriesSameRoomDifferentDaysTest@fad74ee]" name="tearDown" is-config="true" duration-ms="83" started-at="2020-07-28T09:14:49 PDT" finished-at="2020-07-28T09:14:49 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddMultipleEntriesSameRoomDifferentDaysTest -->
+      <class name="tests.RemoveMultipleRoomsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.RemoveMultipleRoomsTest@2c039ac6]" name="setUp" is-config="true" duration-ms="360" started-at="2020-07-28T09:15:14 PDT" finished-at="2020-07-28T09:15:14 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRemoveMultipleRooms()[pri:0, instance:tests.RemoveMultipleRoomsTest@2c039ac6]" name="testRemoveMultipleRooms" duration-ms="2091" started-at="2020-07-28T09:15:14 PDT" finished-at="2020-07-28T09:15:16 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveMultipleRooms -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.RemoveMultipleRoomsTest@2c039ac6]" name="tearDown" is-config="true" duration-ms="73" started-at="2020-07-28T09:15:16 PDT" finished-at="2020-07-28T09:15:17 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemoveMultipleRoomsTest -->
+      <class name="tests.SearchEntryNegativeTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.SearchEntryNegativeTest@3234e239]" name="setUp" is-config="true" duration-ms="368" started-at="2020-07-28T09:14:37 PDT" finished-at="2020-07-28T09:14:38 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSearchEntryNegativeTest()[pri:0, instance:tests.SearchEntryNegativeTest@3234e239]" name="testSearchEntryNegativeTest" duration-ms="1046" started-at="2020-07-28T09:14:38 PDT" finished-at="2020-07-28T09:14:39 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchEntryNegativeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchEntryNegativeTest@3234e239]" name="tearDown" is-config="true" duration-ms="86" started-at="2020-07-28T09:14:39 PDT" finished-at="2020-07-28T09:14:39 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchEntryNegativeTest -->
+      <class name="tests.AddMultipleRoomsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddMultipleRoomsTest@27808f31]" name="setUp" is-config="true" duration-ms="357" started-at="2020-07-28T09:14:53 PDT" finished-at="2020-07-28T09:14:53 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddMultipleRooms()[pri:0, instance:tests.AddMultipleRoomsTest@27808f31]" name="testAddMultipleRooms" duration-ms="2922" started-at="2020-07-28T09:14:53 PDT" finished-at="2020-07-28T09:14:56 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleRooms -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddMultipleRoomsTest@27808f31]" name="tearDown" is-config="true" duration-ms="76" started-at="2020-07-28T09:14:56 PDT" finished-at="2020-07-28T09:14:56 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddMultipleRoomsTest -->
+      <class name="tests.RemoveBuildingTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.RemoveBuildingTest@58c1670b]" name="setUp" is-config="true" duration-ms="351" started-at="2020-07-28T09:15:21 PDT" finished-at="2020-07-28T09:15:21 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRemoveBuilding()[pri:0, instance:tests.RemoveBuildingTest@58c1670b]" name="testRemoveBuilding" duration-ms="1345" started-at="2020-07-28T09:15:21 PDT" finished-at="2020-07-28T09:15:23 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveBuilding -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.RemoveBuildingTest@58c1670b]" name="tearDown" is-config="true" duration-ms="71" started-at="2020-07-28T09:15:23 PDT" finished-at="2020-07-28T09:15:23 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemoveBuildingTest -->
+      <class name="tests.AddLongNameBuildingNegativeTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddLongNameBuildingNegativeTest@42f93a98]" name="setUp" is-config="true" duration-ms="391" started-at="2020-07-28T09:14:33 PDT" finished-at="2020-07-28T09:14:33 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddLongNameBuildingNegative()[pri:0, instance:tests.AddLongNameBuildingNegativeTest@42f93a98]" name="testAddLongNameBuildingNegative" duration-ms="1495" started-at="2020-07-28T09:14:33 PDT" finished-at="2020-07-28T09:14:35 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddLongNameBuildingNegative -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddLongNameBuildingNegativeTest@42f93a98]" name="tearDown" is-config="true" duration-ms="69" started-at="2020-07-28T09:14:35 PDT" finished-at="2020-07-28T09:14:35 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddLongNameBuildingNegativeTest -->
+      <class name="tests.RemoveMultipleEntriesTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.RemoveMultipleEntriesTest@9a7504c]" name="setUp" is-config="true" duration-ms="388" started-at="2020-07-28T09:15:09 PDT" finished-at="2020-07-28T09:15:09 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRemoveMultipleEntries()[pri:0, instance:tests.RemoveMultipleEntriesTest@9a7504c]" name="testRemoveMultipleEntries" duration-ms="5010" started-at="2020-07-28T09:15:09 PDT" finished-at="2020-07-28T09:15:14 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveMultipleEntries -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.RemoveMultipleEntriesTest@9a7504c]" name="tearDown" is-config="true" duration-ms="71" started-at="2020-07-28T09:15:14 PDT" finished-at="2020-07-28T09:15:14 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemoveMultipleEntriesTest -->
+      <class name="tests.CheckEntryTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.CheckEntryTest@631330c]" name="setUp" is-config="true" duration-ms="379" started-at="2020-07-28T09:14:32 PDT" finished-at="2020-07-28T09:14:32 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCheckEntryTest()[pri:0, instance:tests.CheckEntryTest@631330c]" name="testCheckEntryTest" duration-ms="1022" started-at="2020-07-28T09:14:32 PDT" finished-at="2020-07-28T09:14:33 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckEntryTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CheckEntryTest@631330c]" name="tearDown" is-config="true" duration-ms="79" started-at="2020-07-28T09:14:33 PDT" finished-at="2020-07-28T09:14:33 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckEntryTest -->
+      <class name="tests.AddEntryTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddEntryTest@2353b3e6]" name="setUp" is-config="true" duration-ms="369" started-at="2020-07-28T09:14:29 PDT" finished-at="2020-07-28T09:14:30 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddEntry()[pri:0, instance:tests.AddEntryTest@2353b3e6]" name="testAddEntry" duration-ms="1737" started-at="2020-07-28T09:14:30 PDT" finished-at="2020-07-28T09:14:32 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEntry -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddEntryTest@2353b3e6]" name="tearDown" is-config="true" duration-ms="71" started-at="2020-07-28T09:14:32 PDT" finished-at="2020-07-28T09:14:32 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddEntryTest -->
+      <class name="tests.AddBuildingTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddBuildingTest@6f195bc3]" name="setUp" is-config="true" duration-ms="1602" started-at="2020-07-28T09:14:23 PDT" finished-at="2020-07-28T09:14:24 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddBuilding()[pri:0, instance:tests.AddBuildingTest@6f195bc3]" name="testAddBuilding" duration-ms="1351" started-at="2020-07-28T09:14:24 PDT" finished-at="2020-07-28T09:14:26 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddBuilding -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddBuildingTest@6f195bc3]" name="tearDown" is-config="true" duration-ms="69" started-at="2020-07-28T09:14:26 PDT" finished-at="2020-07-28T09:14:26 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddBuildingTest -->
+      <class name="tests.AddMultipleEntriesDifferentRoomsSameDayTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddMultipleEntriesDifferentRoomsSameDayTest@32d2fa64]" name="setUp" is-config="true" duration-ms="369" started-at="2020-07-28T09:14:58 PDT" finished-at="2020-07-28T09:14:58 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMultipleEntriesDifferentRoomsSameDay()[pri:0, instance:tests.AddMultipleEntriesDifferentRoomsSameDayTest@32d2fa64]" name="testMultipleEntriesDifferentRoomsSameDay" duration-ms="4473" started-at="2020-07-28T09:14:58 PDT" finished-at="2020-07-28T09:15:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleEntriesDifferentRoomsSameDay -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddMultipleEntriesDifferentRoomsSameDayTest@32d2fa64]" name="tearDown" is-config="true" duration-ms="67" started-at="2020-07-28T09:15:03 PDT" finished-at="2020-07-28T09:15:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddMultipleEntriesDifferentRoomsSameDayTest -->
+      <class name="tests.AddLongNameRoomNegativeTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddLongNameRoomNegativeTest@c46bcd4]" name="setUp" is-config="true" duration-ms="368" started-at="2020-07-28T09:14:35 PDT" finished-at="2020-07-28T09:14:35 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddLongNameRoomNegative()[pri:0, instance:tests.AddLongNameRoomNegativeTest@c46bcd4]" name="testAddLongNameRoomNegative" duration-ms="1962" started-at="2020-07-28T09:14:35 PDT" finished-at="2020-07-28T09:14:37 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddLongNameRoomNegative -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddLongNameRoomNegativeTest@c46bcd4]" name="tearDown" is-config="true" duration-ms="76" started-at="2020-07-28T09:14:37 PDT" finished-at="2020-07-28T09:14:37 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddLongNameRoomNegativeTest -->
+      <class name="tests.CheckMultipleBuildingRoomsTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.CheckMultipleBuildingRoomsTest@436e852b]" name="setUp" is-config="true" duration-ms="381" started-at="2020-07-28T09:14:56 PDT" finished-at="2020-07-28T09:14:57 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCheckBuildingRoom()[pri:0, instance:tests.CheckMultipleBuildingRoomsTest@436e852b]" name="testCheckBuildingRoom" duration-ms="952" started-at="2020-07-28T09:14:57 PDT" finished-at="2020-07-28T09:14:58 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckBuildingRoom -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CheckMultipleBuildingRoomsTest@436e852b]" name="tearDown" is-config="true" duration-ms="70" started-at="2020-07-28T09:14:58 PDT" finished-at="2020-07-28T09:14:58 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckMultipleBuildingRoomsTest -->
+      <class name="tests.AddMultipleEntriesSameRoomSameDayTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddMultipleEntriesSameRoomSameDayTest@36b4cef0]" name="setUp" is-config="true" duration-ms="357" started-at="2020-07-28T09:14:41 PDT" finished-at="2020-07-28T09:14:41 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddMultipleEntriesSameRoomSameDay()[pri:0, instance:tests.AddMultipleEntriesSameRoomSameDayTest@36b4cef0]" name="testAddMultipleEntriesSameRoomSameDay" duration-ms="3398" started-at="2020-07-28T09:14:41 PDT" finished-at="2020-07-28T09:14:45 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleEntriesSameRoomSameDay -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddMultipleEntriesSameRoomSameDayTest@36b4cef0]" name="tearDown" is-config="true" duration-ms="73" started-at="2020-07-28T09:14:45 PDT" finished-at="2020-07-28T09:14:45 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddMultipleEntriesSameRoomSameDayTest -->
+      <class name="tests.RemoveRoomTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.RemoveRoomTest@37d31475]" name="setUp" is-config="true" duration-ms="373" started-at="2020-07-28T09:14:51 PDT" finished-at="2020-07-28T09:14:52 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRemoveRoom()[pri:0, instance:tests.RemoveRoomTest@37d31475]" name="testRemoveRoom" duration-ms="1508" started-at="2020-07-28T09:14:52 PDT" finished-at="2020-07-28T09:14:53 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveRoom -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.RemoveRoomTest@37d31475]" name="tearDown" is-config="true" duration-ms="70" started-at="2020-07-28T09:14:53 PDT" finished-at="2020-07-28T09:14:53 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemoveRoomTest -->
+      <class name="tests.CheckBuildingRoomTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.CheckBuildingRoomTest@1a8a8f7c]" name="setUp" is-config="true" duration-ms="367" started-at="2020-07-28T09:14:28 PDT" finished-at="2020-07-28T09:14:28 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCheckBuildingRoom()[pri:0, instance:tests.CheckBuildingRoomTest@1a8a8f7c]" name="testCheckBuildingRoom" duration-ms="940" started-at="2020-07-28T09:14:28 PDT" finished-at="2020-07-28T09:14:29 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckBuildingRoom -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CheckBuildingRoomTest@1a8a8f7c]" name="tearDown" is-config="true" duration-ms="73" started-at="2020-07-28T09:14:29 PDT" finished-at="2020-07-28T09:14:29 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckBuildingRoomTest -->
+      <class name="tests.AddMultipleEntriesDifferentRoomsDifferentDaysTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddMultipleEntriesDifferentRoomsDifferentDaysTest@1d8d30f7]" name="setUp" is-config="true" duration-ms="349" started-at="2020-07-28T09:15:03 PDT" finished-at="2020-07-28T09:15:03 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddMultipleEntriesDifferentRoomsDifferentDays()[pri:0, instance:tests.AddMultipleEntriesDifferentRoomsDifferentDaysTest@1d8d30f7]" name="testAddMultipleEntriesDifferentRoomsDifferentDays" duration-ms="3200" started-at="2020-07-28T09:15:03 PDT" finished-at="2020-07-28T09:15:06 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleEntriesDifferentRoomsDifferentDays -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddMultipleEntriesDifferentRoomsDifferentDaysTest@1d8d30f7]" name="tearDown" is-config="true" duration-ms="66" started-at="2020-07-28T09:15:06 PDT" finished-at="2020-07-28T09:15:06 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddMultipleEntriesDifferentRoomsDifferentDaysTest -->
+      <class name="tests.CheckMultipleEntriesTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.CheckMultipleEntriesTest@3e57cd70]" name="setUp" is-config="true" duration-ms="367" started-at="2020-07-28T09:15:06 PDT" finished-at="2020-07-28T09:15:07 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCheckMultipleEntries()[pri:0, instance:tests.CheckMultipleEntriesTest@3e57cd70]" name="testCheckMultipleEntries" duration-ms="1722" started-at="2020-07-28T09:15:07 PDT" finished-at="2020-07-28T09:15:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckMultipleEntries -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CheckMultipleEntriesTest@3e57cd70]" name="tearDown" is-config="true" duration-ms="70" started-at="2020-07-28T09:15:08 PDT" finished-at="2020-07-28T09:15:09 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckMultipleEntriesTest -->
+      <class name="tests.AddAndRemoveSerialEntryTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddAndRemoveSerialEntryTest@587d1d39]" name="setUp" is-config="true" duration-ms="381" started-at="2020-07-28T09:15:17 PDT" finished-at="2020-07-28T09:15:17 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddAndRemoveSerialEntry()[pri:0, instance:tests.AddAndRemoveSerialEntryTest@587d1d39]" name="testAddAndRemoveSerialEntry" duration-ms="3807" started-at="2020-07-28T09:15:17 PDT" finished-at="2020-07-28T09:15:21 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAndRemoveSerialEntry -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddAndRemoveSerialEntryTest@587d1d39]" name="tearDown" is-config="true" duration-ms="78" started-at="2020-07-28T09:15:21 PDT" finished-at="2020-07-28T09:15:21 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddAndRemoveSerialEntryTest -->
+      <class name="tests.RemoveEntryTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.RemoveEntryTest@3d921e20]" name="setUp" is-config="true" duration-ms="359" started-at="2020-07-28T09:14:39 PDT" finished-at="2020-07-28T09:14:39 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSearchEntryTest()[pri:0, instance:tests.RemoveEntryTest@3d921e20]" name="testSearchEntryTest" duration-ms="1552" started-at="2020-07-28T09:14:39 PDT" finished-at="2020-07-28T09:14:41 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchEntryTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.RemoveEntryTest@3d921e20]" name="tearDown" is-config="true" duration-ms="73" started-at="2020-07-28T09:14:41 PDT" finished-at="2020-07-28T09:14:41 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemoveEntryTest -->
+      <class name="tests.AddRoomTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.AddRoomTest@51e2adc7]" name="setUp" is-config="true" duration-ms="450" started-at="2020-07-28T09:14:26 PDT" finished-at="2020-07-28T09:14:26 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddRoom()[pri:0, instance:tests.AddRoomTest@51e2adc7]" name="testAddRoom" duration-ms="1652" started-at="2020-07-28T09:14:26 PDT" finished-at="2020-07-28T09:14:28 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddRoom -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddRoomTest@51e2adc7]" name="tearDown" is-config="true" duration-ms="72" started-at="2020-07-28T09:14:28 PDT" finished-at="2020-07-28T09:14:28 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddRoomTest -->
+      <class name="tests.SearchMultipleEntriesTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.SearchMultipleEntriesTest@1a1d6a08]" name="setUp" is-config="true" duration-ms="369" started-at="2020-07-28T09:14:49 PDT" finished-at="2020-07-28T09:14:50 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSearchMultipleEntries()[pri:0, instance:tests.SearchMultipleEntriesTest@1a1d6a08]" name="testSearchMultipleEntries" duration-ms="1367" started-at="2020-07-28T09:14:50 PDT" finished-at="2020-07-28T09:14:51 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchMultipleEntries -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchMultipleEntriesTest@1a1d6a08]" name="tearDown" is-config="true" duration-ms="71" started-at="2020-07-28T09:14:51 PDT" finished-at="2020-07-28T09:14:51 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchMultipleEntriesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

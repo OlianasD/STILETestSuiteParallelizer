@@ -1,0 +1,1 @@
+{"dockerHome":"/home/addressbook","graphPath":"src/main/resources/graphs/addressbook.txt","dockerImage":"dockercontainervm/addressbook:8.0.0.0","dockerEntryPoint":"./run-services-docker.sh"}

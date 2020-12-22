@@ -1,0 +1,214 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 01 07:31:40 PST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>51 seconds (51850 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.AddressBookAddAddressBookTest.testAddressBookAddAddressBook()'><b>testAddressBookAddAddressBook</b><br>Test class: tests.AddressBookAddAddressBookTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddressBookAddAddressBookTest@4b1c1ea0</td></tr>
+<tr>
+<td title='tests.AddressBookAddGroupTest.testAddressBookAddGroup()'><b>testAddressBookAddGroup</b><br>Test class: tests.AddressBookAddGroupTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddressBookAddGroupTest@3712b94</td></tr>
+<tr>
+<td title='tests.AddressBookAddMultipleAddressBookTest.testAddressBookAddMultipleAddressBook()'><b>testAddressBookAddMultipleAddressBook</b><br>Test class: tests.AddressBookAddMultipleAddressBookTest</td>
+<td></td>
+<td>4</td>
+<td>tests.AddressBookAddMultipleAddressBookTest@76f2b07d</td></tr>
+<tr>
+<td title='tests.AddressBookAddMultipleGroupsTest.testAddressBookAddMultipleGroups()'><b>testAddressBookAddMultipleGroups</b><br>Test class: tests.AddressBookAddMultipleGroupsTest</td>
+<td></td>
+<td>2</td>
+<td>tests.AddressBookAddMultipleGroupsTest@6ee52dcd</td></tr>
+<tr>
+<td title='tests.AddressBookAssignToGroupTest.testAddressBookAssignToGroup()'><b>testAddressBookAssignToGroup</b><br>Test class: tests.AddressBookAssignToGroupTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddressBookAssignToGroupTest@2833cc44</td></tr>
+<tr>
+<td title='tests.AddressBookAssignToMultipleGroupsTest.testAddressBookAssignToMultipleGroups()'><b>testAddressBookAssignToMultipleGroups</b><br>Test class: tests.AddressBookAssignToMultipleGroupsTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddressBookAssignToMultipleGroupsTest@4493d195</td></tr>
+<tr>
+<td title='tests.AddressBookCheckAddressBookTest.testAddressBookCheckAddressBook()'><b>testAddressBookCheckAddressBook</b><br>Test class: tests.AddressBookCheckAddressBookTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddressBookCheckAddressBookTest@2d8f65a4</td></tr>
+<tr>
+<td title='tests.AddressBookCheckBirthdayInfoTest.testAddressBookCheckBirthdayInfo()'><b>testAddressBookCheckBirthdayInfo</b><br>Test class: tests.AddressBookCheckBirthdayInfoTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddressBookCheckBirthdayInfoTest@27a8c74e</td></tr>
+<tr>
+<td title='tests.AddressBookCheckMultipleAddressBookTest.testAddressBookCheckMultipleAddressBook()'><b>testAddressBookCheckMultipleAddressBook</b><br>Test class: tests.AddressBookCheckMultipleAddressBookTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddressBookCheckMultipleAddressBookTest@4232c52b</td></tr>
+<tr>
+<td title='tests.AddressBookCheckMultipleBirthdaysInfoTest.testAddressBookCheckMultipleBirthdaysInfo()'><b>testAddressBookCheckMultipleBirthdaysInfo</b><br>Test class: tests.AddressBookCheckMultipleBirthdaysInfoTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddressBookCheckMultipleBirthdaysInfoTest@57e1b0c</td></tr>
+<tr>
+<td title='tests.AddressBookEditAddressBookTest.testAddressBookEditAddressBook()'><b>testAddressBookEditAddressBook</b><br>Test class: tests.AddressBookEditAddressBookTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddressBookEditAddressBookTest@646d64ab</td></tr>
+<tr>
+<td title='tests.AddressBookEditGroupTest.testAddressBookEditGroup()'><b>testAddressBookEditGroup</b><br>Test class: tests.AddressBookEditGroupTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddressBookEditGroupTest@59e5ddf</td></tr>
+<tr>
+<td title='tests.AddressBookEditMultipleAddressBookTest.testAddressBookEditMultipleAddressBook()'><b>testAddressBookEditMultipleAddressBook</b><br>Test class: tests.AddressBookEditMultipleAddressBookTest</td>
+<td></td>
+<td>3</td>
+<td>tests.AddressBookEditMultipleAddressBookTest@305fd85d</td></tr>
+<tr>
+<td title='tests.AddressBookEditMultipleGroupsTest.testAddressBookEditMultipleGroups()'><b>testAddressBookEditMultipleGroups</b><br>Test class: tests.AddressBookEditMultipleGroupsTest</td>
+<td></td>
+<td>5</td>
+<td>tests.AddressBookEditMultipleGroupsTest@458c1321</td></tr>
+<tr>
+<td title='tests.AddressBookPrintAddressBookTest.testAddressBookPrintAddressBook()'><b>testAddressBookPrintAddressBook</b><br>Test class: tests.AddressBookPrintAddressBookTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddressBookPrintAddressBookTest@1b68ddbd</td></tr>
+<tr>
+<td title='tests.AddressBookPrintMultipleAddressBookTest.testAddressBookPrintMultipleAddressBook()'><b>testAddressBookPrintMultipleAddressBook</b><br>Test class: tests.AddressBookPrintMultipleAddressBookTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddressBookPrintMultipleAddressBookTest@1877ab81</td></tr>
+<tr>
+<td title='tests.AddressBookRemoveAddressBookTest.testAddressBookRemoveAddressBook()'><b>testAddressBookRemoveAddressBook</b><br>Test class: tests.AddressBookRemoveAddressBookTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddressBookRemoveAddressBookTest@1f57539</td></tr>
+<tr>
+<td title='tests.AddressBookRemoveFromGroupTest.testAddressBookRemoveFromGroup()'><b>testAddressBookRemoveFromGroup</b><br>Test class: tests.AddressBookRemoveFromGroupTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddressBookRemoveFromGroupTest@536aaa8d</td></tr>
+<tr>
+<td title='tests.AddressBookRemoveFromMultipleGroupsTest.testAddressBookRemoveFromMultipleGroups()'><b>testAddressBookRemoveFromMultipleGroups</b><br>Test class: tests.AddressBookRemoveFromMultipleGroupsTest</td>
+<td></td>
+<td>2</td>
+<td>tests.AddressBookRemoveFromMultipleGroupsTest@11438d26</td></tr>
+<tr>
+<td title='tests.AddressBookRemoveGroupTest.testAddressBookRemoveGroup()'><b>testAddressBookRemoveGroup</b><br>Test class: tests.AddressBookRemoveGroupTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddressBookRemoveGroupTest@e320068</td></tr>
+<tr>
+<td title='tests.AddressBookRemoveMultipleAddressBookTest.testAddressBookRemoveMultipleAddressBook()'><b>testAddressBookRemoveMultipleAddressBook</b><br>Test class: tests.AddressBookRemoveMultipleAddressBookTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddressBookRemoveMultipleAddressBookTest@7a1ebcd8</td></tr>
+<tr>
+<td title='tests.AddressBookRemoveMultipleGroupsTest.testAddressBookRemoveMultipleGroups()'><b>testAddressBookRemoveMultipleGroups</b><br>Test class: tests.AddressBookRemoveMultipleGroupsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddressBookRemoveMultipleGroupsTest@34cd072c</td></tr>
+<tr>
+<td title='tests.AddressBookSearchAddressBookEmailTest.testAddressBookSearchAddressBookEmail()'><b>testAddressBookSearchAddressBookEmail</b><br>Test class: tests.AddressBookSearchAddressBookEmailTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddressBookSearchAddressBookEmailTest@4d41cee</td></tr>
+<tr>
+<td title='tests.AddressBookSearchAddressBookNameTest.testAddressBookSearchAddressBookName()'><b>testAddressBookSearchAddressBookName</b><br>Test class: tests.AddressBookSearchAddressBookNameTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddressBookSearchAddressBookNameTest@17579e0f</td></tr>
+<tr>
+<td title='tests.AddressBookSearchByGroupTest.testAddressBookSearchByGroup()'><b>testAddressBookSearchByGroup</b><br>Test class: tests.AddressBookSearchByGroupTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AddressBookSearchByGroupTest@33f88ab</td></tr>
+<tr>
+<td title='tests.AddressBookSearchByMultipleGroupsTest.testAddressBookSearchByMultipleGroups()'><b>testAddressBookSearchByMultipleGroups</b><br>Test class: tests.AddressBookSearchByMultipleGroupsTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddressBookSearchByMultipleGroupsTest@2781e022</td></tr>
+<tr>
+<td title='tests.AddressBookSearchMultipleAddressBookNameTest.testAddressBookSearchMultipleAddressBookName()'><b>testAddressBookSearchMultipleAddressBookName</b><br>Test class: tests.AddressBookSearchMultipleAddressBookNameTest</td>
+<td></td>
+<td>1</td>
+<td>tests.AddressBookSearchMultipleAddressBookNameTest@704a52ec</td></tr>
+</table><p>
+</body>
+</html>

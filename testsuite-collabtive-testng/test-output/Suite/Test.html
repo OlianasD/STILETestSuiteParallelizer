@@ -1,0 +1,279 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>40/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 27 05:38:41 PDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>351 seconds (351008 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.AddAndRemoveLateMilestoneTest.testCollabtiveAddAndRemoveLateMilestone()'><b>testCollabtiveAddAndRemoveLateMilestone</b><br>Test class: tests.AddAndRemoveLateMilestoneTest</td>
+<td></td>
+<td>8</td>
+<td>tests.AddAndRemoveLateMilestoneTest@6a41eaa2</td></tr>
+<tr>
+<td title='tests.AddAndRemoveMultipleTasksTest.testCollabtiveAddAndRemoveMultipleTasks()'><b>testCollabtiveAddAndRemoveMultipleTasks</b><br>Test class: tests.AddAndRemoveMultipleTasksTest</td>
+<td></td>
+<td>14</td>
+<td>tests.AddAndRemoveMultipleTasksTest@1e88b3c</td></tr>
+<tr>
+<td title='tests.AddMilestoneTest.testCollabtiveAddMilestone()'><b>testCollabtiveAddMilestone</b><br>Test class: tests.AddMilestoneTest</td>
+<td></td>
+<td>4</td>
+<td>tests.AddMilestoneTest@59f99ea</td></tr>
+<tr>
+<td title='tests.AddMultipleProjectsTest.testCollabtiveAddMultipleProjects()'><b>testCollabtiveAddMultipleProjects</b><br>Test class: tests.AddMultipleProjectsTest</td>
+<td></td>
+<td>6</td>
+<td>tests.AddMultipleProjectsTest@7cd62f43</td></tr>
+<tr>
+<td title='tests.AddProjectTest.testCollabtiveAddProject()'><b>testCollabtiveAddProject</b><br>Test class: tests.AddProjectTest</td>
+<td></td>
+<td>6</td>
+<td>tests.AddProjectTest@28d25987</td></tr>
+<tr>
+<td title='tests.AddRoleTest.testCollabtiveAddRole()'><b>testCollabtiveAddRole</b><br>Test class: tests.AddRoleTest</td>
+<td></td>
+<td>3</td>
+<td>tests.AddRoleTest@3ffc5af1</td></tr>
+<tr>
+<td title='tests.AddTaskDesktopPresentTest.testCollabtiveAddTaskDesktopPresent()'><b>testCollabtiveAddTaskDesktopPresent</b><br>Test class: tests.AddTaskDesktopPresentTest</td>
+<td></td>
+<td>6</td>
+<td>tests.AddTaskDesktopPresentTest@42d80b78</td></tr>
+<tr>
+<td title='tests.AddTasklistTest.testCollabtiveAddTasklist()'><b>testCollabtiveAddTasklist</b><br>Test class: tests.AddTasklistTest</td>
+<td></td>
+<td>4</td>
+<td>tests.AddTasklistTest@3e6fa38a</td></tr>
+<tr>
+<td title='tests.AddTasksTest.testCollabtiveAddTasks()'><b>testCollabtiveAddTasks</b><br>Test class: tests.AddTasksTest</td>
+<td></td>
+<td>6</td>
+<td>tests.AddTasksTest@1bce4f0a</td></tr>
+<tr>
+<td title='tests.AddUserTest.testCollabtiveAddUser()'><b>testCollabtiveAddUser</b><br>Test class: tests.AddUserTest</td>
+<td></td>
+<td>3</td>
+<td>tests.AddUserTest@26653222</td></tr>
+<tr>
+<td title='tests.AddUserAlreadyPresentTest.testCollabtiveAddUserAlreadyPresent()'><b>testCollabtiveAddUserAlreadyPresent</b><br>Test class: tests.AddUserAlreadyPresentTest</td>
+<td></td>
+<td>2</td>
+<td>tests.AddUserAlreadyPresentTest@6a4f787b</td></tr>
+<tr>
+<td title='tests.AddUserEmptyValuesTest.testCollabtiveAddUserEmptyValues()'><b>testCollabtiveAddUserEmptyValues</b><br>Test class: tests.AddUserEmptyValuesTest</td>
+<td></td>
+<td>3</td>
+<td>tests.AddUserEmptyValuesTest@685cb137</td></tr>
+<tr>
+<td title='tests.AssignUserToProjectTest.testCollabtiveAssignUserToProject()'><b>testCollabtiveAssignUserToProject</b><br>Test class: tests.AssignUserToProjectTest</td>
+<td></td>
+<td>3</td>
+<td>tests.AssignUserToProjectTest@ae45eb6</td></tr>
+<tr>
+<td title='tests.CloseMilestoneTest.testCollabtiveCloseMilestone()'><b>testCollabtiveCloseMilestone</b><br>Test class: tests.CloseMilestoneTest</td>
+<td></td>
+<td>5</td>
+<td>tests.CloseMilestoneTest@6f7fd0e6</td></tr>
+<tr>
+<td title='tests.CloseProjectTest.testCollabtiveCloseProject()'><b>testCollabtiveCloseProject</b><br>Test class: tests.CloseProjectTest</td>
+<td></td>
+<td>2</td>
+<td>tests.CloseProjectTest@5b275dab</td></tr>
+<tr>
+<td title='tests.CloseTasklistTest.testCollabtiveCloseTasklist()'><b>testCollabtiveCloseTasklist</b><br>Test class: tests.CloseTasklistTest</td>
+<td></td>
+<td>4</td>
+<td>tests.CloseTasklistTest@66a3ffec</td></tr>
+<tr>
+<td title='tests.CloseTasksTest.testCollabtiveCloseTasks()'><b>testCollabtiveCloseTasks</b><br>Test class: tests.CloseTasksTest</td>
+<td></td>
+<td>6</td>
+<td>tests.CloseTasksTest@5e3a8624</td></tr>
+<tr>
+<td title='tests.CloseTasksProjectPercentageTest.testCollabtiveCloseTasksProjectPercentage()'><b>testCollabtiveCloseTasksProjectPercentage</b><br>Test class: tests.CloseTasksProjectPercentageTest</td>
+<td></td>
+<td>4</td>
+<td>tests.CloseTasksProjectPercentageTest@91161c7</td></tr>
+<tr>
+<td title='tests.EditMilestoneTest.testCollabtiveEditMilestone()'><b>testCollabtiveEditMilestone</b><br>Test class: tests.EditMilestoneTest</td>
+<td></td>
+<td>5</td>
+<td>tests.EditMilestoneTest@27efef64</td></tr>
+<tr>
+<td title='tests.EditProjectTest.testCollabtiveEditProject()'><b>testCollabtiveEditProject</b><br>Test class: tests.EditProjectTest</td>
+<td></td>
+<td>5</td>
+<td>tests.EditProjectTest@4501b7af</td></tr>
+<tr>
+<td title='tests.EditRoleTest.testCollabtiveEditRole()'><b>testCollabtiveEditRole</b><br>Test class: tests.EditRoleTest</td>
+<td></td>
+<td>3</td>
+<td>tests.EditRoleTest@5e5792a0</td></tr>
+<tr>
+<td title='tests.EditUserRoleTest.testCollabtiveEditUserRole()'><b>testCollabtiveEditUserRole</b><br>Test class: tests.EditUserRoleTest</td>
+<td></td>
+<td>2</td>
+<td>tests.EditUserRoleTest@3532ec19</td></tr>
+<tr>
+<td title='tests.LoginUserTest.testCollabtiveLoginUser()'><b>testCollabtiveLoginUser</b><br>Test class: tests.LoginUserTest</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginUserTest@68c4039c</td></tr>
+<tr>
+<td title='tests.OpenMilestoneTest.testCollabtiveOpenMilestone()'><b>testCollabtiveOpenMilestone</b><br>Test class: tests.OpenMilestoneTest</td>
+<td></td>
+<td>3</td>
+<td>tests.OpenMilestoneTest@47c62251</td></tr>
+<tr>
+<td title='tests.OpenProjectTest.testCollabtiveOpenProject()'><b>testCollabtiveOpenProject</b><br>Test class: tests.OpenProjectTest</td>
+<td></td>
+<td>2</td>
+<td>tests.OpenProjectTest@29774679</td></tr>
+<tr>
+<td title='tests.OpenTasklistTest.testCollabtiveOpenTasklist()'><b>testCollabtiveOpenTasklist</b><br>Test class: tests.OpenTasklistTest</td>
+<td></td>
+<td>2</td>
+<td>tests.OpenTasklistTest@77caeb3e</td></tr>
+<tr>
+<td title='tests.OpenTasksTest.testCollabtiveOpenTasks()'><b>testCollabtiveOpenTasks</b><br>Test class: tests.OpenTasksTest</td>
+<td></td>
+<td>6</td>
+<td>tests.OpenTasksTest@5c3bd550</td></tr>
+<tr>
+<td title='tests.OpenTasksProjectPercentageTest.testCollabtiveOpenTasksProjectPercentage()'><b>testCollabtiveOpenTasksProjectPercentage</b><br>Test class: tests.OpenTasksProjectPercentageTest</td>
+<td></td>
+<td>5</td>
+<td>tests.OpenTasksProjectPercentageTest@604ed9f0</td></tr>
+<tr>
+<td title='tests.RemoveMilestoneTest.testCollabtiveRemoveMilestone()'><b>testCollabtiveRemoveMilestone</b><br>Test class: tests.RemoveMilestoneTest</td>
+<td></td>
+<td>3</td>
+<td>tests.RemoveMilestoneTest@39c0f4a</td></tr>
+<tr>
+<td title='tests.RemoveMultipleProjectsTest.testCollabtiveRemoveMultipleProjects()'><b>testCollabtiveRemoveMultipleProjects</b><br>Test class: tests.RemoveMultipleProjectsTest</td>
+<td></td>
+<td>8</td>
+<td>tests.RemoveMultipleProjectsTest@6093dd95</td></tr>
+<tr>
+<td title='tests.RemoveProjectTest.testCollabtiveRemoveProject()'><b>testCollabtiveRemoveProject</b><br>Test class: tests.RemoveProjectTest</td>
+<td></td>
+<td>2</td>
+<td>tests.RemoveProjectTest@57baeedf</td></tr>
+<tr>
+<td title='tests.RemoveRoleTest.testCollabtiveRemoveRole()'><b>testCollabtiveRemoveRole</b><br>Test class: tests.RemoveRoleTest</td>
+<td></td>
+<td>3</td>
+<td>tests.RemoveRoleTest@1794d431</td></tr>
+<tr>
+<td title='tests.RemoveTaskDesktopNotPresentTest.testCollabtiveRemoveTaskDesktopNotPresent()'><b>testCollabtiveRemoveTaskDesktopNotPresent</b><br>Test class: tests.RemoveTaskDesktopNotPresentTest</td>
+<td></td>
+<td>4</td>
+<td>tests.RemoveTaskDesktopNotPresentTest@3bfdc050</td></tr>
+<tr>
+<td title='tests.RemoveTasklistTest.testCollabtiveRemoveTasklist()'><b>testCollabtiveRemoveTasklist</b><br>Test class: tests.RemoveTasklistTest</td>
+<td></td>
+<td>3</td>
+<td>tests.RemoveTasklistTest@7d9d1a19</td></tr>
+<tr>
+<td title='tests.RemoveTasksTest.testCollabtiveRemoveTasks()'><b>testCollabtiveRemoveTasks</b><br>Test class: tests.RemoveTasksTest</td>
+<td></td>
+<td>6</td>
+<td>tests.RemoveTasksTest@4883b407</td></tr>
+<tr>
+<td title='tests.RemoveUserTest.testCollabtiveRemoveUser()'><b>testCollabtiveRemoveUser</b><br>Test class: tests.RemoveUserTest</td>
+<td></td>
+<td>3</td>
+<td>tests.RemoveUserTest@42e26948</td></tr>
+<tr>
+<td title='tests.RemoveUserFromProjectTest.testCollabtiveRemoveUserFromProject()'><b>testCollabtiveRemoveUserFromProject</b><br>Test class: tests.RemoveUserFromProjectTest</td>
+<td></td>
+<td>8</td>
+<td>tests.RemoveUserFromProjectTest@5622fdf</td></tr>
+<tr>
+<td title='tests.SearchClosedProjectTest.testCollabtiveSearchClosedProject()'><b>testCollabtiveSearchClosedProject</b><br>Test class: tests.SearchClosedProjectTest</td>
+<td></td>
+<td>1</td>
+<td>tests.SearchClosedProjectTest@61832929</td></tr>
+<tr>
+<td title='tests.SearchMultipleProjectsTest.testCollabtiveSearchMultipleProjects()'><b>testCollabtiveSearchMultipleProjects</b><br>Test class: tests.SearchMultipleProjectsTest</td>
+<td></td>
+<td>2</td>
+<td>tests.SearchMultipleProjectsTest@6d4b1c02</td></tr>
+<tr>
+<td title='tests.SearchProjectTest.testCollabtiveSearchProject()'><b>testCollabtiveSearchProject</b><br>Test class: tests.SearchProjectTest</td>
+<td></td>
+<td>1</td>
+<td>tests.SearchProjectTest@523884b2</td></tr>
+</table><p>
+</body>
+</html>
