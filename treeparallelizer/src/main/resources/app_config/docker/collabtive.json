@@ -1,1 +1,1 @@
-{"dockerHome":"/home","graphPath":"src/main/resources/graphs/collabtive.txt","dockerImage":"dockercontainervm/collabtive:3.1","dockerEntryPoint":"./run-services.sh"}
+{"dockerHome":"/home","graphPath":"src/main/resources/graphs/collabtive.txt","dockerImage":"dockercontainervm/collabtive:3.1","dockerEntryPoint":"./run-services.sh", "dockerHost":"192.168.1.6"}

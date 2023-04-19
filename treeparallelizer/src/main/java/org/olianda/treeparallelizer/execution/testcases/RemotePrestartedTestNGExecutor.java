@@ -58,6 +58,9 @@ public class RemotePrestartedTestNGExecutor {
 		String[] input = inputStr.split("\\:");
 		String testCase = input[0];
 		String port = input[1];
+		String browserPort = input[2];
+		String host = input[3];
+		String wait = input[4];
 		MyClassLoader classLoader = new MyClassLoader(cp);
 		Class<?> cls = null;
 		try {
@@ -68,18 +71,36 @@ public class RemotePrestartedTestNGExecutor {
 			System.exit(3);
 		}
 		
-		prepareTestCase(testCase, port, testng, tla, classLoader, cls);
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		prepareTestCase(testCase, port, browserPort, host, testng, tla, classLoader, cls);
+		if(wait.equals("wait")) {
+			try {
+				Thread.sleep(5000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 		testng.run();
 		List<ITestResult> passed = tla.getPassedTests();
 		List<ITestResult> failed = tla.getFailedTests();
 		List<ITestResult> skipped = tla.getSkippedTests();
-		if(!passed.isEmpty()) {
+		if(!failed.isEmpty()) {
+			System.out.println("<ParallelStackTrace>");
+			failed.get(0).getThrowable().printStackTrace(System.out);
+			System.out.println("</ParallelStackTrace>");
+			System.exit(1);
+		}
+		else if(!passed.isEmpty()) {
+			System.out.println("Passed");
+			System.exit(0);
+		}
+		else if(!skipped.isEmpty()) {
+			System.out.println("<ParallelStackTrace>");
+			skipped.get(0).getThrowable().printStackTrace(System.out);
+			System.out.println("</ParallelStackTrace>");
+			System.exit(2);
+		}
+		/*if(!passed.isEmpty()) {
 			System.out.println("Passed");
 			System.exit(0);
 		}
@@ -94,11 +115,11 @@ public class RemotePrestartedTestNGExecutor {
 			skipped.get(0).getThrowable().printStackTrace(System.out);
 			System.out.println("</ParallelStackTrace>");
 			System.exit(2);
-		}
+		}*/
 	}
 	
 	
-	private static void prepareTestCase(String testCase, String port, TestNG testng, TestListenerAdapter tla,
+	private static void prepareTestCase(String testCase, String port, String browserPort, String host, TestNG testng, TestListenerAdapter tla,
 			MyClassLoader classLoader, Class<?> cls) {
 		XmlSuite suite = new XmlSuite();
 		XmlTest test = new XmlTest();
@@ -106,6 +127,8 @@ public class RemotePrestartedTestNGExecutor {
 		testng.addClassLoader(classLoader);
 		Map<String, String> params = new HashMap<>();
 		params.put("port", String.valueOf(port));
+		params.put("browserPort", browserPort);
+		params.put("host", host);
 		clz.setClass(cls);
 		clz.setParameters(params);
 		List<XmlClass> clzList = new ArrayList<>();

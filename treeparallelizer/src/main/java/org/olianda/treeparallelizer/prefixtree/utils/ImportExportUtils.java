@@ -47,7 +47,7 @@ public class ImportExportUtils {
 		for(String app : apps) {
 			List<Map<String, Float>> times = new ArrayList<>();
 			for(int i=0; i<n_samples; i++) {
-				times.add(getJson(app+i, xmlPath+app+"/", allApps));
+				times.add(getTestTimesFromXml(app+i, xmlPath+app+"/"));
 			}
 			String csv = unifyToCsv(times);
 			stringToFile(csvPath+app+".csv", csv);
@@ -77,14 +77,14 @@ public class ImportExportUtils {
 		
 		for(String app : apps) {
 			for(int i=0; i<n_samples; i++) {
-				Map<String, Float> times = getJson(app+i, xmlPath+app+"/", allApps);
+				Map<String, Float> times = getTestTimesFromXml(app+i, xmlPath+app+"/");
 				saveStringFloatJsonToFile(times, jsonPath+app+"/"+app+i+".json");
 			}
 				
 		}
 	}
 
-	public static Map<String, Float> getJson(String app, String path, String[] apps) throws FactoryConfigurationError, FileNotFoundException, XMLStreamException {
+	public static Map<String, Float> getTestTimesFromXml(String app, String path) throws FactoryConfigurationError, FileNotFoundException, XMLStreamException {
 		XMLInputFactory factory = XMLInputFactory.newInstance();
 		InputStream in;
 		HashMap<String, Float> times = new HashMap<>();
@@ -178,6 +178,11 @@ public class ImportExportUtils {
 
 	public static void exportTree(PrefixTree rt, String path) {
 		TreeExporter exporter = new TreeExporter(rt.getTree());
+		exporter.export(path);
+	}
+	
+	public static void exportPrioritizedTree(PrefixTree rt, String path) {
+		PrioritizedTreeExporter exporter = new PrioritizedTreeExporter(rt.getTree());
 		exporter.export(path);
 	}
 	

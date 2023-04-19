@@ -21,12 +21,8 @@ import java.util.Scanner;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 import org.olianda.treeparallelizer.prefixtree.utils.ImportExportUtils;
-import org.testng.ITestResult;
-import org.testng.TestListenerAdapter;
 import org.testng.TestNG;
-import org.testng.xml.XmlClass;
-import org.testng.xml.XmlSuite;
-import org.testng.xml.XmlTest;
+
 
 public class GenerateTestProcessClasspath {
 	

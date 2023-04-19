@@ -1,0 +1,1 @@
+{"dockerHome":"/var/expressCart","graphPath":"src/main/resources/graphs/expresscart.txt","dockerImage":"olianasd/expresscart-mongodb","dockerEntryPoint":"./start.sh", "dockerHost": "192.168.1.6"}

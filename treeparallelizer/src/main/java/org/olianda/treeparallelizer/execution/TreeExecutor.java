@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.mb.tedd.utils.ExecutionTime;
+import org.olianda.treeparallelizer.docker.BrowserContainerManager;
 import org.olianda.treeparallelizer.docker.DockerContainer;
 import org.olianda.treeparallelizer.docker.DockerManager;
 import org.olianda.treeparallelizer.execution.testcases.TestProcessManager;
@@ -18,12 +19,14 @@ public class TreeExecutor {
 	private String imageId;
 	private String appName;
 	private TestProcessManager processManager;
+	private BrowserContainerManager browsers;
 	
-	public TreeExecutor(DockerManager docker, String imageId, String appName, TestProcessManager processManager) {
+	public TreeExecutor(DockerManager docker, String imageId, String appName, TestProcessManager processManager, BrowserContainerManager browsers) {
 		this.docker = docker;
 		this.imageId = imageId;
 		this.appName = appName;
 		this.processManager = processManager;
+		this.browsers = browsers;
 	}
 	
 	
@@ -34,7 +37,7 @@ public class TreeExecutor {
 		long dockerCloneStart = System.currentTimeMillis();
 		for(TestTreeNode node : rootChildren) {
 			DockerContainer container = docker.runContainerFromImage(imageId);
-			NodeExecutor currChildThread = new NodeExecutor(node, docker, container, appName, stopContainerWhenFinished, processManager);
+			NodeExecutor currChildThread = new NodeExecutor(node, docker, container, appName, stopContainerWhenFinished, processManager, browsers);
 			currChildThread.start();
 			childrenThreads.add(currChildThread);
 		}

@@ -13,29 +13,21 @@ public class TestProcessManager {
 	
 	private volatile LinkedList<Process> processes;
 	//protected String cpFilePath = "src/main/resources/classpath.txt";
+	private boolean prestart;
+	private String app;
+	private String process;
 	
-	
-	public TestProcessManager() {
+	public TestProcessManager(boolean prestart, String app, String process) {
 		processes = new LinkedList<>();
-	
+		this.prestart = prestart;
+		this.app = app;
+		this.process = process;
 	}
 	
 	public void startProcesses(int nproc, String app) {
-		List<String> cmdArgs = new ArrayList<>();
-		JSONObject jsonCp = ImportExportUtils.loadJSONObject("src/main/resources/app_config/testprocess_cp/"+app+".json");
-		HashMap<String, String> classPathMap = new HashMap(jsonCp.toMap());
-		//String cp = ImportExportUtils.readStringFromFile(cpFilePath);
-		cmdArgs.add("/home/anonymous/workspace/java/jdk1.8.0_201/bin/java");
-		cmdArgs.add("-Dfile.encoding=UTF-8");
-		cmdArgs.add("-classpath");
-		cmdArgs.add(classPathMap.get(app));
-		//cmdArgs.add(cp);
-		cmdArgs.add("org.olianda.treeparallelizer.execution.testcases.RemotePrestartedTestNGExecutor");
-		cmdArgs.add(app);
 		for(int i=0; i<nproc; i++) {
-			ProcessBuilder processBuilder = new ProcessBuilder(cmdArgs);
 			try {
-				processes.add(processBuilder.start());
+				processes.add(startProcess(app));
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -43,8 +35,34 @@ public class TestProcessManager {
 		}
 	}
 	
+	private Process startProcess(String app) throws IOException {
+		List<String> cmdArgs = new ArrayList<>();
+		JSONObject jsonCp = ImportExportUtils.loadJSONObject("src/main/resources/app_config/testprocess_cp/"+app+".json");
+		HashMap<String, String> classPathMap = new HashMap(jsonCp.toMap());
+		//String cp = ImportExportUtils.readStringFromFile(cpFilePath);
+		cmdArgs.add("java");
+		cmdArgs.add("-Dfile.encoding=UTF-8");
+		cmdArgs.add("-classpath");
+		cmdArgs.add(classPathMap.get(app));
+		//cmdArgs.add(cp);
+		cmdArgs.add(process);
+		cmdArgs.add(app);
+		ProcessBuilder processBuilder = new ProcessBuilder(cmdArgs);
+		return processBuilder.start();
+	}
+	
 	public synchronized Process getProcess() {
-		return processes.remove();
+		if(prestart) {
+			return processes.remove();
+		} else {
+			try {
+				return startProcess(app);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				return null;
+			}
+		}
 	}
 	
 	

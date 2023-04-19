@@ -3,6 +3,7 @@ package org.olianda.treeparallelizer.prefixtree;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Enumeration;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
 
@@ -20,19 +21,17 @@ public class TestTreeNode implements MutableTreeNode {
 	private String failCause;
 	private String stackTrace;
 	private double testTime;
-	private double dockerCloneTime;
-	private double dockerKillTime;
+	private int priority;
 	
 	public TestTreeNode(GraphNode<String> testCase) {
 		this.testCase = testCase;
-		children = new ArrayList<>();
+		children = new LinkedList<>();
 		result ="NOTEXEC";
 	}
 	
-	public TestTreeNode(GraphNode<String> testCase, double dockerCloneTime, double dockerKillTime) {
+	public TestTreeNode(GraphNode<String> testCase, double testTime) {
 		this.testCase = testCase;
-		this.dockerCloneTime = dockerCloneTime;
-		this.dockerKillTime = dockerKillTime;
+		this.testTime = testTime;
 		children = new ArrayList<>();
 		result ="NOTEXEC";
 	}
@@ -164,19 +163,19 @@ public class TestTreeNode implements MutableTreeNode {
 	}
 
 	public double getDockerCloneTime() {
-		return dockerCloneTime;
+		return 0.0;
 	}
 
 	public void setDockerCloneTime(double dockerCloneTime) {
-		this.dockerCloneTime = dockerCloneTime;
+		
 	}
 
 	public double getDockerKillTime() {
-		return dockerKillTime;
+		return 0.0;
 	}
 
 	public void setDockerKillTime(double dockerKillTime) {
-		this.dockerKillTime = dockerKillTime;
+		
 	}
 	
 	public int getLevel() {
@@ -201,6 +200,14 @@ public class TestTreeNode implements MutableTreeNode {
 
 	public void setStackTrace(String stackTrace) {
 		this.stackTrace = stackTrace;
+	}
+
+	public int getPriority() {
+		return priority;
+	}
+
+	public void setPriority(int priority) {
+		this.priority = priority;
 	}
 	
 

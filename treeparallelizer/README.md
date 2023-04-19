@@ -2,8 +2,8 @@
 
 ## 1. Using Virtual Machine for replication
 
-A virtual machine running Ubuntu Server 16.04 is available for download from Dropbox at https://www.dropbox.com/s/uqp4tojojmp4nmc/STILE%20GUI.ova?dl=0, and it contains this repository and all the dependencies needed to run STILE on the test suite subject.
-It's strongly recommended to use this virtual machine to replicate the experiments, since STILE is still at a prototype level and has never been tested on different machines and configurations.
+A virtual machine running Ubuntu Server 16.04 is available for download from Dropbox at https://www.dropbox.com/s/uqp4tojojmp4nmc/STILE%20GUI.ova?dl=0, and it contains this repository and all the dependencies needed to run STILE on the test suite of interest.
+It's strongly recommended to use this virtual machine to replicate the experiments, since STILE is at a prototype level and has not been yet carefully tested on different machines and configurations.
 The virtual machine was created with Oracle VirtualBox 6.1 in the .ova format, a platform independent distribution format for virtual machine. It should be compatible with any virtualization software, although it has only been tested with VirtualBox. The recommended RAM requirement for the virtual machine is 8 GB.
 
 Login credentials for the replication virtual machine:
@@ -35,21 +35,19 @@ The results will be stored in the `treeparallelizer/results` directory, in detai
 	
 ### 2.2 GUI
 Start the virtual machine, login and give command `startx` to start the graphical environment. Then, move to the directory `/home/anonymous/workspace/FSE19-submission-material/treeparallelizer`. Run the script `runGUI.sh` with no arguments to start STILE with graphical user interface. The drop-down menu at the top of the window lets you choose the application under test, the buttons at the bottom of the window allow you respectively to:
-
-	- 1. generate the warranted schedules for all tests with zero in-degree in the test dependency graph for the selected application
-	- 2. generate the prefix tree for the selected application
-	- 3. run the test suite in parallel
-	- 4. display a previously computed prefix tree
+	1. generate the warranted schedules for all tests with zero in-degree in the test dependency graph for the selected application
+	2. generate the prefix tree for the selected application
+	3. run the test suite in parallel and inspect the test suite results in a tree format
+	4. display a previously computed prefix tree
 
 For more details, watch the demo video at https://sepl.dibris.unige.it/STILE.php
 
 ### 2.3 Add a new test suite
 To run a new test suite with STILE, you need to:
-
-	- 1. Compute the test dependency graph of the test suite with TEDD. Please refer to TEDD's code, documentation and paper to know how to use TEDD to compute the graph ( https://github.com/matteobiagiola/FSE19-submission-material-TEDD )
-	- 2. Create a Docker image of the system under test
-	- 3. Convert the test suite from JUnit to TestNG
-	- 4. Create a Docker configuration file in JSON format containing the information required to instantiate a container with the system under test (see the precise content that they must include from existing configuration files in `treeparallelizer/src/main/resources/app_config` )
-	- 5. Copy the .properties files used by TEDD to configure test suites in the `config_files` directory
+	1. Compute the test dependency graph of the test suite with TEDD. Please refer to TEDD's code, documentation and paper to know how to use TEDD to compute the graph ( https://github.com/matteobiagiola/FSE19-submission-material-TEDD )
+	2. Create a Docker image of the system under test
+	3. Convert the test suite from JUnit to TestNG
+	4. Create a Docker configuration file in JSON format containing the information required to instantiate a container with the system under test (see the precise content that they must include from existing configuration files in `treeparallelizer/src/main/resources/app_config` )
+	5. Copy the .properties files used by TEDD to configure test suites in the `config_files` directory
 
 When you start STILE in GUI mode, the new application will appear in the drop down menu. In CLI mode, it now can be passed as first argument.

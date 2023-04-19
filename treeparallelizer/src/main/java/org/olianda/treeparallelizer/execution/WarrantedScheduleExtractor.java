@@ -46,6 +46,15 @@ public class WarrantedScheduleExtractor {
 		}
 		return indep;
 	}
+	
+	public static Set<GraphNode<String>> getWarrantedForSpecificNode(Graph<GraphNode<String>, GraphEdge> graph, String node) {
+		for(GraphNode<String> currNode : graph.vertexSet()) {
+			if(currNode.getTestCase().equals(node)) {
+				return getWarranteds(graph, currNode);
+			}
+		}
+		return null;
+	}
 
 	public static Set<GraphNode<String>> getWarranteds(Graph<GraphNode<String>, GraphEdge> graph, GraphNode<String> node) {
 		System.out.println("Generating warranted schedule for "+node+": ");

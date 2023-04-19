@@ -10,6 +10,7 @@ import javax.swing.tree.DefaultTreeModel;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.mb.tedd.graph.GraphNode;
+import org.olianda.treeparallelizer.times.TimedWarrantedSchedule;
 
 public class PrefixTree {
 	
@@ -22,7 +23,7 @@ public class PrefixTree {
 	public PrefixTree(JSONObject jsonTree) {
 		JSONObject rootTestObject = jsonTree.getJSONObject("testCaseObject");
 		GraphNode<String> rootTestGraphNode = new GraphNode(rootTestObject.getString("testCase"), rootTestObject.getInt("numOrder"));
-		TestTreeNode root = new TestTreeNode(rootTestGraphNode, jsonTree.getDouble("cloneTime"), jsonTree.getDouble("killTime"));
+		TestTreeNode root = new TestTreeNode(rootTestGraphNode, jsonTree.getDouble("cloneTime"));
 		List<TestTreeNode> children = childrenFromJSON(jsonTree.getJSONArray("children"));
 		for(int j=0; j<children.size(); j++) {
 			root.insert(children.get(j), j);
@@ -36,7 +37,7 @@ public class PrefixTree {
 			JSONObject currJsonNode = children.getJSONObject(i);
 			JSONObject currTestObject = currJsonNode.getJSONObject("testCaseObject");
 			GraphNode<String> currGraphNode = new GraphNode<>(currTestObject.getString("testCase"), currTestObject.getInt("numOrder"));
-			TestTreeNode currNode = new TestTreeNode(currGraphNode, currJsonNode.getDouble("cloneTime"), currJsonNode.getDouble("killTime"));
+			TestTreeNode currNode = new TestTreeNode(currGraphNode, currJsonNode.getDouble("cloneTime"));
 			List<TestTreeNode> childrenLst = childrenFromJSON(currJsonNode.getJSONArray("children"));
 			for(int j=0; j<childrenLst.size(); j++) {
 				currNode.insert(childrenLst.get(j), j);
@@ -57,6 +58,19 @@ public class PrefixTree {
 			currTreeNode = target;
 		}
 		
+	}
+	
+	public void insert(TimedWarrantedSchedule warranted) {
+		TestTreeNode currTreeNode = (TestTreeNode) tree.getRoot();
+		List<TestTreeNode> schedule = warranted.getSchedule();
+		for(TestTreeNode currSeqNode : schedule) {
+			TestTreeNode target = currTreeNode.getChildWithTestCase(currSeqNode.getTestCase());
+			if(target == null) {
+				tree.insertNodeInto(currSeqNode, currTreeNode, currTreeNode.getChildCount());
+				target = (TestTreeNode) currTreeNode.getChildAt(currTreeNode.getChildCount()-1);
+			}
+			currTreeNode = target;
+		}
 	}
 	
 	public DefaultTreeModel getTree() {
@@ -85,7 +99,7 @@ public class PrefixTree {
 		if(root.getStackTrace() != null) {
 			testObject.put("stackTrace", root.getStackTrace());
 		}
-		//testObject.put("testTime", root.getTestCase().getTestTime());
+		testObject.put("testTime", root.getTestTime());
 		jsonTree.put("testCaseObject", testObject);
 		jsonTree.put("cloneTime", root.getDockerCloneTime());
 		jsonTree.put("killTime", root.getDockerKillTime());
@@ -108,7 +122,7 @@ public class PrefixTree {
 				if(child.getStackTrace() != null) {
 					testObject.put("stackTrace", child.getStackTrace());
 				}
-				//testObject.put("testTime", child.getTestCase().getTestTime());
+				testObject.put("testTime", child.getTestTime());
 				jsonChild.put("testCaseObject", testObject);
 				jsonChild.put("cloneTime", child.getDockerCloneTime());
 				jsonChild.put("killTime", child.getDockerKillTime());

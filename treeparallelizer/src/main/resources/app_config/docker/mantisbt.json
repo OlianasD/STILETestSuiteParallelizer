@@ -1,1 +1,1 @@
-{"dockerHome":"/home","graphPath":"src/main/resources/graphs/mantisbt.txt","dockerImage":"dockercontainervm/mantisbt:1.2.0","dockerEntryPoint":"./run-services-docker.sh"}
+{"dockerHome":"/home","graphPath":"src/main/resources/graphs/mantisbt.txt","dockerImage":"dockercontainervm/mantisbt:1.2.0","dockerEntryPoint":"./run-services-docker.sh", "dockerHost": "192.168.1.6"}

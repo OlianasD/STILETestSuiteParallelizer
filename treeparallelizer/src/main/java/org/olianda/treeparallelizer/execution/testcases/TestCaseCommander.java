@@ -14,6 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
+import org.olianda.treeparallelizer.docker.BrowserContainer;
 import org.olianda.treeparallelizer.docker.DockerContainer;
 import org.olianda.treeparallelizer.prefixtree.TestTreeNode;
 import org.testng.ITestResult;
@@ -28,12 +29,18 @@ public class TestCaseCommander {
 	protected DockerContainer container;
 	protected String appName;
 	protected TestProcessManager processManager;
+	protected boolean isNewContainer;
+	protected String host;
+	protected BrowserContainer browser;
 	
-	public TestCaseCommander(TestTreeNode testNode, String appName, DockerContainer container, TestProcessManager processManager) {
+	public TestCaseCommander(TestTreeNode testNode, String appName, DockerContainer container, TestProcessManager processManager, BrowserContainer browser, boolean isNewContainer, String host) {
 		this.testNode = testNode;
 		this.appName = appName;
 		this.container = container;
 		this.processManager = processManager;
+		this.isNewContainer = isNewContainer;
+		this.host = host;
+		this.browser = browser;
 	}
 	
 
@@ -71,7 +78,14 @@ public class TestCaseCommander {
 		Process p = processManager.getProcess();
 		OutputStream stdin = p.getOutputStream();
 		BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(stdin));
-		writer.write(testCase+":"+port+":"+appName+"\n");
+		String msgToProc = testCase+":"+port+":"+browser.getPort()+":"+host;
+		if(isNewContainer) {
+			msgToProc+=":wait\n";
+		}
+		else {
+			msgToProc+=":no\n";
+		}
+		writer.write(msgToProc);
 		writer.flush();
 		BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
 	    String err;

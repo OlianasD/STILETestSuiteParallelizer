@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="port"  value="3000"/>
+  <parameter name="browserPort"  value="4444"/>
+  <parameter name="host"  value="192.168.1.109"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tests.AddUserTest"/>
+      <class name="tests.LoginUserTest"/>
+      <class name="tests.AddExistingUserFailsTest"/>
+      <class name="tests.AddProductTest"/>
+      <class name="tests.AddNewProdToCartTest"/>
+      <class name="tests.SearchProductTest"/>
+      <class name="tests.AddReviewTest"/>
+      <class name="tests.SeeReviewTest"/>
+      <class name="tests.AddDiscountCodeAmountTest"/>
+      <class name="tests.AddDiscountCodePercentTest"/>
+      <class name="tests.UseDiscountCodeAmountTest"/>
+      <class name="tests.UseDiscountCodePercentTest"/>
+      <class name="tests.AddProductTagTest"/>
+      <class name="tests.SearchProductTagTest"/>
+      <class name="tests.AddMenuTest"/>
+      <class name="tests.OpenMenuTest"/>
+      <class name="tests.DeleteDiscountCodeAmountTest"/>
+      <class name="tests.DeleteDiscountCodePercentTest"/>
+      <class name="tests.DeletedDiscountCodeFailsAmountTest"/>
+      <class name="tests.DeletedDiscountCodeFailsPercentTest"/>
+      <class name="tests.DeleteUserTest"/>
+      <class name="tests.LoginDeletedUserFailsTest"/>
+      <class name="tests.DeleteReviewTest"/>
+      <class name="tests.DeleteProductTagTest"/>
+      <class name="tests.SearchDeletedProductTagFailsTest"/>
+      <class name="tests.DeleteProductTest"/>
+      <class name="tests.SearchDeletedProductFailsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

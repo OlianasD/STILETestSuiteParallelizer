@@ -11,6 +11,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ExecutionException;
@@ -35,6 +36,7 @@ import javax.swing.tree.TreeSelectionModel;
 import org.json.JSONObject;
 import org.mb.tedd.graph.GraphNode;
 import org.mb.tedd.utils.Properties;
+import org.olianda.treeparallelizer.execution.WarrantedScheduleExtractor;
 import org.olianda.treeparallelizer.graphviz.GraphvizManager;
 import org.olianda.treeparallelizer.main.Main;
 import org.olianda.treeparallelizer.prefixtree.PrefixTree;
@@ -48,6 +50,7 @@ public class StileWindow extends JFrame {
 	JButton genWtds;
 	JButton genTree;
 	JButton runTree;
+	JButton runSeq;
 	JButton showTreeBtn;
 	JTextArea consoleArea;
 	Container bottomLineContent;
@@ -78,11 +81,13 @@ public class StileWindow extends JFrame {
 		genWtds = new JButton("Generate warranteds");
 		genTree = new JButton("Generate prefix tree");
 		runTree = new JButton("Run test suite");
+		runSeq = new JButton("Run sequentially");
 		showTreeBtn = new JButton("Show prefix tree");
 		showTreeBtn.setEnabled(false);
 		genWtds.addActionListener(e -> genWtdListener());
 		genTree.addActionListener(e -> genTreeListener());
 		runTree.addActionListener(e -> runTestSuiteListener());
+		runSeq.addActionListener(e -> runTestSuiteSequentiallyListener());
 		showTreeBtn.addActionListener(e -> showTreeListener());
 		
 		bottomLineContent = new Container();
@@ -90,6 +95,7 @@ public class StileWindow extends JFrame {
 		bottomLineContent.add(genWtds);
 		bottomLineContent.add(genTree);
 		bottomLineContent.add(runTree);
+		bottomLineContent.add(runSeq);
 		bottomLineContent.add(showTreeBtn);
 		
 		
@@ -262,6 +268,48 @@ public class StileWindow extends JFrame {
 		
 	}
 	
+	class RunTestSuiteSequentiallyWorker extends SwingWorker<BufferedImage, Integer> {
+		
+		
+		public String app;
+		
+		public RunTestSuiteSequentiallyWorker(String app) {
+			this.app = app;
+		}
+		
+		@Override
+		protected BufferedImage doInBackground() throws Exception {
+			initializeApp(app);
+			List<Set<GraphNode<String>>> wholeTestSuite = new LinkedList<>();
+    		wholeTestSuite.add(WarrantedScheduleExtractor.getOriginalOrder());
+    		tree = Main.buildRadixTree(wholeTestSuite);
+    		Main.runTreeParallelization(tree, Main.appConfig, app);
+    		String ts = Main.getCurrentTimestamp();
+    		String dotPath = "results/dot/"+app+"_"+ts+".dot";
+			ImportExportUtils.exportTree(tree, dotPath);
+    		JSONObject jsonTree = tree.toJSON();
+    		String jsonPath = "results/json/"+app+"_"+ts+".json";
+			ImportExportUtils.stringToFile(jsonPath, jsonTree.toString());
+			GraphvizManager gv = new GraphvizManager();
+			treeImg = gv.dotToPng(dotPath);
+			gv.saveImageToFile(treeImg, "results/png/"+app+"_"+ts+".png", "png");
+    		return treeImg;
+		}
+		
+
+		@Override
+		protected void done() {
+			try {
+				reloadTree();
+				new TreeWindow(get());
+			} catch (InterruptedException | ExecutionException e) {
+				JOptionPane.showMessageDialog(StileWindow.this, "Error while running test suite");
+				e.printStackTrace();
+			}
+		}
+		
+	}
+	
 	public void genTreeListener() {
 		//new TreeWindow("/home/anonymous/workspace/FSE19-submission-material/ready-to-run-parallelization/addressbook/baseline_complete/addresssbook-radixtree.png");
 		new GeneratePrefixTreeWorker(appsDropDown.getSelectedItem().toString()).execute();
@@ -280,6 +328,10 @@ public class StileWindow extends JFrame {
 	
 	public void runTestSuiteListener() {
 		new RunTestSuiteWorker(appsDropDown.getSelectedItem().toString()).execute();
+	}
+	
+	public void runTestSuiteSequentiallyListener() {
+		new RunTestSuiteSequentiallyWorker(appsDropDown.getSelectedItem().toString()).execute();
 	}
 	
 	public String wtdToString(List<Set<GraphNode<String>>> warranteds) {

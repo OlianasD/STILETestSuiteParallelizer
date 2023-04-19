@@ -1,1 +1,1 @@
-{"dockerHome":"/home/addressbook","graphPath":"src/main/resources/graphs/addressbook.txt","dockerImage":"dockercontainervm/addressbook:8.0.0.0","dockerEntryPoint":"./run-services-docker.sh"}
+{"dockerHome":"/home/addressbook","graphPath":"src/main/resources/graphs/addressbook.txt","dockerImage":"dockercontainervm/addressbook:8.0.0.0","dockerEntryPoint":"./run-services-docker.sh", "dockerHost": "192.168.1.6"}
