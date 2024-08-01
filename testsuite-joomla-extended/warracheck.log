@@ -1,0 +1,830 @@
+Running AddBannerUrlTest.wtd
+faeb7160c2536114720687bf44dfdb559b391609c04b50c40981ae7e33d2bf54
+May 03, 2024 12:13:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:14:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:14:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddContactInfoTest.wtd
+6b848f0ca4f29b40723495e7afcfef0ba4aff866db32373ba03836987a44941c
+May 03, 2024 12:14:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:15:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddEmptyAccessLevelFailsTest.wtd
+a4f31f78fd1de08e87b3fa9571546834d3d246269e844a8549482d0c3666cf8b
+May 03, 2024 12:16:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddEmptyArticleTest.wtd
+0758fb0b30612985527ac4045f3d1b5230cfbad13ad6df0335b7a373509d7afc
+May 03, 2024 12:17:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddEmptyCategoryTest.wtd
+d36559f01cba5838e3d29cf08fcfa4605211f8e98ef502d6b3911c8f63cdab65
+May 03, 2024 12:17:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddEmptyClientFailsTest.wtd
+7d86b654884be48694bf4ed7aa2decc89d868360fb456982ffd6e3d37bb297e7
+May 03, 2024 12:17:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddEmptyContactTest.wtd
+b1bb74f68ac29c5e5bc01aaa48e05a302d0b935a88957a5de813a8c460c2ac05
+May 03, 2024 12:18:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddEmptyFieldGroupTest.wtd
+b4b1a1694a6e397567e769819795289b8f7e4841fa860aa0feee60c523951087
+May 03, 2024 12:18:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddEmptyFieldTest.wtd
+f790cb21d532d78a6694a777e39255b8c642b0c7045d7cb1dc3b614a6885ff1f
+May 03, 2024 12:18:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddEmptyGroupTest.wtd
+9ac7a8b8d33bd9393613268a0007e9ac69488a64316771454d0a0d428d74a696
+May 03, 2024 12:19:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddEmptyMenuTest.wtd
+de158c47962870e4f1a5735b9fb907a58d4de56035399517f1a019cecdf34336
+May 03, 2024 12:19:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddEmptyNewsFeedTest.wtd
+a83fb304d1a0611d8147d045762959ff0779788a812d74c3e13cbd75c4733329
+May 03, 2024 12:19:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddEmptyTagTest.wtd
+a8ff4e6b2a8dd0d1ac8c501db17ffd73a7aa3aa303cd952596027dd242dcea0f
+May 03, 2024 12:20:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddEmptyUserFailsTest.wtd
+b7cfbef3246eeed1b1f4b30a6350bb9e208fa8621c4ff3a00e576fad91edad6b
+May 03, 2024 12:20:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddExistingAccessLevelFailsTest.wtd
+7ded88b8ffc454ac808811d77d91d35bd45581553f6d4eb0f5dcbe843e501436
+May 03, 2024 12:20:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:20:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:21:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddExistingCategoryFailsTest.wtd
+2d2609dc13cbf892b891dd6ed0ff6b60d6604c6e197ef33c44791a282b4d31e8
+May 03, 2024 12:21:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:22:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddExistingContactFailsTest.wtd
+91ea85b218d3cddf005c74608e1e7ded659d5b279ed083930dde5475e3554c59
+time="2024-05-03T12:23:13+02:00" level=error msg="error waiting for container: context canceled"
+May 03, 2024 12:23:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:24:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddExistingFieldFailsTest.wtd
+0255f1a2e5ebdc932bab58416455f86d00dfce3595f5d08e4e58cdb9c11624ad
+May 03, 2024 12:25:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:25:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddExistingGroupFailsTest.wtd
+2d7c506a667cbcb2c3f1ee3077eba43ae0ce393ce30335419594c559a2def0a2
+May 03, 2024 12:26:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:27:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddExistingMenuFailsTest.wtd
+e85216e31eae5c54346c12bda6d9687111ddf29cfbb0bc195ab9391653013597
+May 03, 2024 12:27:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:27:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddExistingMenuItemFailsTest.wtd
+a2efae9b8b0958dd5768c71e17f550c162d5abd30181f90b4809e01de4935155
+May 03, 2024 12:28:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:28:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddExistingNewsFeedFailsTest.wtd
+8f92d7b0c208675544f03170bf797a772e0a14c594a8d1574741f3faaf25a1e7
+May 03, 2024 12:28:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:29:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddExistingTagFailsTest.wtd
+981eb88a16f846e83f7543ca3fffc19a2c2728688cce0957bbdaf0d95f836788
+May 03, 2024 12:30:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:31:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddExistingUserFailsTest.wtd
+2de870822d91d300bd0ca8cc678b333f03de806c113dfe9dde835a66bf6ca24e
+May 03, 2024 12:33:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:33:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddMenuDescriptionTest.wtd
+3ca389f49bc06cd8685f3a536d9e049125c8dde519b3f8a03d24b0b39d6c80d1
+May 03, 2024 12:34:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:34:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddMenuItemEmptyMenuTypeTest.wtd
+df4ebee26e67b0676673d238c7dc20d5ccab555faaac438dab39490735113c9e
+May 03, 2024 12:34:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddMenuItemEmptyTitleTest.wtd
+cf2e54ff94b75c504819314e4a9f3f5644e72aa5bb6b3b323544ad788b382094
+May 03, 2024 12:35:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running AddMenuItemMenuNotSelectedTest.wtd
+14d0c7d0ec34e14722ef0fab3b31e3f0816a4adad75b38b9a7a34f93fc0d8971
+May 03, 2024 12:35:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running BadLoginTest.wtd
+36a299cca7e56839a5e4a707c4af4ae7e9f4acd1fea8c83bfa6cb1935601f459
+May 03, 2024 12:35:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running BadSiteAdminLoginTest.wtd
+d965620cb8580f64c645d69a9c6a4eaab21f690c1fec2c9bb919306f6dbe2c06
+May 03, 2024 12:36:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running ChangePasswordDontMatchTest.wtd
+2cdb9c79ef6ab04a9023c3089535f7cbd28ad174f06c1729ca4201eb3965cc86
+time="2024-05-03T12:36:16+02:00" level=error msg="error waiting for container: context canceled"
+May 03, 2024 12:36:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:36:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:37:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running ChangePasswordTooShortTest.wtd
+380197f8641b13ce189682d5b802382d4224f8c5268700968986c0f488094443
+May 03, 2024 12:37:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:37:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:38:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running CheckArticleTagTest.wtd
+dfed2cb532466228400dafee2daa90d8c18c2a5861fed56b4887081ebe7cb800
+May 03, 2024 12:38:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:39:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:39:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:41:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running CheckAssignedCategoryTest.wtd
+00e21a847411835168dd09cbb03d141d44e73820610c34c19b43e29550dd7fd2
+May 03, 2024 12:41:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:42:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:42:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:43:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running CheckEditedArticleTest.wtd
+c415030bcacd5fd15904e797d6bda2e523affbf5a68f09ada6bf5646cec75fb5
+May 03, 2024 12:44:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:45:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:45:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running CheckNewArticleTest.wtd
+31f9a399f7a5988bf8de6329c8f0ba4a8b729a0e074dd51d60e5a7a0137108cf
+May 03, 2024 12:45:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:46:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running CheckTrackingBannerImpressionsWorksTest.wtd
+357b6b4b2c958a4e9c449c2b853226dd63c0f76819406d60e0fa82e7dc3f4962
+May 03, 2024 12:46:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:46:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:46:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:46:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running CheckUserAssignedToGroupTest.wtd
+77a305346ace85029aa336f7659f45004330e6f21bfdac3dbf702a3d68c7a8a9
+May 03, 2024 12:47:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:47:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:47:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:48:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running CheckUserLinkedToContactTest.wtd
+0753ff9c70fbaf0ffd4651e153639157d74961c286f623d49ad4b046cce3912c
+May 03, 2024 12:48:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:49:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:50:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:51:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running DeleteAccessLevelTest.wtd
+af4a68585decb837622b35ae46a1edd52dee3cace869787f785d27462c639b08
+May 03, 2024 12:52:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:53:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:53:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:53:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running DeleteArticleTest.wtd
+0b8963313926745e7e1996b7e95bf03bf7551b0d9b2ebd18b89c7efa453e5453
+May 03, 2024 12:54:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:55:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:55:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:55:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:56:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 5, Passes: 5, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running DeleteBannerSiteModuleTest.wtd
+2d443a73d7c235726c655b9583e431ad8b1cb26f821f72898711cdea97313895
+May 03, 2024 12:57:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:57:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running DeleteBannerTest.wtd
+f0b539c34c6ed23ac68a44ced7fc18d95ef1da88c66737705d7de23ae72200e0
+May 03, 2024 12:57:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:58:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:58:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running DeleteCategoryTest.wtd
+4488d62fbefc5d7ba248a21f9cd309beb132e9693c2842c1ac7ada2017a178a2
+May 03, 2024 12:58:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 12:58:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running DeleteClientTest.wtd
+936095ddff872288648861b9f2797a8d3291cf0c792bc714125058adc0cb155d
+May 03, 2024 12:59:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:00:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:00:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:00:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:01:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 5, Passes: 5, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running DeleteContactTest.wtd
+ad67ba9f83cbbb77db944f93ba3f9a7a5b2aa4dcaee762be6cc7868741d16c4a
+May 03, 2024 1:02:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:03:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running DeleteFieldGroupTest.wtd
+50dd239269cdd99dc479be7f8e08f8812b694060ae11584b38d4e3a21ba500ab
+May 03, 2024 1:04:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:04:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:05:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:05:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running DeleteFieldTest.wtd
+2d160f87a6232dc8b581a2be6cba9216fdd8d65f045f3adad85dbac988191add
+May 03, 2024 1:07:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:07:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running DeleteMenuItemTest.wtd
+6f3fe41c46b42686db21a7f46baf1f4c453a177b7feed9a5db9f5b639f210f22
+May 03, 2024 1:08:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:08:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running DeleteMenuTest.wtd
+305b0ebf9e86ea3417226bb61545827dbf3b9db4b45bc6d9529678079a7605b4
+May 03, 2024 1:09:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:09:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running DeleteNewsFeedTest.wtd
+fc8d6756d8a8c3ecc9b1b727a58617a57c178d7673a4aa55e47af45f1c2ebfb0
+May 03, 2024 1:09:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:10:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running DeleteTagTest.wtd
+b182f85f3b28ce9a9bf7a9e91e5f0f9b31fb8b2178ac40f65e1bcb7d0ea26ba9
+May 03, 2024 1:11:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:12:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running DeleteUserGroupTest.wtd
+595c8ed22c4f63e650028e6baa8e8c9e5da2849b20bc7f220a0ac696dbb76a67
+May 03, 2024 1:13:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:13:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:14:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:14:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running DeleteUserTest.wtd
+7e4ec3d94b842a2665a9f9e711db501b736585b5a405a318fe6510577ec15297
+May 03, 2024 1:14:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:15:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running EmptyLoginTest.wtd
+4752a9f4cd639122b30c24aa5d62247ae3061f43a639487c00728d9d38f0e3a2
+May 03, 2024 1:16:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running EmptySiteAdminLoginTest.wtd
+7e9edb8e167bcdd3faf4cd7f4f7e8fd7dfed45b49118bc206c6e0e2134acd6bc
+May 03, 2024 1:16:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running LoginAsAdminTest.wtd
+cb9cb2f2816f715947f5076f65e5eb4204cb94a2305d753c0490d79d289d1fa1
+May 03, 2024 1:16:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla
+Running LoginAsNewUserTest.wtd
+3d69af4ee14d81ab0e3770b41e7317e95cc483d233c07628dce14fab741e55ee
+May 03, 2024 1:16:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 03, 2024 1:17:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Command line suite
+Total tests run: 2, Passes: 2, Failures: 0, Skips: 0
+===============================================
+
+joomla
+joomla

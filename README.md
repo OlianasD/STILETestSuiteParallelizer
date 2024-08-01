@@ -27,6 +27,8 @@ The available applications under test are:
 	4. MantisBT
 	5. MRBS
 	6. PPMA
+	7. Joomla
+	8. ExpressCart
 
 The results will be stored in the `treeparallelizer/results` directory, in detail:
 	- `results/dot` will contain the prefix trees in DOT format

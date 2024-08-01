@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="58" name="FullParallel" parallel="tests">
+<test name="Warranted0">
+<parameter name="port"  value="3000"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddUserTest"/>
+	<class name="tests.AddContactTest"/>
+	<class name="tests.LinkUserToContactTest"/>
+	<class name="tests.CheckUserLinkedToContactTest"/>
+</classes>
+</test>
+<test name="Warranted1">
+<parameter name="port"  value="3001"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddFieldTest"/>
+	<class name="tests.AddFieldGroupTest"/>
+	<class name="tests.AssignFieldToGroupTest"/>
+	<class name="tests.DeleteFieldGroupTest"/>
+</classes>
+</test>
+<test name="Warranted2">
+<parameter name="port"  value="3002"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddNewArticleTest"/>
+	<class name="tests.AddTagTest"/>
+	<class name="tests.AssignTagToArticleTest"/>
+	<class name="tests.CheckArticleTagTest"/>
+</classes>
+</test>
+<test name="Warranted3">
+<parameter name="port"  value="3003"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddNewArticleTest"/>
+	<class name="tests.AddCategoryTest"/>
+	<class name="tests.AssignCategoryTest"/>
+	<class name="tests.CheckAssignedCategoryTest"/>
+</classes>
+</test>
+<test name="Warranted4">
+<parameter name="port"  value="3004"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddNewArticleTest"/>
+	<class name="tests.AddMenuItemTest"/>
+	<class name="tests.ArchiveArticleTest"/>
+	<class name="tests.SeeArchivedArticleTest"/>
+	<class name="tests.DeleteArticleTest"/>
+</classes>
+</test>
+<test name="Warranted5">
+<parameter name="port"  value="3005"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddContactTest"/>
+	<class name="tests.AddContactInfoTest"/>
+</classes>
+</test>
+<test name="Warranted6">
+<parameter name="port"  value="3006"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddTagTest"/>
+	<class name="tests.AddExistingTagFailsTest"/>
+</classes>
+</test>
+<test name="Warranted7">
+<parameter name="port"  value="3007"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddBannerSiteModuleTest"/>
+	<class name="tests.AddBannerTest"/>
+	<class name="tests.AddClientTest"/>
+	<class name="tests.AddBannerClientTest"/>
+	<class name="tests.DeleteClientTest"/>
+</classes>
+</test>
+<test name="Warranted8">
+<parameter name="port"  value="3008"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddNewsFeedTest"/>
+	<class name="tests.AddExistingNewsFeedFailsTest"/>
+</classes>
+</test>
+<test name="Warranted9">
+<parameter name="port"  value="3009"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddTagTest"/>
+	<class name="tests.DeleteTagTest"/>
+</classes>
+</test>
+<test name="Warranted10">
+<parameter name="port"  value="3010"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddContactTest"/>
+	<class name="tests.AddExistingContactFailsTest"/>
+</classes>
+</test>
+<test name="Warranted11">
+<parameter name="port"  value="3011"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddContactTest"/>
+	<class name="tests.DeleteContactTest"/>
+</classes>
+</test>
+<test name="Warranted12">
+<parameter name="port"  value="3012"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddNewsFeedTest"/>
+	<class name="tests.DeleteNewsFeedTest"/>
+</classes>
+</test>
+<test name="Warranted13">
+<parameter name="port"  value="3013"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddUserTest"/>
+	<class name="tests.AddGroupTest"/>
+	<class name="tests.AssignUserToGroupTest"/>
+	<class name="tests.CheckUserAssignedToGroupTest"/>
+</classes>
+</test>
+<test name="Warranted14">
+<parameter name="port"  value="3014"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddUserTest"/>
+	<class name="tests.AddExistingUserFailsTest"/>
+</classes>
+</test>
+<test name="Warranted15">
+<parameter name="port"  value="3015"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddUserTest"/>
+	<class name="tests.AddGroupTest"/>
+	<class name="tests.AssignUserToGroupTest"/>
+	<class name="tests.DeleteUserGroupTest"/>
+</classes>
+</test>
+<test name="Warranted16">
+<parameter name="port"  value="3016"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddFieldTest"/>
+	<class name="tests.DeleteFieldTest"/>
+</classes>
+</test>
+<test name="Warranted17">
+<parameter name="port"  value="3017"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddGroupTest"/>
+	<class name="tests.AddAccessLevelTest"/>
+	<class name="tests.AssignAccessLevelToUserGroupTest"/>
+	<class name="tests.DeleteAccessLevelTest"/>
+</classes>
+</test>
+<test name="Warranted18">
+<parameter name="port"  value="3018"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddFieldTest"/>
+	<class name="tests.AddExistingFieldFailsTest"/>
+</classes>
+</test>
+<test name="Warranted19">
+<parameter name="port"  value="3019"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddCategoryTest"/>
+	<class name="tests.DeleteCategoryTest"/>
+</classes>
+</test>
+<test name="Warranted20">
+<parameter name="port"  value="3020"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddCategoryTest"/>
+	<class name="tests.AddExistingCategoryFailsTest"/>
+</classes>
+</test>
+<test name="Warranted21">
+<parameter name="port"  value="3021"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddNewArticleTest"/>
+	<class name="tests.EditArticleTest"/>
+	<class name="tests.CheckEditedArticleTest"/>
+</classes>
+</test>
+<test name="Warranted22">
+<parameter name="port"  value="3022"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddGroupTest"/>
+	<class name="tests.AddAccessLevelTest"/>
+	<class name="tests.AddExistingAccessLevelFailsTest"/>
+</classes>
+</test>
+<test name="Warranted23">
+<parameter name="port"  value="3023"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddUserTest"/>
+	<class name="tests.DeleteUserTest"/>
+</classes>
+</test>
+<test name="Warranted24">
+<parameter name="port"  value="3024"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddUserTest"/>
+	<class name="tests.ChangePasswordTest"/>
+	<class name="tests.ChangePasswordDontMatchTest"/>
+</classes>
+</test>
+<test name="Warranted25">
+<parameter name="port"  value="3025"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddUserTest"/>
+	<class name="tests.ChangePasswordTest"/>
+	<class name="tests.ChangePasswordTooShortTest"/>
+</classes>
+</test>
+<test name="Warranted26">
+<parameter name="port"  value="3026"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddUserTest"/>
+	<class name="tests.LoginAsNewUserTest"/>
+</classes>
+</test>
+<test name="Warranted27">
+<parameter name="port"  value="3027"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddNewArticleTest"/>
+	<class name="tests.CheckNewArticleTest"/>
+</classes>
+</test>
+<test name="Warranted28">
+<parameter name="port"  value="3028"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddGroupTest"/>
+	<class name="tests.AddExistingGroupFailsTest"/>
+</classes>
+</test>
+<test name="Warranted29">
+<parameter name="port"  value="3029"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddBannerSiteModuleTest"/>
+	<class name="tests.AddBannerTest"/>
+	<class name="tests.TrackBannerImpressionsTest"/>
+	<class name="tests.CheckTrackingBannerImpressionsWorksTest"/>
+</classes>
+</test>
+<test name="Warranted30">
+<parameter name="port"  value="3030"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddBannerSiteModuleTest"/>
+	<class name="tests.AddBannerTest"/>
+	<class name="tests.AddBannerUrlTest"/>
+</classes>
+</test>
+<test name="Warranted31">
+<parameter name="port"  value="3031"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddBannerSiteModuleTest"/>
+	<class name="tests.AddBannerTest"/>
+	<class name="tests.DeleteBannerTest"/>
+</classes>
+</test>
+<test name="Warranted32">
+<parameter name="port"  value="3032"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddMenuItemTest"/>
+	<class name="tests.AddExistingMenuItemFailsTest"/>
+</classes>
+</test>
+<test name="Warranted33">
+<parameter name="port"  value="3033"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddMenuItemTest"/>
+	<class name="tests.DeleteMenuItemTest"/>
+</classes>
+</test>
+<test name="Warranted34">
+<parameter name="port"  value="3034"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddBannerSiteModuleTest"/>
+	<class name="tests.DeleteBannerSiteModuleTest"/>
+</classes>
+</test>
+<test name="Warranted35">
+<parameter name="port"  value="3035"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddMenuTest"/>
+	<class name="tests.AddExistingMenuFailsTest"/>
+</classes>
+</test>
+<test name="Warranted36">
+<parameter name="port"  value="3036"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddMenuTest"/>
+	<class name="tests.AddMenuDescriptionTest"/>
+</classes>
+</test>
+<test name="Warranted37">
+<parameter name="port"  value="3037"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddMenuTest"/>
+	<class name="tests.DeleteMenuTest"/>
+</classes>
+</test>
+<test name="Warranted38">
+<parameter name="port"  value="3038"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddMenuItemMenuNotSelectedTest"/>
+</classes>
+</test>
+<test name="Warranted39">
+<parameter name="port"  value="3039"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddMenuItemEmptyTitleTest"/>
+</classes>
+</test>
+<test name="Warranted40">
+<parameter name="port"  value="3040"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddEmptyTagTest"/>
+</classes>
+</test>
+<test name="Warranted41">
+<parameter name="port"  value="3041"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddEmptyNewsFeedTest"/>
+</classes>
+</test>
+<test name="Warranted42">
+<parameter name="port"  value="3042"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddEmptyClientFailsTest"/>
+</classes>
+</test>
+<test name="Warranted43">
+<parameter name="port"  value="3043"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddEmptyAccessLevelFailsTest"/>
+</classes>
+</test>
+<test name="Warranted44">
+<parameter name="port"  value="3044"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddEmptyContactTest"/>
+</classes>
+</test>
+<test name="Warranted45">
+<parameter name="port"  value="3045"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddMenuItemEmptyMenuTypeTest"/>
+</classes>
+</test>
+<test name="Warranted46">
+<parameter name="port"  value="3046"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddEmptyUserFailsTest"/>
+</classes>
+</test>
+<test name="Warranted47">
+<parameter name="port"  value="3047"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddEmptyMenuTest"/>
+</classes>
+</test>
+<test name="Warranted48">
+<parameter name="port"  value="3048"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddEmptyCategoryTest"/>
+</classes>
+</test>
+<test name="Warranted49">
+<parameter name="port"  value="3049"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddEmptyFieldGroupTest"/>
+</classes>
+</test>
+<test name="Warranted50">
+<parameter name="port"  value="3050"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddEmptyFieldTest"/>
+</classes>
+</test>
+<test name="Warranted51">
+<parameter name="port"  value="3051"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.BadSiteAdminLoginTest"/>
+</classes>
+</test>
+<test name="Warranted52">
+<parameter name="port"  value="3052"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddEmptyGroupTest"/>
+</classes>
+</test>
+<test name="Warranted53">
+<parameter name="port"  value="3053"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.AddEmptyArticleTest"/>
+</classes>
+</test>
+<test name="Warranted54">
+<parameter name="port"  value="3054"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.LoginAsAdminTest"/>
+</classes>
+</test>
+<test name="Warranted55">
+<parameter name="port"  value="3055"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.EmptySiteAdminLoginTest"/>
+</classes>
+</test>
+<test name="Warranted56">
+<parameter name="port"  value="3056"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.BadLoginTest"/>
+</classes>
+</test>
+<test name="Warranted57">
+<parameter name="port"  value="3057"/>
+	<parameter name="browserPort"  value="4444"/>
+	<parameter name="host"  value="192.168.1.6"/>
+<classes>
+	<class name="tests.EmptyLoginTest"/>
+</classes>
+</test>
+</suite>

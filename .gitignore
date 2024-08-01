@@ -1,0 +1,7 @@
+/.metadata/
+.metadata/
+*.exe
+.settings/
+.classpath
+.project
+target/

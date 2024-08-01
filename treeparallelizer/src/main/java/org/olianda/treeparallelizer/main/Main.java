@@ -89,7 +89,7 @@ public class Main {
 			BufferedImage graphPng = gv.dotToPng(dotPath);
 			gv.saveImageToFile(graphPng, "results/png/"+app+"_"+ts+".png", "png");
     	}
-    	if(mode.equals("--runPrior")) {
+    	else if(mode.equals("--runPrior")) {
     		Map<String, Float> times = ImportExportUtils.getTestTimesFromXml(app, "sequentials_4core/");
     		List<TimedWarrantedSchedule> timedWtdsFromGraph = TreeTimeManager.generateTimedWarranteds(app, times);
     		timedWtdsFromGraph.sort(Comparator.comparing(TimedWarrantedSchedule::getTime).reversed());
@@ -132,12 +132,11 @@ public class Main {
     		GraphvizManager gv = new GraphvizManager();
 			BufferedImage graphPng = gv.dotToPng(app+".dot");
 			gv.saveImageToFile(graphPng, app+".png", "png");
-			JSONObject jsonTree = priorityTree.toJSON();
-    		ImportExportUtils.stringToFile(treePath+"json/"+app+".json", jsonTree.toString());
     		
     	}
     	//generate warranted paths, build radix tree and export it in DOT
     	else if(mode.equals("-re")) {
+    		System.out.println(appConfig.get("graphPath"));
     		PrefixTree rt = buildRadixTreeFromGraph(app, appConfig.get("graphPath"));
     		ImportExportUtils.exportTree(rt, treePath+"/dot/"+app+"_"+getCurrentTimestamp()+".dot");
     	}
@@ -235,7 +234,7 @@ public class Main {
         	DockerContainer container = docker.runContainerFromImage(appConfig.get("dockerImage"));
     	}
     	else if(mode.equals("--newBrowser")) {
-        	BrowserContainerManager browserManager = new BrowserContainerManager("127.0.0.1", "selenium/standalone-chrome");
+        	BrowserContainerManager browserManager = new BrowserContainerManager("127.0.0.1", "selenium/standalone-chrome:4.1.1-20211217");
         	browserManager.startBrowser();
     	}
     	else if(mode.equals("--printGraph")) {
@@ -245,7 +244,6 @@ public class Main {
 			gv.saveImageToFile(graphPng, "results/png/"+fnam+".png", "png");
     	}
     	else if(mode.equals("--genParallelTestNgXml")) {
-    		//List<Set<GraphNode<String>>> warranteds = loadGraphAndGetWarranteds();
     		Map<String, Float> times = ImportExportUtils.getTestTimesFromXml(app, "sequentials_4core/");
     		List<TimedWarrantedSchedule> timedWtdsFromGraph = TreeTimeManager.generateTimedWarranteds(app, times);
     		timedWtdsFromGraph.sort(Comparator.comparing(TimedWarrantedSchedule::getTime).reversed());
@@ -290,6 +288,7 @@ public class Main {
 	public static Graph<GraphNode<String>, GraphEdge> loadGraph(String path) {
 		Graph<GraphNode<String>, GraphEdge> graph;
 		GraphImporter graphImporter = new GraphImporter();
+		System.out.println(path);
 		graph = graphImporter.importGraph(path);
 		return graph;
 	}
@@ -300,14 +299,14 @@ public class Main {
 			docker = new DockerManager(appCfg.get("dockerHost"), appCfg.get("dockerHome"), appCfg.get("dockerEntryPoint"), 3100, 3400, 1111, 3306);
 		else
 			docker = new DockerManager(appCfg.get("dockerHost"), appCfg.get("dockerHome"), appCfg.get("dockerEntryPoint"), 3100, 3400, 80, 3306);
-    	BrowserContainerManager browserManager = new BrowserContainerManager("127.0.0.1", "selenium/standalone-chrome");
+    	BrowserContainerManager browserManager = new BrowserContainerManager("127.0.0.1", "selenium/standalone-chrome:latest");
     	boolean prestart = true;
     	TestProcessManager processManager = new TestProcessManager(prestart, appName, "org.olianda.treeparallelizer.execution.testcases.RemotePrestartedTestNGExecutor");
     	//System.out.println("Pre-starting "+(rt.getNodeCount()-1)+" test processes...");
     	long preStartStart = System.currentTimeMillis();
     	if(prestart) {
     		processManager.startProcesses(rt.getNodeCount()-1, appName);
-    		browserManager.startBrowsers(rt.getNodeCount()-1);
+    		browserManager.startBrowsers(rt.getLeavesCount());
     	}
     	long preStartEnd = System.currentTimeMillis();
     	TreeExecutor executionVisit = new TreeExecutor(docker, appCfg.get("dockerImage"), appName, processManager, browserManager);

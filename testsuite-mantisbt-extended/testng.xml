@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="port"  value="3000"/>
+    <parameter name="browserPort"  value="4444"/>
+  <parameter name="host"  value="192.168.1.141"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tests.AddUserTest"/>
+      <class name="tests.AddUserWrongTest"/>
+      <class name="tests.AddUserEmptyTest"/>
+      <class name="tests.AddProjectTest"/>
+      <class name="tests.AddProjectWrongTest"/>
+      <class name="tests.AddProjectEmptyTest"/>
+      <class name="tests.AddCategoryTest"/>
+      <class name="tests.AddCategoryWrongTest"/>
+      <class name="tests.AddCategoryEmptyTest"/>
+      <class name="tests.AddIssueTest"/>
+      <class name="tests.AddIssueEmptyTest"/>
+      <class name="tests.AssignIssueTest"/>
+      <class name="tests.ViewSummaryIssueTest"/>
+      <class name="tests.UpdateIssuePriorityTest"/>
+      <class name="tests.UpdateIssueSeverityTest"/>
+      <class name="tests.UpdateIssueStatusNewTest"/>
+      <class name="tests.UpdateIssueStatusFeedbackTest"/>
+      <class name="tests.UpdateIssueStatusAcknowledgedTest"/>
+      <class name="tests.UpdateIssueStatusConfirmedTest"/>
+      <class name="tests.UpdateIssueStatusAssignedTest"/>
+      <class name="tests.UpdateIssueStatusResolvedTest"/>
+      <class name="tests.UpdateIssueSummaryTest"/>
+      <class name="tests.UpdateProjectDescriptionTest"/>
+      <class name="tests.UpdateProjectStatusTest"/>
+      <class name="tests.UpdateProjectViewStatusTest"/>
+      <class name="tests.UpdateCategoryTest"/>
+      <class name="tests.UpdateCategoryEmptyTest"/>
+      <class name="tests.UpdateUserTest"/>
+      <class name="tests.UpdateUserEmptyTest"/>
+      <class name="tests.DeleteCategoryTest"/>
+      <class name="tests.DeleteIssueTest"/>
+      <class name="tests.DeleteProjectTest"/>
+      <class name="tests.DeleteUserTest"/>
+      <class name="tests.LoginNegativeTest"/>
+      <class name="tests.LogoutTest"/>
+      <class name="tests.AddMultipleUsersTest"/>
+      <class name="tests.UpdateUser1AccessLevelReporterTest"/>
+      <class name="tests.UpdateUser1AccessLevelUpdaterTest"/>
+      <class name="tests.UpdateUser1AccessLevelDeveloperTest"/>
+      <class name="tests.UpdateUser2AccessLevelUpdaterTest"/>
+      <class name="tests.UpdateUser2AccessLevelManagerTest"/>
+      <class name="tests.UpdateUser2AccessLevelAdministratorTest"/>
+      <class name="tests.UpdateUser3AccessLevelDeveloperTest"/>
+      <class name="tests.UpdateUser3AccessLevelUpdaterTest"/>
+      <class name="tests.UpdateUser3AccessLevelReporterTest"/>
+      <class name="tests.DeleteMultipleUsersTest"/>
+      <class name="tests.AddMultipleSubprojectsTest"/>
+      <class name="tests.UnlinkMultipleSubprojectsTest"/>
+      <class name="tests.LinkMultipleSubprojectsTest"/>
+      <class name ="tests.AddCategoryToSubproject1Test"/>
+      <class name ="tests.AddVersionToSubproject1Test"/>
+      <class name ="tests.UpdateSubproject1StatusReleaseTest"/>
+      <class name ="tests.UpdateSubproject1StatusStableTest"/>
+      <class name ="tests.UpdateSubproject1StatusObsoleteTest"/>
+      <class name ="tests.UpdateSubproject1ViewStatusTest"/>
+      <class name ="tests.UpdateSubproject1DescriptionTest"/>
+      <class name ="tests.AddCategoryToSubproject2Test"/>
+      <class name ="tests.AddVersionToSubproject2Test"/>
+      <class name ="tests.UpdateSubproject2StatusReleaseTest"/>
+      <class name ="tests.UpdateSubproject2StatusStableTest"/>
+      <class name ="tests.UpdateSubproject2StatusObsoleteTest"/>
+      <class name ="tests.UpdateSubproject2ViewStatusTest"/>
+      <class name ="tests.UpdateSubproject2DescriptionTest"/>
+      <class name="tests.DeleteMultipleSubprojectsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

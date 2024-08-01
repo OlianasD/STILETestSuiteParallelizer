@@ -22,6 +22,7 @@ public class WarrantedScheduleExtractor {
 	public static List<Set<GraphNode<String>>> generateWarrantedPathsForZeroInDegreeNodes(Graph<GraphNode<String>, GraphEdge> graph) {
 		List<Set<GraphNode<String>>> paths = new LinkedList<>();
 		Set<GraphNode<String>> indeps = WarrantedScheduleExtractor.getZeroInDegreeNodes(graph);
+		System.out.println(indeps);
 		for(GraphNode<String> node : indeps) {
 			paths.add(WarrantedScheduleExtractor.getWarranteds(graph, node));
 		}

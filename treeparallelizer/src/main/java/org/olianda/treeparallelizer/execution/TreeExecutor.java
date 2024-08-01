@@ -37,7 +37,7 @@ public class TreeExecutor {
 		long dockerCloneStart = System.currentTimeMillis();
 		for(TestTreeNode node : rootChildren) {
 			DockerContainer container = docker.runContainerFromImage(imageId);
-			NodeExecutor currChildThread = new NodeExecutor(node, docker, container, appName, stopContainerWhenFinished, processManager, browsers);
+			NodeExecutor currChildThread = new NodeExecutor(node, docker, container, appName, stopContainerWhenFinished, processManager, browsers, browsers.getBrowser());
 			currChildThread.start();
 			childrenThreads.add(currChildThread);
 		}

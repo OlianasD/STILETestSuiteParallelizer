@@ -1,1 +1,1 @@
-{"dockerHome":"/home/claroline","graphPath":"src/main/resources/graphs/claroline.txt","dockerImage":"dockercontainervm/claroline:1.11.10","dockerEntryPoint":"./run-services-docker.sh", "dockerHost": "192.168.1.6"}
+{"dockerHome":"/home/claroline","graphPath":"src/main/resources/graphs/claroline.txt","dockerImage":"dockercontainervm/claroline:1.11.10","dockerEntryPoint":"./run-services-docker.sh", "dockerHost": "172.21.255.39"}

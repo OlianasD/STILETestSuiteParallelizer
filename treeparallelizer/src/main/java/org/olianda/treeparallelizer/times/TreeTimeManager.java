@@ -119,13 +119,11 @@ public class TreeTimeManager {
 	}
 	
 	public static void main(String[] args) throws FactoryConfigurationError, XMLStreamException, IOException {
-		String app = "expresscart";
+		String app = "mantisbt";
 		Map<String, Float> times = ImportExportUtils.getTestTimesFromXml(app, "sequentials_4core/");
-		JSONObject jsonTree = ImportExportUtils.loadJSONObject(treePath+"json/"+app+".json");
+		/*JSONObject jsonTree = ImportExportUtils.loadJSONObject(treePath+"json/"+app+".json");
 		PrefixTree rt = new PrefixTree(jsonTree);
-		PrefixTree timedTree = labelTree(rt, times);
-		JSONObject timedJson = timedTree.toJSON();
-		ImportExportUtils.stringToFile(treePath+"timed/"+app+".json", timedJson.toString());
+		PrefixTree timedTree = labelTree(rt, times);*/
 		
 		List<TimedWarrantedSchedule> timedWtdsFromGraph = generateTimedWarranteds(app, times);
 		timedWtdsFromGraph.sort(Comparator.comparing(TimedWarrantedSchedule::getTime).reversed());
@@ -135,21 +133,18 @@ public class TreeTimeManager {
 			i++;
 		}
 		System.out.println("Timed warranteds from graph:");
-		int no_tests = 0;
 		for(TimedWarrantedSchedule schedule : timedWtdsFromGraph) {
 			System.out.println(schedule.toString());
-			no_tests += schedule.size();
 		}
-		System.out.println("Total tests in warranted schedules: "+no_tests);
 		PrefixTree priorityTree = new PrefixTree();
 		for(TimedWarrantedSchedule warranted : timedWtdsFromGraph) {
 			priorityTree.insert(warranted);
 		}
-		/*System.out.println("!! Visit order before children sorting: ");
+		System.out.println("!! Visit order before children sorting: ");
 		new TreePriorityVisitor().visitTree(priorityTree);
 		sortChildren(priorityTree);
 		System.out.println("\n\n!! Visit order after children sorting: ");
-		new TreePriorityVisitor().visitTree(priorityTree);*/
+		new TreePriorityVisitor().visitTree(priorityTree);
 		
 		
 		/*System.out.println("Are they equally sized? "+(timedWtdsFromJson.size() == timedWtdsFromGraph.size()));

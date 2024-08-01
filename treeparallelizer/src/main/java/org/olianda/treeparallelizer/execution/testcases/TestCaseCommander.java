@@ -98,6 +98,7 @@ public class TestCaseCommander {
 	    in.close();
 	    stackTrace = StringUtils.substringBetween(line, "<ParallelStackTrace>", "</ParallelStackTrace>");
 	    if(stackTrace != null) {
+	    	System.out.println("!! FAILURE: Test "+testCase+" assigned to container with port="+port+" and browserPort="+browser.getPort()+" failed (was it a new container?:"+isNewContainer);
 	    	testNode.setStackTrace(stackTrace);
 	    }
         // Wait for everything to finish ... ?

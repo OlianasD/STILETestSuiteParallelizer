@@ -86,8 +86,4 @@ public class TimedWarrantedSchedule {
 		}
 	}
 	
-	public int size() {
-		return schedule.size();
-	}
-	
 }

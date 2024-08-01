@@ -66,7 +66,7 @@ public class DockerManager {
 		
 		DockerContainer container = null;
 		boolean available = false;
-		for(int i=0; i<3; i++) {
+		for(int i=0; i<6; i++) {
 			CreateContainerResponse res = createAndStartContainer(image, ports, binds);
 			container = new DockerContainer(res.getId(), extAppPort, extDbPort);
 			available = checkContainerAndRetry(res, container);
@@ -80,7 +80,7 @@ public class DockerManager {
 		if(client.inspectContainerCmd(res.getId()).exec().getState().getRunning()) {
 			System.out.println(dtf.format(LocalDateTime.now())+": Container "+res.getId()+" started for Docker API");
 			boolean started = false;
-			for(int i=0; i<3; i++) {
+			for(int i=0; i<6; i++) {
 				started = checkContainerAvailability();
 				if(started) {
 					System.out.println(dtf.format(LocalDateTime.now())+": Container "+res.getId()+"is up and running with app port = "+extAppPort+", db port = "+extDbPort);
@@ -136,7 +136,8 @@ public class DockerManager {
 	public synchronized void killContainer(DockerContainer container) {
 		System.out.println(dtf.format(LocalDateTime.now())+": Stopping container with app port "+container.getAppPort());
 		try {
-			client.killContainerCmd(container.getId()).exec();
+			client.stopContainerCmd(container.getId()).exec();
+			//client.killContainerCmd(container.getId()).exec();
 		} catch(Exception e) {
 			System.err.println(dtf.format(LocalDateTime.now())+"Exception caught when killing container with app port"+container.getAppPort());
 		}
@@ -149,6 +150,7 @@ public class DockerManager {
 			if(client.inspectContainerCmd(container.getId()).exec().getState().getRunning()) {
 				try {
 					client.killContainerCmd(container.getId()).exec();
+
 				} catch(NotModifiedException e) {
 					System.err.println("NotModifiedException caught when killing container "+container.getId());
 				}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="port"  value="3000"/>
+  <parameter name="browserPort"  value="4444"/>
+  <parameter name="host"  value="172.18.33.116"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tests.LoginAsAdminTest"/>
+      <class name="tests.BadLoginTest"/>
+      <class name="tests.EmptyLoginTest"/>
+      <class name="tests.AddUserTest"/>
+      <class name="tests.LoginAsNewUserTest"/>
+      <class name="tests.BadSiteAdminLoginTest"/>
+      <class name="tests.EmptySiteAdminLoginTest"/>
+      <class name="tests.AddEmptyUserFailsTest"/>	
+      <class name="tests.AddExistingUserFailsTest"/> 
+      <class name="tests.AddNewArticleTest"/>
+      <class name="tests.CheckNewArticleTest"/>
+      <class name="tests.AddEmptyArticleTest"/>
+      <class name="tests.EditArticleTest"/>
+      <class name="tests.CheckEditedArticleTest"/>
+      <class name="tests.AddTagTest"/>
+      <class name="tests.AddEmptyTagTest"/>
+      <class name="tests.AddExistingTagFailsTest"/>
+      <class name="tests.AssignTagToArticleTest"/>
+      <class name="tests.CheckArticleTagTest"/>
+      <class name="tests.AddCategoryTest"/>
+      <class name="tests.AddEmptyCategoryTest"/>
+      <class name="tests.AddExistingCategoryFailsTest"/>
+      <class name="tests.AssignCategoryTest"/>
+      <class name="tests.CheckAssignedCategoryTest"/>
+      <class name="tests.ChangePasswordTest"/>
+      <class name="tests.ChangePasswordDontMatchTest"/>
+      <class name="tests.ChangePasswordTooShortTest"/>
+      <class name="tests.AddMenuItemTest"/>
+      <class name="tests.AddMenuItemEmptyTitleTest"/>
+      <class name="tests.AddMenuItemMenuNotSelectedTest"/>
+      <class name="tests.AddMenuItemEmptyMenuTypeTest"/>
+      <class name="tests.AddExistingMenuItemFailsTest"/>
+      <class name="tests.ArchiveArticleTest"/>
+      <class name="tests.SeeArchivedArticleTest"/>
+      <class name="tests.AddMenuTest"/>
+      <class name="tests.AddEmptyMenuTest"/>
+      <class name="tests.AddExistingMenuFailsTest"/>
+      <class name="tests.AddMenuDescriptionTest"/>
+      <class name="tests.AddBannerSiteModuleTest"/>
+      <class name="tests.AddClientTest"/>
+      <class name="tests.AddEmptyClientFailsTest"/>
+      <class name="tests.AddBannerTest"/>
+      <class name="tests.AddBannerUrlTest"/>
+      <class name="tests.AddBannerClientTest"/>
+      <class name="tests.TrackBannerImpressionsTest"/>
+      <class name="tests.CheckTrackingBannerImpressionsWorksTest"/>
+      <class name="tests.AddContactTest"/>
+      <class name="tests.AddEmptyContactTest"/>
+      <class name="tests.AddExistingContactFailsTest"/>
+      <class name="tests.LinkUserToContactTest"/>
+      <class name="tests.CheckUserLinkedToContactTest"/>
+      <class name="tests.AddContactInfoTest"/>
+      <class name="tests.AddNewsFeedTest"/>
+      <class name="tests.AddEmptyNewsFeedTest"/>
+      <class name="tests.AddExistingNewsFeedFailsTest"/>
+      <class name="tests.AddGroupTest"/>
+      <class name="tests.AddEmptyGroupTest"/>
+      <class name="tests.AddExistingGroupFailsTest"/>
+      <class name="tests.AssignUserToGroupTest"/>
+      <class name="tests.CheckUserAssignedToGroupTest"/>
+      <class name="tests.AddFieldTest"/>
+      <class name="tests.AddEmptyFieldTest"/>
+      <class name="tests.AddExistingFieldFailsTest"/>
+      <class name="tests.AddFieldGroupTest"/>
+      <class name="tests.AddEmptyFieldGroupTest"/>
+      <class name="tests.AssignFieldToGroupTest"/>
+      <class name="tests.AddAccessLevelTest"/>
+      <class name="tests.AddEmptyAccessLevelFailsTest"/>
+      <class name="tests.AddExistingAccessLevelFailsTest"/>
+      <class name="tests.AssignAccessLevelToUserGroupTest"/>
+      <class name="tests.DeleteAccessLevelTest"/>
+      <class name="tests.DeleteMenuItemTest"/>
+      <class name="tests.DeleteMenuTest"/>
+      <class name="tests.DeleteBannerTest"/>
+      <class name="tests.DeleteBannerSiteModuleTest"/>
+      <class name="tests.DeleteClientTest"/>
+      <class name="tests.DeleteContactTest"/>
+      <class name="tests.DeleteNewsFeedTest"/>
+      <class name="tests.DeleteTagTest"/>
+      <class name="tests.DeleteArticleTest"/>
+      <class name="tests.DeleteUserGroupTest"/>
+      <class name="tests.DeleteFieldGroupTest"/>
+      <class name="tests.DeleteFieldTest"/>
+      <class name="tests.DeleteUserTest"/>
+      <class name="tests.DeleteCategoryTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

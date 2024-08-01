@@ -89,6 +89,20 @@ public class PrefixTree {
 		return tot;
 	}
 	
+	public int getLeavesCount() {
+		TestTreeNode root = (TestTreeNode) tree.getRoot();
+		LinkedList<TestTreeNode> toVisit = new LinkedList<>(root.getChildren());
+		int tot = 0;		
+		while(!toVisit.isEmpty()) {
+			TestTreeNode currNode = toVisit.remove();
+			if(currNode.getChildren().isEmpty()) {
+				tot++;
+			}
+			toVisit.addAll(currNode.getChildren());
+		}
+		return tot;
+	}
+	
 	public JSONObject toJSON() {
 		JSONObject jsonTree = new JSONObject();
 		TestTreeNode root = (TestTreeNode) tree.getRoot();
@@ -99,7 +113,7 @@ public class PrefixTree {
 		if(root.getStackTrace() != null) {
 			testObject.put("stackTrace", root.getStackTrace());
 		}
-		testObject.put("testTime", root.getTestTime());
+		//testObject.put("testTime", root.getTestCase().getTestTime());
 		jsonTree.put("testCaseObject", testObject);
 		jsonTree.put("cloneTime", root.getDockerCloneTime());
 		jsonTree.put("killTime", root.getDockerKillTime());
@@ -122,7 +136,7 @@ public class PrefixTree {
 				if(child.getStackTrace() != null) {
 					testObject.put("stackTrace", child.getStackTrace());
 				}
-				testObject.put("testTime", child.getTestTime());
+				//testObject.put("testTime", child.getTestCase().getTestTime());
 				jsonChild.put("testCaseObject", testObject);
 				jsonChild.put("cloneTime", child.getDockerCloneTime());
 				jsonChild.put("killTime", child.getDockerKillTime());
