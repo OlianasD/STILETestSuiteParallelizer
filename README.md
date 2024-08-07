@@ -18,7 +18,7 @@ The virtual machine may start with a default resolution of 800x600. To enable fu
 
 ### 2.1 Command Line
 
-Start the virtual machine, login and give command `cd workspace/FSE19-submission-material/treeparallelizer`. The script run.sh starts STILE in command line mode. It takes two arguments: application under test and execution mode. To try the tree parallelization described in our paper, you should use `--extractAndRun` as second argument.
+Start the virtual machine, login and give command `cd workspace/FSE19-submission-material/treeparallelizer`. The script run.sh starts STILE in command line mode. It takes two arguments: application under test and execution mode. To try the tree parallelization described in our paper, you should use `--runPrior` as second argument.
 The available applications under test are:
 
 	1. Addressbook
